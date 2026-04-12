@@ -1,25 +1,23 @@
 ---
 hide:
   - navigation
+  - toc
 description: A faculty guide to AI tools for legal professionals — from chatbot prompting to coding agents with Claude Code. By Vanderbilt AI Law Lab. No coding experience needed.
 ---
 
-# VAILL Faculty Guide to AI Agents
-
-<p class="hero-pitch">Tools and techniques for law faculty to use AI effectively — from chatbot prompting to coding agents that read your files, draft documents, and build workflows. Whether you have never used an AI tool or are ready to try advanced automation, this guide meets you where you are.</p>
-
-<div class="credibility-strip" markdown>
-By [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/). This guide teaches law faculty to use AI tools — from browser chatbots to coding agents like [Claude Code](https://code.claude.com/docs/en/overview). No coding experience is needed. We start with practical prompting and project organization, then progress to hands-on work with agentic AI tools purpose-built for legal professionals.
+<div class="hero-header">
+  <img src="images/vaill_logo.png" alt="VAILL — Vanderbilt AI Law Lab" class="hero-logo">
+  <div class="hero-rule"></div>
+  <h1 class="hero-title">Faculty Guide to AI Agents</h1>
+  <p class="hero-pitch">From chatbot prompting to coding agents that read your files, draft documents, and build workflows. No coding experience needed.</p>
+  <div class="hero-buttons">
+    <a href="essentials/" class="md-button">Start with the Essentials</a>
+    <a href="agents/" class="md-button md-button--primary">What Are Coding Agents?</a>
+    <a href="setup/" class="md-button">Setup Guide</a>
+  </div>
 </div>
 
-## What Is This?
-
-This site is a comprehensive guide for law faculty learning to use AI tools. It covers the full spectrum of AI tools relevant to legal professionals: how to get real value from chatbots like ChatGPT and Claude, how to structure prompts and project folders for legal work, and how to set up and use coding agents — AI tools that go beyond chat to read files, search databases, draft documents, and execute multi-step workflows.
-
-Every page is designed for law faculty with little or no technical background. We explain concepts before we use them, and every guide includes step-by-step instructions you can follow at your own pace.
-
-!!! tip "Already comfortable with AI? Skip ahead."
-    [Setup Guide](setup/index.md) — install Claude Code and configure your environment | [For Legal Practice](legal-practice/index.md) — contract review, brief drafting, legal research | [Build Your Own](system/index.md) — design custom workflows and skills
+---
 
 ## Where to Start
 
@@ -53,7 +51,7 @@ Every page is designed for law faculty with little or no technical background. W
 
     ---
 
-    Step-by-step installation for Mac and Windows. Set up VS Code, configure your CLAUDE.md file, and connect external tools through MCP. Designed for faculty who have never used a terminal.
+    Step-by-step installation for Mac and Windows. Configure your CLAUDE.md file and connect external tools through MCP. Designed for faculty who have never used a terminal.
 
     [:octicons-arrow-right-24: Get Set Up](setup/index.md)
 
@@ -114,4 +112,3 @@ Every page is designed for law faculty with little or no technical background. W
     [:octicons-arrow-right-24: Understand the Costs](essentials/cost.md)
 
 </div>
-
