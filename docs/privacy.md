@@ -124,4 +124,4 @@ Your law school or university likely has (or is developing) policies on AI use. 
 
 ## Questions
 
-If you have questions about data handling for the tools covered in this guide, contact the [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/).
+If you have questions about data handling for the tools covered in this guide, contact the [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/).

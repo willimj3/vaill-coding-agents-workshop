@@ -26,17 +26,17 @@ graph LR
     D -->|"needs work"| C
 ```
 
-??? quote "Example: Planning a new experiential learning clinic"
+??? quote "Example: Designing an AI policy for a law journal"
 
-    A faculty member wanted to propose a new immigration law clinic to the dean. She had a rough idea -- partner with local legal aid organizations, focus on asylum cases, involve 2L and 3L students -- but had not worked out the details.
+    A faculty advisor needed to draft an AI-use policy for the law journal she supervised. The journal's editorial board wanted guidance on when student editors could use AI tools for cite-checking, editing, and substantive review -- but no one had written a policy yet, and the few examples from other journals were either too permissive or too restrictive.
 
-    She brain-dumped her idea into Claude, about 200 words of unstructured thinking. Then she asked Claude to restructure it into a proper prompt with role, context, task, and constraints. The restructured version was clearer: it specified that the audience was a skeptical dean, the budget needed to be realistic, and the proposal should address ABA accreditation requirements for clinical programs.
+    She brain-dumped her thinking into Claude, about 200 words of unstructured notes. Then she asked Claude to restructure it into a proper prompt with role, context, task, and constraints. The restructured version was clearer: it specified that the audience was a student editorial board with varying AI experience, the policy needed to address both ethical concerns and practical workflow benefits, and it should align with ABA guidance on competence and supervision.
 
-    She put Claude in planning mode -- asking it to outline the proposal before writing anything. The plan included sections she had not thought of: a comparison to peer institution clinics, a student supervision model, and a sustainability plan for when grant funding runs out.
+    She put Claude in planning mode -- asking it to outline the policy before writing anything. The plan included sections she had not considered: a taxonomy of permitted vs. prohibited uses by editorial stage, a disclosure requirement for AI-assisted work, and a review process for updating the policy as tools evolve.
 
-    She did not trust the plan. So she opened a fresh chat and pasted the plan with the stress-test prompt from our [Stress-Test Any Plan](plan-review-browser.md) page. The fresh reviewer found three problems: the supervision ratio was too high for ABA standards, the partnership model assumed the legal aid org had capacity they might not have, and the timeline for the first semester was unrealistic.
+    She did not trust the plan. So she opened a fresh chat and pasted the plan with the stress-test prompt from our [Stress-Test Any Plan](plan-review-browser.md) page. The fresh reviewer found three problems: the cite-checking section did not account for AI hallucination of case citations, the disclosure requirement was vague enough to be unenforceable, and the policy assumed all editors had access to the same AI tools.
 
-    After two rounds of revision, she had a proposal that addressed every concern the review surfaced. The whole process took about two hours -- much less than writing it from scratch, and the result was stronger than her usual first drafts.
+    After two rounds of revision, she had a policy that addressed every concern the review surfaced. The whole process took about two hours -- much less than writing it from scratch, and the result was stronger than her usual first drafts.
 
 ---
 
@@ -72,7 +72,7 @@ This matters because the default behavior of most AI tools is to start producing
 
 **In Claude Code:** Press **Shift+Tab** to enter Plan Mode. Claude can read files and explore your project, but it cannot execute anything until you approve the plan.
 
-**The persona technique:** For complex plans, assign the AI two or more perspectives and ask them to debate before converging. For example: *"Plan this clinic proposal from two perspectives: (1) a clinical law professor focused on pedagogy, and (2) an associate dean focused on budget and accreditation. Have them debate before agreeing on a single plan."*
+**The persona technique:** For complex plans, assign the AI two or more perspectives and ask them to debate before converging. For example: *"Plan this AI-use policy from two perspectives: (1) a faculty advisor focused on academic integrity, and (2) a student editor-in-chief focused on practical workflow efficiency. Have them debate before agreeing on a single plan."*
 
 ---
 

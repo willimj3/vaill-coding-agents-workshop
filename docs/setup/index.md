@@ -6,28 +6,19 @@ This section takes you from zero to a working Claude Code installation. If you w
 
 ---
 
-## Two Ways to Run Claude Code
+## How to Run Claude Code
 
-Claude Code works the same way regardless of how you run it.
+**Our recommendation: just use the terminal.** The text-only command line that comes with your Mac or PC is all you need. It is the simplest path, it is what the install guides walk you through, and it is how we run Claude Code day to day. Black screen, blinking cursor -- that is the whole interface.
 
-**Option 1: Terminal.** The text-only command line that comes with your Mac or PC. Black screen, blinking cursor. This is what the install guides walk you through, and it is all you strictly need.
+If you prefer a visual environment, you can optionally run Claude Code inside a **code editor** like [VS Code](https://code.visualstudio.com/) (free). A code editor gives you a file explorer, a text editor, and a built-in terminal all in one window. Claude Code runs in the editor's terminal, and you can watch its changes appear as color-coded highlights. This can be helpful for longer sessions where you want to see your files while you work.
 
-**Option 2: A code editor.** A code editor is an app designed for working with files -- think of it as a visual wrapper around the terminal. You get a file explorer, a text editor, and a built-in terminal all in one window. You do not need to write code to use one. Claude Code runs inside the editor's terminal, and you can watch its changes appear as color-coded highlights in real time.
-
-| | **Terminal** | **Code Editor** |
+| | **Terminal (recommended)** | **Code Editor (optional)** |
 |---|---|---|
 | **What it looks like** | Black screen, blinking cursor, text only | Visual file explorer on the left, editor in the center, Claude in a side panel |
-| **Learning curve** | Steeper -- no visual cues, easy to feel lost | Gentler -- you can see your files, click to open them, and watch Claude's edits appear |
-| **Best for** | Quick one-off tasks, experienced terminal users | Longer work sessions, anyone who finds a blank terminal intimidating |
+| **Setup** | Just install Claude Code -- nothing else needed | Install VS Code + the Claude Code extension |
+| **Best for** | Most tasks, quick iterations, keeping things simple | Longer sessions where you want to browse files visually |
 
-### Which code editor?
-
-The two most popular options:
-
-- **[VS Code](https://code.visualstudio.com/)** (free) -- Microsoft's code editor. Install the Claude Code extension and you are set. This is what we recommend.
-- **[Cursor](https://cursor.com/)** ($20/month) -- A code editor built specifically around AI. It is a fork of VS Code, so it looks and works almost identically, but comes with AI features baked in -- including access to Claude and other models through Cursor's own subscription. You can also run Claude Code in Cursor's terminal, so the two complement each other.
-
-**Our recommendation:** We use VS Code because it is free, simple, and does everything we need. If you are already paying for Cursor, it works great too. Either way, a code editor is **optional** -- everything on this site works from a plain terminal. The install guides below start with Terminal, and you can add a code editor afterward if you want.
+If you do want a code editor, **[VS Code](https://code.visualstudio.com/)** is what we recommend -- it is free and has an official Claude Code extension. [Cursor](https://cursor.com/) ($20/month) is another option built specifically around AI. Either way, the code editor is optional -- everything on this site works from a plain terminal.
 
 ---
 
@@ -73,7 +64,7 @@ The two most popular options:
 
 | Step | What You'll Do | Time |
 |------|---------------|------|
-| **[Set Up VS Code](vscode-setup.md)** *(optional)* | Install VS Code and the Claude Code extension. Our preferred way to work, but not required. | 15 min |
+| **[Set Up VS Code](vscode-setup.md)** *(optional)* | Install VS Code and the Claude Code extension. Helpful for visual file browsing, but not required. | 15 min |
 | **[Your CLAUDE.md](../toolkit/claude-md.md)** | Create the instruction file that makes Claude Code work *for you* -- your role, your courses, your research. | 30 min |
 | **[MCP Setup](../toolkit/mcp-setup.md)** | Connect Claude Code to Gmail, Google Calendar, and other services. | 30-60 min |
 
@@ -125,7 +116,7 @@ If you have not used chatbots much yet, start with [AI Essentials](../essentials
 After working through this section:
 
 - **Claude Code installed and authenticated** on your computer
-- **VS Code configured** with the Claude Code extension (optional but recommended)
+- **VS Code configured** with the Claude Code extension (optional)
 - **A CLAUDE.md file** that tells Claude about your role, courses, research, and preferences
 - **MCP integrations** connecting Claude to your email, calendar, and documents
 - **A system that improves over time** as you refine your configuration and build workflows

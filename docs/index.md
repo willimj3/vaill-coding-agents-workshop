@@ -9,7 +9,7 @@ description: A faculty guide to AI tools for legal professionals — from chatbo
 <p class="hero-pitch">Tools and techniques for law faculty to use AI effectively — from chatbot prompting to coding agents that read your files, draft documents, and build workflows. Whether you have never used an AI tool or are ready to try advanced automation, this guide meets you where you are.</p>
 
 <div class="credibility-strip" markdown>
-By [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/). This guide teaches law faculty to use AI tools — from browser chatbots to coding agents like [Claude Code](https://code.claude.com/docs/en/overview). No coding experience is needed. We start with practical prompting and project organization, then progress to hands-on work with agentic AI tools purpose-built for legal professionals.
+By [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/). This guide teaches law faculty to use AI tools — from browser chatbots to coding agents like [Claude Code](https://code.claude.com/docs/en/overview). No coding experience is needed. We start with practical prompting and project organization, then progress to hands-on work with agentic AI tools purpose-built for legal professionals.
 </div>
 
 ## What Is This?

@@ -142,8 +142,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/willimj3/vaill-coding-agents-workshop
     - icon: fontawesome/solid/globe
-      link: https://law.vanderbilt.edu/ai-law-lab/
+      link: https://law.vanderbilt.edu/vanderbilt-ai-law-lab/
 
 copyright: >
-  Built by <a href="https://law.vanderbilt.edu/ai-law-lab/">Vanderbilt AI Law Lab</a> &mdash;
+  Built by <a href="https://law.vanderbilt.edu/vanderbilt-ai-law-lab/">Vanderbilt AI Law Lab</a> &mdash;
   shared freely under MIT License

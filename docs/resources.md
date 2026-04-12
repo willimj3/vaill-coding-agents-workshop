@@ -95,4 +95,4 @@ Resources for understanding AI more broadly -- useful for faculty who want to de
 
 ## Contributing
 
-Found a resource that should be here? Have a correction? Open an issue on [GitHub](https://github.com/willimj3/vaill-coding-agents-workshop/issues) or contact the [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/).
+Found a resource that should be here? Have a correction? Open an issue on [GitHub](https://github.com/willimj3/vaill-coding-agents-workshop/issues) or contact the [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/).

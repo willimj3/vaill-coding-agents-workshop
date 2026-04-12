@@ -6,7 +6,7 @@ description: About the VAILL Faculty Guide to AI Agents — a Vanderbilt AI Law 
 
 ## About Vanderbilt AI Law Lab
 
-The [Vanderbilt AI Law Lab (VAILL)](https://law.vanderbilt.edu/ai-law-lab/) is a research initiative at Vanderbilt University Law School dedicated to studying and advancing the responsible use of artificial intelligence in legal education, legal practice, and the justice system. VAILL brings together law faculty, technologists, and students to explore how AI is reshaping the legal profession — and to ensure that legal professionals are equipped to use these tools effectively and ethically.
+The [Vanderbilt AI Law Lab (VAILL)](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/) is a research initiative at Vanderbilt University Law School dedicated to studying and advancing the responsible use of artificial intelligence in legal education, legal practice, and the justice system. VAILL brings together law faculty, technologists, and students to explore how AI is reshaping the legal profession — and to ensure that legal professionals are equipped to use these tools effectively and ethically.
 
 ---
 
@@ -49,7 +49,7 @@ This project is released under the **MIT License** — you are free to use, modi
 
 - **Bug reports or suggestions:** [GitHub Issues](https://github.com/willimj3/vaill-coding-agents-workshop/issues)
 - **Source code and contributions:** [GitHub Repository](https://github.com/willimj3/vaill-coding-agents-workshop)
-- **Vanderbilt AI Law Lab:** [law.vanderbilt.edu/ai-law-lab/](https://law.vanderbilt.edu/ai-law-lab/)
+- **Vanderbilt AI Law Lab:** [law.vanderbilt.edu/vanderbilt-ai-law-lab/](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/)
 
 We welcome feedback from readers and the broader legal education community. If something on this site is unclear, broken, or could be improved, please open a GitHub issue or reach out through the VAILL website.
 
