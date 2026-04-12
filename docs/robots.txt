@@ -1,4 +1,4 @@
-# robots.txt — claudeblattman.com
+# robots.txt — VAILL Coding Agents Workshop
 # Allow normal search engines; block AI training crawlers
 
 User-agent: *
@@ -47,4 +47,4 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-Sitemap: https://claudeblattman.com/sitemap.xml
+Sitemap: https://willimj3.github.io/vaill-coding-agents-workshop/sitemap.xml

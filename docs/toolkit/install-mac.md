@@ -6,7 +6,7 @@
 
 ## What Is Claude Code?
 
-You've probably used Claude through a web browser at claude.ai — type a question, get an answer. Claude Code is the same Claude, but running in **Terminal** instead of your browser.
+You have probably used Claude through a web browser at claude.ai -- type a question, get an answer. Claude Code is the same Claude, but running in **Terminal** instead of your browser.
 
 **Why does that matter?**
 
@@ -23,9 +23,9 @@ Think of it this way: Claude.ai is like texting a smart friend. Claude Code is l
 
 ## Prerequisites
 
-- **A Mac** (Windows? See [Install — Windows](install-windows.md))
+- **A Mac** (Windows? See [Install -- Windows](install-windows.md))
 - **Internet connection**
-- **Anthropic account** — If you've used Claude.ai, you already have one. If not, you'll create one during setup.
+- **Anthropic account** -- If you have used Claude.ai, you already have one. If not, you will create one during setup.
 
 ---
 
@@ -33,9 +33,9 @@ Think of it this way: Claude.ai is like texting a smart friend. Claude Code is l
 
 ### What is Terminal?
 
-Terminal is a text-based interface to your computer. Instead of clicking on folders and files, you type commands. It looks old-fashioned, but it's powerful — and it's how Claude Code runs.
+Terminal is a text-based interface to your computer. Instead of clicking on folders and files, you type commands. It looks old-fashioned, but it is powerful -- and it is how Claude Code runs.
 
-You don't need to become a Terminal expert. You just need to know how to open it and type a few commands.
+You do not need to become a Terminal expert. You just need to know how to open it and type a few commands.
 
 ### How to open Terminal
 
@@ -51,7 +51,7 @@ yourusername@your-mac ~ %
 
 The `%` (or sometimes `$`) is where you type commands.
 
-**Don't panic at the blank screen.** Terminal is just waiting for you to tell it what to do.
+**Do not panic at the blank screen.** Terminal is just waiting for you to tell it what to do.
 
 ---
 
@@ -59,12 +59,12 @@ The `%` (or sometimes `$`) is where you type commands.
 
 ### Why you need this
 
-Claude Code is built using a technology called Node.js. Think of Node.js as the engine that runs the Claude Code program. Without it, Claude Code can't start.
+Claude Code is built using a technology called Node.js. Think of Node.js as the engine that runs the Claude Code program. Without it, Claude Code cannot start.
 
 ### How to install
 
 1. Open your web browser and go to: **https://nodejs.org**
-2. You'll see two download buttons. Click the **LTS** version (LTS means "Long Term Support" — it's the stable, reliable version)
+2. You will see two download buttons. Click the **LTS** version (LTS means "Long Term Support" -- it is the stable, reliable version)
 3. Once downloaded, open the installer and follow the prompts (click Continue, Agree, Install)
 4. When it finishes, go back to Terminal
 
@@ -76,7 +76,7 @@ In Terminal, type this command and press Enter:
 node --version
 ```
 
-You should see a version number like `v20.11.0` or similar. The exact number doesn't matter — what matters is that you see a version, not an error.
+You should see a version number like `v20.11.0` or similar. The exact number does not matter -- what matters is that you see a version, not an error.
 
 **If you see an error:** Close Terminal completely and reopen it, then try again. The installer sometimes requires a fresh Terminal window.
 
@@ -92,13 +92,13 @@ In Terminal, type this command and press Enter:
 npm install -g @anthropic-ai/claude-code
 ```
 
-**What to expect:** You'll see text scrolling by — this is normal. It's downloading and installing files. Wait until you see your prompt (`%` or `$`) appear again, meaning it's done.
+**What to expect:** You will see text scrolling by -- this is normal. It is downloading and installing files. Wait until you see your prompt (`%` or `$`) appear again, meaning it is done.
 
 This may take a minute or two depending on your internet connection.
 
 !!! ask-claude "Stuck? Ask Claude."
-    If you've already started Claude Code (Step 4 below), you can type your problem
-    directly in the Claude Code terminal — for example:
+    If you have already started Claude Code (Step 4 below), you can type your problem
+    directly in the Claude Code terminal -- for example:
     `I got a permission error when installing. Can you help?`
     Press Enter. Claude can see the context of your session and usually knows what went wrong.
 
@@ -107,7 +107,7 @@ This may take a minute or two depending on your internet connection.
     ```bash
     sudo npm install -g @anthropic-ai/claude-code
     ```
-    You'll be asked for your Mac password. When you type it, no characters will appear (this is a security feature) — just type your password and press Enter.
+    You will be asked for your Mac password. When you type it, no characters will appear (this is a security feature) -- just type your password and press Enter.
 
 ---
 
@@ -126,28 +126,28 @@ And press Enter.
 **What happens next:**
 
 1. Your web browser will open automatically
-2. You'll see an Anthropic login page
+2. You will see an Anthropic login page
 3. Log in with your Anthropic account (or create one if needed)
 4. Click "Approve" or "Authorize" when asked to give Terminal access
-5. Return to Terminal — you should see a welcome message
+5. Return to Terminal -- you should see a welcome message
 
-**You're in.** Claude Code is now running.
+**You are in.** Claude Code is now running.
 
 ---
 
 ## Step 5: Your First Conversation
 
-Once Claude Code is running, you'll see a prompt where you can type messages. Just type like you would in any chat:
+Once Claude Code is running, you will see a prompt where you can type messages. Just type like you would in any chat:
 
 ```
 > What files are in my current folder?
 ```
 
-Press Enter, and Claude will respond — but now Claude can actually look at your files and tell you what's there.
+Press Enter, and Claude will respond -- but now Claude can actually look at your files and tell you what is there.
 
 !!! ask-claude "Not sure what to do first?"
     In the Claude Code terminal, try typing:
-    `I just installed Claude Code. I'm a professor/researcher. What's the most useful thing I can do in the next 10 minutes?`
+    `I just installed Claude Code. I'm a law professor who teaches Contracts and writes about regulatory compliance. What's the most useful thing I can do in the next 10 minutes?`
     Press Enter. Claude will walk you through getting started based on your role.
 
 ### Useful to Know
@@ -156,7 +156,7 @@ Press Enter, and Claude will respond — but now Claude can actually look at you
 |--------|-----|
 | Send a message | Type and press **Enter** |
 | Multi-line message | Press **\\** then **Enter** for a new line without sending |
-| Queue a message while Claude works | Just type — it'll be sent when Claude is ready |
+| Queue a message while Claude works | Just type -- it will be sent when Claude is ready |
 | Scroll through past messages | **Up/Down** arrow keys |
 | Get help | Type `/help` |
 | Exit | Type `/exit` or press **Ctrl + C** |
@@ -165,21 +165,21 @@ Press Enter, and Claude will respond — but now Claude can actually look at you
 
 ## Step 6: Opening Claude Code Again
 
-After the first-time setup, you don't need to repeat Steps 1-4. From now on:
+After the first-time setup, you do not need to repeat Steps 1-4. From now on:
 
 ### Starting a new session
 
-1. Open Terminal (Cmd + Space → "Terminal" → Enter)
+1. Open Terminal (Cmd + Space -> "Terminal" -> Enter)
 2. Type `claude` and press Enter
 
-That's it.
+That is it.
 
 ### Where you start matters
 
-Claude Code pays attention to **which folder you're in** when you start it. If you're working on a specific project, navigate to that folder first:
+Claude Code pays attention to **which folder you are in** when you start it. If you are working on a specific project, navigate to that folder first:
 
 ```bash
-cd ~/Desktop/my-project
+cd ~/Desktop/article-draft
 claude
 ```
 
@@ -189,27 +189,25 @@ This way Claude can see and work with the files in that project.
 
 | Command | What It Does |
 |---------|--------------|
-| `claude -c` | **Continue** — picks up your most recent conversation in the current folder |
-| `claude --resume` | **Resume** — shows a list of recent conversations so you can choose which one |
+| `claude -c` | **Continue** -- picks up your most recent conversation in the current folder |
+| `claude --resume` | **Resume** -- shows a list of recent conversations so you can choose which one |
 
-**`claude -c`** is the one you'll use most. You were working on something, you closed Claude Code, and now you want to keep going.
+**`claude -c`** is the one you will use most. You were working on something, you closed Claude Code, and now you want to keep going.
 
 ---
 
 !!! tip "What Claude Code can access"
-    Claude Code can read any file in the folder where you run it — and, if asked, files elsewhere on your machine, including cloud-synced folders (Dropbox, iCloud, Google Drive). It can also run terminal commands. This is what makes it powerful: Claude works *with* your files, not in a separate sandbox. When Claude reads a file or processes data, that content is sent to Anthropic's API. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training. For more on data handling, see [Privacy](../privacy.md#tools-and-workflows).
+    Claude Code can read any file in the folder where you run it -- and, if asked, files elsewhere on your machine, including cloud-synced folders (Dropbox, iCloud, Google Drive). It can also run terminal commands. This is what makes it powerful: Claude works *with* your files, not in a separate sandbox. When Claude reads a file or processes data, that content is sent to Anthropic's API. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training. For more on data handling, see [Privacy](../privacy.md).
 
 ## What's Next
 
-You've installed Claude Code and had your first conversation. The recommended next steps:
+You have installed Claude Code and had your first conversation. The recommended next steps:
 
-1. **[Set up your CLAUDE.md file](claude-md.md)** — This tells Claude about you, your work, and your preferences so every session starts with context. (~30 minutes)
+1. **[Set up your CLAUDE.md file](claude-md.md)** -- This tells Claude about you, your courses, your research, and your preferences so every session starts with context. (~30 minutes)
 
-2. **[How Claude Code Thinks](../setup/index.md#how-claude-code-thinks)** — Understand the three modes that control Claude's behavior (Default, Plan, Auto-Accept). (~5 minute read)
+2. **[How Claude Code Thinks](../setup/index.md#how-claude-code-thinks)** -- Understand the three modes that control Claude's behavior (Default, Plan, Auto-Accept). (~5 minute read)
 
-3. **[Connect external services](mcp-setup.md)** — Give Claude access to Gmail, Google Docs, or Calendar so it can help with real tasks. (~30-60 minutes)
-
-4. **[Explore the Skill Library](../setup/skill-reference.md)** — Download pre-built skills that automate common workflows.
+3. **[Connect external services](mcp-setup.md)** -- Give Claude access to Gmail, Google Docs, or Calendar so it can help with real tasks. (~30-60 minutes)
 
 ---
 
@@ -217,7 +215,7 @@ You've installed Claude Code and had your first conversation. The recommended ne
 
 | Task | Command |
 |------|---------|
-| Open Terminal | Cmd + Space → "Terminal" → Enter |
+| Open Terminal | Cmd + Space -> "Terminal" -> Enter |
 | Check Node.js | `node --version` |
 | Install Claude Code | `npm install -g @anthropic-ai/claude-code` |
 | Start Claude Code | `claude` |
@@ -230,12 +228,12 @@ You've installed Claude Code and had your first conversation. The recommended ne
 
 ## Troubleshooting
 
-**`node: command not found`** — Close Terminal and reopen it. If that doesn't work, reinstall Node.js from nodejs.org.
+**`node: command not found`** -- Close Terminal and reopen it. If that does not work, reinstall Node.js from nodejs.org.
 
-**`npm: command not found`** — Same fix as above. npm comes with Node.js.
+**`npm: command not found`** -- Same fix as above. npm comes with Node.js.
 
-**Permission errors during install** — Use `sudo npm install -g @anthropic-ai/claude-code` and enter your Mac password.
+**Permission errors during install** -- Use `sudo npm install -g @anthropic-ai/claude-code` and enter your Mac password.
 
-**Browser doesn't open for authentication** — Copy the URL from Terminal and paste it into your browser manually.
+**Browser doesn't open for authentication** -- Copy the URL from Terminal and paste it into your browser manually.
 
-**Claude Code feels slow** — The first response in a session can take a few seconds as it loads context. Subsequent responses are faster.
+**Claude Code feels slow** -- The first response in a session can take a few seconds as it loads context. Subsequent responses are faster.

@@ -1,10 +1,10 @@
-# Chatbot Essentials
+# AI Essentials for Law Faculty
 
-**I don't know if I have the best habits in the world, but these ones really changed my research and my life.**
+**These are the habits and tools that will change how you work with AI -- whether you never touch a terminal or eventually build full coding-agent workflows.**
 
 !!! tip "Some very basic advice before you dive in"
 
-    Get a paid subscription to Claude or ChatGPT (or both). Always use the strongest model available — the quality gap is large. Give the AI context about who you are and what you need before diving into a request. The [Chatbots Done Right](chatbots.md) page covers the fundamentals; the [Prompt Engineering](prompting.md) page formalizes the full framework.
+    Get a paid subscription to Claude or ChatGPT (or both). Always use the strongest model available -- the quality gap is large. Give the AI context about who you are and what you need before diving into a request. The [Chatbots Done Right](chatbots.md) page covers the fundamentals; the [Prompt Engineering](prompting.md) page formalizes the full framework.
 
 ---
 
@@ -12,11 +12,11 @@
 
 <div class="grid cards" markdown>
 
--   **:material-chat-outline: Chatbots Done Right**
+-   **:material-chat-outline: Chatbots Done Right** <span class="badge-gold">Start here</span>
 
     ---
 
-    The techniques that separate casual chatbot use from genuinely useful work. Models, context, prompts, conversations.
+    The techniques that separate casual chatbot use from genuinely useful legal work. Models, context, prompts, conversations.
 
     [:octicons-arrow-right-24: Read more](chatbots.md)
 
@@ -24,15 +24,23 @@
 
     ---
 
-    Prompt writing as a structured skill. The bridge between casual use and building real workflows.
+    Prompt writing as a structured skill. The bridge between casual use and building real workflows for legal research and writing.
 
     [:octicons-arrow-right-24: Read more](prompting.md)
+
+-   **:material-format-quote-close: Teaching AI Your Voice**
+
+    ---
+
+    AI has a house style. The fix is a voice file: one document that captures how you actually write memos, briefs, and scholarship. Load it once; every conversation starts with your patterns, not the AI's defaults.
+
+    [:octicons-arrow-right-24: Read more](voice.md)
 
 -   **:material-folder-star-outline: AI Project Folders**
 
     ---
 
-    Build a reusable planning system for any recurring task — vacations, shopping, health, professional workflows.
+    Build a reusable planning system for any recurring task -- case research, client intake, regulatory compliance, course prep.
 
     [:octicons-arrow-right-24: Read more](project-folders.md)
 
@@ -44,44 +52,11 @@
 
     [:octicons-arrow-right-24: Read more](../workflows/plan-review-browser.md)
 
--   **:material-microphone-outline: Voice Dictation**
+-   **:material-swap-horizontal: ChatGPT vs Claude**
 
     ---
 
-    Dictation across iPhone, Mac, and every app. The landscape is changing fast — here's what I use and how to evaluate your options.
-
-    [:octicons-arrow-right-24: Read more](wispr-flow.md)
-
--   **:material-clipboard-text-clock-outline: Transcribe Every Meeting**
-
-    ---
-
-    Turn Zoom calls, phone calls, and in-person meetings into searchable transcripts and structured records. My current tool and alternatives.
-
-    [:octicons-arrow-right-24: Read more](granola.md)
-
--   **:material-notebook-outline: NotebookLM**
-
-    ---
-
-    Turn collections of PDFs, transcripts, and documents into searchable,
-    citable research libraries. How I do literature reviews across 300 papers.
-
-    [:octicons-arrow-right-24: Read more](notebooklm.md)
-
--   **:material-format-quote-close: Teaching AI Your Voice**
-
-    ---
-
-    AI has a house style. The fix is a voice file: one document that captures how you actually write. Load it once; every conversation starts with your patterns, not the AI's defaults.
-
-    [:octicons-arrow-right-24: Read more](voice.md)
-
--   **:material-swap-horizontal: ChatGPT vs Claude: Chatbot Comparison**
-
-    ---
-
-    An honest comparison from someone who pays for and uses both daily. When each one wins.
+    An honest comparison from a workshop that uses both daily. When each one wins for legal work.
 
     [:octicons-arrow-right-24: Read more](chatgpt-vs-claude.md)
 
@@ -89,7 +64,7 @@
 
     ---
 
-    What this actually costs. ROI analysis at different budget levels. What's worth it and what isn't.
+    What this actually costs. ROI analysis at different budget levels. What's worth it and what isn't -- including what your law school may already cover.
 
     [:octicons-arrow-right-24: Read more](cost.md)
 
@@ -99,24 +74,22 @@
 
 ## The Stack
 
-My current daily toolkit, for reference:
+A recommended toolkit for law faculty getting started with AI:
 
 | Tool | What It Does | Cost | Essential? |
 |------|-------------|------|-----------|
 | **Claude** (Pro or Max) | Primary chatbot + Claude Code | $20-100/mo | Yes |
 | **ChatGPT** (Plus or Pro) | Deep research, web search, image generation | $20-200/mo | Recommended |
-| **Wispr Flow** | Dictation everywhere | $10/mo | Highly recommended |
-| **Granola** | Meeting transcription | $10/mo | Recommended if you have meetings |
-| **NotebookLM** | Document-corpus AI research | Free-$20/mo | Recommended for researchers |
+| **Built-in Dictation** | Voice-to-text on Mac, iPhone, or Windows | Free | Useful for drafting |
 
-You don't need all of these. Start with one chatbot subscription and add tools as you see the value. The [Cost Reality](cost.md) page breaks this down in detail.
+You do not need all of these. Start with one chatbot subscription and add tools as you see the value. The [Cost Reality](cost.md) page breaks this down in detail.
 
 !!! tip "Different platform or tools? Ask AI to help you adapt"
-    This site documents a Mac + Zoom + WhatsApp + Gmail workflow — that's what I use.
-    If you're on Windows, or your team uses Slack or Teams instead of WhatsApp, the
-    concepts and skills still transfer but some setup steps will differ. Try asking
+    This site documents workflows that work on both Mac and Windows.
+    If your office uses Slack, Teams, or another platform, the
+    concepts and techniques still transfer but some setup steps will differ. Try asking
     Claude or ChatGPT: *"I use [your platform and tools]. How would I adapt this
     system for my setup?"* That's more useful than reading around steps that don't
     apply. And for any tool recommendation on this site, AI chatbots can help you
-    find the right alternative for your workflow — just verify pricing and availability
+    find the right alternative for your workflow -- just verify pricing and availability
     on the tool's own website.

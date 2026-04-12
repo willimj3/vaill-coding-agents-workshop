@@ -1,14 +1,14 @@
 # Prompt Engineering
 
-<span class="badge-teal">No Claude Code required</span>
+<span class="badge-gold">No Claude Code required</span>
 
-Prompt engineering sounds technical. It isn't. It's the skill of asking AI tools for what you actually want, in a way that gets useful results on the first try.
+Prompt engineering sounds technical. It is not. It is the skill of asking AI tools for what you actually want, in a way that gets useful results on the first try.
 
-This page covers prompt engineering as a repeatable method you can apply to any task.
+This page covers prompt engineering as a repeatable method you can apply to any legal task.
 
 !!! tip "The single most important thing on this page"
 
-    Don't memorize prompt engineering rules — **make the AI do it for you.**
+    Do not memorize prompt engineering rules -- **make the AI do it for you.**
     Create a Project in [ChatGPT](https://chatgpt.com) or
     [Claude.ai](https://claude.ai), paste in the instructions below, and it
     will restructure your messy input into clean prompts automatically.
@@ -16,9 +16,10 @@ This page covers prompt engineering as a repeatable method you can apply to any 
 
     The same idea works for plan review: paste a plan into a
     [fresh chat with an adversarial prompt](../workflows/plan-review-browser.md)
-    and get structured critique — no coding needed. In Claude Code, the
-    [`/prompt` skill](../workflows/first-session-skills.md#step-1-structure-your-thinking-prompt)
-    formats and executes prompts in a single command.
+    and get structured critique -- no coding needed.
+
+!!! workshop "Workshop Session 1"
+    We walk through the prompt framework live and build at least one legal prompt together. Bring a real writing task -- a memo topic, a research question, a brief section -- and we will structure it using the six-section method below.
 
 ---
 
@@ -28,9 +29,9 @@ The gap between a mediocre AI interaction and a great one is almost always the p
 
 Good prompts share three properties:
 
-1. **They provide context** — enough background that the AI doesn't have to guess
-2. **They specify the task** — unambiguously, in 1-2 sentences
-3. **They define the output** — format, length, tone, audience
+1. **They provide context** -- enough background that the AI does not have to guess
+2. **They specify the task** -- unambiguously, in 1-2 sentences
+3. **They define the output** -- format, length, tone, audience
 
 Most bad interactions fail on #1 (no context) or #3 (no output specification).
 
@@ -38,87 +39,93 @@ Most bad interactions fail on #1 (no context) or #3 (no output specification).
 
 ## The Anatomy of a Good Prompt
 
-Here's a real prompt with each section labeled. Not every prompt needs all six parts — but knowing them lets you diagnose why a prompt isn't working.
+Here is a real prompt with each section labeled. Not every prompt needs all six parts -- but knowing them lets you diagnose why a prompt is not working.
 
 === "Full example (labeled)"
 
     !!! example "Role"
-        You are a senior economics journal referee reviewing a paper for the American Economic Review.
+        You are a senior litigation partner reviewing a draft memo prepared by a junior associate. You have 25 years of experience in complex commercial litigation.
 
     !!! info "Context"
-        I'm writing a grant proposal for a foundation that funds violence reduction programs. The proposal is for a randomized evaluation of a CBT intervention for high-risk youth in a Latin American city. Budget ceiling is $500K over 3 years.
+        I am drafting a legal research memo on whether a forum-selection clause in a software licensing agreement is enforceable when the end user is a state government entity claiming sovereign immunity. The memo is for the partner leading the case. The client is the software vendor seeking to enforce the clause.
 
     !!! success "Task"
-        Draft the methodology section (800-1000 words). Focus on the randomization strategy, primary outcomes, and power calculations.
+        Draft the analysis section (800-1000 words). Focus on the enforceability framework under *M/S Bremen v. Zapata* and its progeny, the sovereign immunity complications, and the circuit-specific treatment in the Fifth Circuit.
 
     !!! warning "Constraints"
         - Keep it under 1000 words
-        - Academic but accessible — like a top-5 journal, not a textbook
-        - Don't include a literature review — that's a separate section
-        - Focus on identification strategy. Spend less time on implementation details.
+        - Analytical but direct -- like a working memo, not a law review article
+        - Do not include the factual background -- that is a separate section
+        - Focus on the strongest arguments for enforceability. Address counterarguments but do not lead with them.
 
     !!! quote "Output Format"
-        Structure as: (1) Design overview, (2) Randomization, (3) Outcomes and measurement, (4) Power and sample size. Use short paragraphs. No bullet points — this is narrative prose.
+        Structure as: (1) Conclusion, (2) Legal standard for forum-selection clauses, (3) Sovereign immunity complication, (4) Fifth Circuit treatment. Use short paragraphs. Bluebook citations required. No bullet points in the analysis -- this is narrative prose.
 
     !!! tip "Bookend"
-        Remember: the goal is a methodology section for a foundation grant, not a journal paper. Keep the tone accessible and emphasize the practical implementation plan.
+        Remember: the goal is a working litigation memo, not scholarship. Keep the tone practical and emphasize what the court is most likely to do, not every theoretical possibility.
 
 === "Just the prompt (copy-paste)"
 
     ```text
-    You are a senior economics journal referee reviewing a paper
-    for the American Economic Review.
+    You are a senior litigation partner reviewing a draft memo
+    prepared by a junior associate. You have 25 years of experience
+    in complex commercial litigation.
 
-    I'm writing a grant proposal for a foundation that funds violence
-    reduction programs. The proposal is for a randomized evaluation
-    of a CBT intervention for high-risk youth in a Latin American
-    city. Budget ceiling is $500K over 3 years.
+    I am drafting a legal research memo on whether a forum-selection
+    clause in a software licensing agreement is enforceable when the
+    end user is a state government entity claiming sovereign immunity.
+    The memo is for the partner leading the case. The client is the
+    software vendor seeking to enforce the clause.
 
-    Draft the methodology section (800-1000 words). Focus on the
-    randomization strategy, primary outcomes, and power calculations.
+    Draft the analysis section (800-1000 words). Focus on the
+    enforceability framework under M/S Bremen v. Zapata and its
+    progeny, the sovereign immunity complications, and the
+    circuit-specific treatment in the Fifth Circuit.
 
     Constraints:
     - Keep it under 1000 words
-    - Academic but accessible — like a top-5 journal, not a textbook
-    - Don't include a literature review — that's a separate section
-    - Focus on identification strategy over implementation details
+    - Analytical but direct -- like a working memo, not a law review
+    - Do not include the factual background
+    - Focus on strongest arguments for enforceability; address
+      counterarguments but do not lead with them
 
-    Structure as: (1) Design overview, (2) Randomization,
-    (3) Outcomes and measurement, (4) Power and sample size.
-    Use short paragraphs. No bullet points — narrative prose.
+    Structure as: (1) Conclusion, (2) Legal standard for
+    forum-selection clauses, (3) Sovereign immunity complication,
+    (4) Fifth Circuit treatment. Use short paragraphs. Bluebook
+    citations. No bullet points -- narrative prose.
 
-    Remember: the goal is a methodology section for a foundation
-    grant, not a journal paper. Keep the tone accessible and
-    emphasize the practical implementation plan.
+    Remember: the goal is a working litigation memo, not scholarship.
+    Keep the tone practical and emphasize what the court is most
+    likely to do.
     ```
 
 ### The six sections explained
 
-**1. Role** (optional) — Tell the AI what perspective to take. Useful when you need domain expertise. Skip for simple tasks — "You are a helpful assistant" adds nothing.
+**1. Role** (optional) -- Tell the AI what perspective to take. Useful when you need domain expertise or a particular evaluative lens. Skip for simple tasks -- "You are a helpful assistant" adds nothing.
 
-**2. Context** — What does the AI need to know? Who you are, what you're working on, relevant constraints, what you've already decided.
+**2. Context** -- What does the AI need to know? Your role, the legal issue, relevant constraints, what you have already decided.
 
-**3. Task** — The core ask in 1-2 clear sentences. Front-load this — don't bury it after three paragraphs of context.
+**3. Task** -- The core ask in 1-2 clear sentences. Front-load this -- do not bury it after three paragraphs of context.
 
-**4. Constraints** — What should the AI do or avoid? Be specific: "Keep it under 1000 words" not "be concise." Include exclusions and priorities.
+**4. Constraints** -- What should the AI do or avoid? Be specific: "Keep it under 1000 words" not "be concise." Include exclusions and priorities.
 
-**5. Output Format** — How should the result be structured? Sections, length, tone, style.
+**5. Output Format** -- How should the result be structured? Sections, length, tone, citation style.
 
-**6. Bookend** (for long prompts) — Restate the key instruction at the end. AI models sometimes lose focus on long inputs.
+**6. Bookend** (for long prompts) -- Restate the key instruction at the end. AI models sometimes lose focus on long inputs.
 
 ---
 
 ## Match Effort to Stakes
 
-Not every task needs the same level of effort. A quick email reply doesn't need the AI to "research best practices" and "state assumptions." A methodology review does.
+Not every task needs the same level of effort. A quick email to a colleague does not need the AI to "research best practices." A motion to dismiss does.
 
 **Three levels:**
 
 | Level | When to Use | What to Add |
 |-------|-------------|-------------|
-| **Light** | Quick tasks, routine emails, simple lookups | Nothing extra — just format clearly |
-| **Standard** | Analysis, research writing, design decisions | Ask for assumptions and rationale: *"Include key assumptions (2-3 bullets) and brief rationale for major choices."* |
-| **Deep** | High-stakes writing, methodology, pre-analysis plans | Ask for verification: *"Research current best practices. Compare your approach against established standards. Flag where you deviate and why."* |
+| **Light** | Quick tasks, routine emails, simple lookups | Nothing extra -- just format clearly |
+| **Standard** | Case analysis, memos, research summaries | Ask for assumptions and rationale: *"Include key assumptions (2-3 bullets) and brief rationale for major analytical choices."* |
+| **Deep** | Briefs, motions, law review articles, grant proposals | Ask for verification: *"Research current case law on this issue. Compare your analysis against the leading treatise treatment. Flag where you deviate and why."* |
 
 **Default to Light.** Upgrade when the stakes justify it.
 
@@ -126,20 +133,20 @@ Not every task needs the same level of effort. A quick email reply doesn't need 
 
 ## Use Examples (But Try Without Them First)
 
-Examples are one of the most powerful prompting techniques — but they're also overused. The rule of thumb: **try without examples first.** If the output format or style is wrong, tighten your instructions or add an output schema. Only add examples if that still fails.
+Examples are one of the most powerful prompting techniques -- but they are also overused. The rule of thumb: **try without examples first.** If the output format or style is wrong, tighten your instructions or add an output schema. Only add examples if that still fails.
 
 When examples help most:
 
-- You need a specific format Claude doesn't know (a custom report template, your organization's style)
+- You need a specific format the AI does not know (a firm's internal memo template, your law school's syllabus format)
 - You want consistent voice across multiple outputs
 - Describing the format in words would take longer than showing it
 
-When you probably don't need them:
+When you probably do not need them:
 
-- Standard formats (emails, summaries, bullet lists) — Claude already knows these
-- Tasks where you want Claude to suggest the best approach rather than match a template
+- Standard formats (emails, case briefs, bullet-point summaries) -- the AI already knows these
+- Tasks where you want the AI to suggest the best approach rather than match a template
 
-When you do use examples, keep them compact. `input → output` pairs work better than verbose multi-paragraph samples. Two good examples beat five mediocre ones.
+When you do use examples, keep them compact. `input -> output` pairs work better than verbose multi-paragraph samples. Two good examples beat five mediocre ones.
 
 ---
 
@@ -147,44 +154,45 @@ When you do use examples, keep them compact. `input → output` pairs work bette
 
 When you paste a long document into a chat, the AI can confuse your instructions with the document text. Simple tags fix this:
 
-When a prompt has multiple types of content — instructions, background data, documents to analyze — XML-style tags help Claude parse what's what.
-
 ```text
 <instructions>
-Summarize the key findings from this paper. Focus on methodology
-and results. Keep it under 300 words.
+Analyze this contract clause for potential ambiguities and
+enforceability risks under New York law. Focus on the
+indemnification and limitation-of-liability provisions.
+Keep it under 500 words.
 </instructions>
 
-<paper>
-[Full paper text pasted here...]
-</paper>
+<contract_clause>
+[Full clause text pasted here...]
+</contract_clause>
 
 <output_format>
-Three sections: (1) Method, (2) Key findings, (3) Limitations.
+Three sections: (1) Key ambiguities, (2) Enforceability risks,
+(3) Recommended revisions.
 </output_format>
 ```
 
-Without tags, Claude has to figure out where your instructions end and the document begins. With tags, there's no ambiguity. You don't need tags for short, simple prompts — they're most useful when you're mixing instructions with pasted content.
+Without tags, the AI has to figure out where your instructions end and the document begins. With tags, there is no ambiguity. You do not need tags for short, simple prompts -- they are most useful when you are mixing instructions with pasted content.
 
 ---
 
 ## Break Complex Tasks into Steps
 
-A prompt that asks for a literature review, methodology section, budget narrative, and timeline will produce mediocre versions of all four. Break complex tasks into a sequence of focused prompts where each step builds on the previous one.
+A prompt that asks for a full brief -- statement of facts, legal standard, argument, and conclusion -- will produce mediocre versions of all four. Break complex tasks into a sequence of focused prompts where each step builds on the previous one.
 
 **Single prompt (works for simple tasks):**
 
-> Analyze this dataset, identify trends, and write an executive summary.
+> Analyze this contract and identify the key risks.
 
 **Chained approach (better for complex work):**
 
-> *Prompt 1:* Analyze this dataset and identify the 5 most significant trends. For each, explain the evidence.
+> *Prompt 1:* Read this contract and identify the 5 most significant risk areas for our client (the licensee). For each, quote the relevant clause and explain the risk.
 >
 > *[Review output, then...]*
 >
-> *Prompt 2:* Based on those trends, write a 2-paragraph executive summary for a non-technical audience.
+> *Prompt 2:* For risks #1 and #3, draft revised clause language that addresses the identified issues while remaining commercially reasonable.
 
-Chaining works because you can course-correct between steps. If Prompt 1 misses something, you fix it before Prompt 2 builds on bad foundations. This matters most for research, analysis, and creative work — anything where direction might shift based on intermediate results.
+Chaining works because you can course-correct between steps. If Prompt 1 misses something, you fix it before Prompt 2 builds on bad foundations. This matters most for legal analysis, brief drafting, and research memos -- anything where direction might shift based on intermediate results.
 
 ---
 
@@ -192,44 +200,55 @@ Chaining works because you can course-correct between steps. If Prompt 1 misses 
 
 **Vague thoroughness language.** "Be comprehensive" and "be meticulous" are empty calories. Replace with specific verbs:
 
-- "Compare against [specific standard]"
-- "Research current best practices for [domain]"
-- "Flag where your approach deviates from [benchmark]"
+- "Compare the majority and dissent on the standard of review"
+- "Identify the three strongest counterarguments to our position"
+- "Flag where our analysis lacks binding authority in this circuit"
 
-**Over-prompting.** Modern AI models are good at following instructions. You don't need `CRITICAL: YOU MUST ABSOLUTELY...` — a calm, specific directive works better. Shouting in all-caps doesn't make the AI try harder. In fact, [Anthropic's prompt engineering guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) specifically warns that anti-laziness prompts like "be thorough" and "think carefully" can cause newer models to overthink and waste time.
+**Over-prompting.** Modern AI models are good at following instructions. You do not need `CRITICAL: YOU MUST ABSOLUTELY...` -- a calm, specific directive works better. Shouting in all-caps does not make the AI try harder. In fact, [Anthropic's prompt engineering guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) specifically warns that anti-laziness prompts like "be thorough" and "think carefully" can cause newer models to overthink and waste time.
 
-**No pushback permission.** If you want honest feedback, say so: *"Tell me directly if this approach has problems. Don't just agree with everything."* By default, AI tends toward politeness and agreement.
+**No pushback permission.** If you want honest feedback on a draft, say so: *"Tell me directly if this argument has problems. Do not just agree with my analysis."* By default, AI tends toward politeness and agreement.
 
 ---
 
 ## Make the AI Do This for You
 
-You don't have to internalize all of the above. Create a project in ChatGPT or Claude.ai with prompt engineering instructions as the project file, and the AI will restructure your messy input into clean prompts automatically.
+You do not have to internalize all of the above. Create a project in ChatGPT or Claude.ai with prompt engineering instructions as the project file, and the AI will restructure your messy input into clean prompts automatically.
 
 ### Setup
 
-- **ChatGPT** (Plus or Team): Sidebar → Projects → New Project → paste the file below into Instructions.
-- **Claude.ai** (Pro): Projects → Create Project → paste into Project Instructions.
-
-=== "Claude.ai"
-
-    In Claude.ai, go to **Projects → Create Project**. Add your instructions and upload files in the right panel:
-
-    ![Claude.ai Projects interface with Memory, Instructions, and Files](../images/claude-projects-v1.png){ alt="Claude.ai Projects interface showing where to add instructions and upload files" }
-
-=== "ChatGPT"
-
-    In ChatGPT, go to **Sidebar → Projects → New Project**. Add files under the **Sources** tab:
-
-    ![ChatGPT Projects interface with Sources and uploaded files](../images/chatgpt-projects-v1.png){ alt="ChatGPT Projects interface showing Sources tab with uploaded instruction files" }
+- **ChatGPT** (Plus or Team): Sidebar -> Projects -> New Project -> paste the file below into Instructions.
+- **Claude.ai** (Pro): Projects -> Create Project -> paste into Project Instructions.
 
 ### The instructions file
 
 The instructions tell the AI to take any unstructured input and restructure it into a clean, well-organized prompt. It supports three modes: "quick format" (just the prompt), "format and critique" (prompt + alternatives), and "prompt pack" (2-4 variants at different depth levels).
 
-[:octicons-download-16: Download the instructions](../downloads/prompt-assistant-instructions.md){ .md-button } &nbsp; Copy and paste into your project's instructions field.
+Paste the following into your project's instructions field:
 
-Now when you dump a rough idea into this project — dictated, messy, whatever — the AI restructures it into a clean prompt you can paste anywhere.
+```text
+You are a prompt engineering assistant for legal professionals.
+
+When I give you a rough description of what I need, restructure it
+into a clean prompt using this framework:
+1. Role (if useful) -- what perspective the AI should take
+2. Context -- background the AI needs
+3. Task -- the specific ask in 1-2 sentences
+4. Constraints -- what to do and avoid
+5. Output format -- structure, length, tone, citation style
+6. Bookend (for long prompts) -- restate the key instruction
+
+Three modes:
+- "quick" -- just output the formatted prompt
+- "critique" -- output the prompt + suggest alternatives
+- "pack" -- output 2-4 prompt variants at different depth levels
+
+Default to "quick" unless I specify otherwise.
+```
+
+Now when you dump a rough idea into this project -- dictated, messy, whatever -- the AI restructures it into a clean prompt you can paste anywhere.
+
+!!! ask-claude "Try this now"
+    Think of a legal task you do regularly -- reviewing a contract section, summarizing a case for class, drafting a research question. Describe it in two or three messy sentences. Paste it into a Claude or ChatGPT project with the instructions above. See what comes back.
 
 ---
 
@@ -237,26 +256,17 @@ Now when you dump a rough idea into this project — dictated, messy, whatever �
 
 Once you find prompts that work well for recurring tasks, save them. Replace specifics with `[FILL IN]` placeholders and you have reusable templates.
 
-For a head start, download the **[Prompt Preferences Template](../downloads/prompt-preferences-template.md)** — it captures your standard sections, common constraints, preferred output formats, and roles in one file you can paste into any ChatGPT or Claude.ai project.
-
-When you're ready for more: [Project Folders](project-folders.md) show how to build domain-specific instruction sets, and in Claude Code you can turn templates into *skills* (slash commands) that run with a single command — the [Setup Guide](../setup/index.md) shows how.
+When you are ready for more: [Project Folders](project-folders.md) show how to build domain-specific instruction sets, and in Claude Code you can turn templates into *skills* (slash commands) that run with a single command -- the [Setup Guide](../setup/index.md) shows how.
 
 ### Three levels of saved context
 
-Save context at three levels: [Prompt Preferences](../downloads/prompt-preferences-template.md) for any chatbot, [Project Folders](project-folders.md) for recurring tasks, or [CLAUDE.md](../toolkit/claude-md.md) for Claude Code. Start with #1 and add layers as you need them.
+Save context at three levels: a personal prompt library for any chatbot, [Project Folders](project-folders.md) for recurring tasks, or [CLAUDE.md](../toolkit/claude-md.md) for Claude Code. Start with level one and add layers as you need them.
 
 ---
 
-## Downloadable References
-
-These are the actual files I use. Download, adapt, and paste them into your own projects.
-
-- **[My Prompt Preferences](../downloads/prompt-preferences-template.md)** — A template showing how to document your personal prompting style: standard sections, common constraints, preferred output formats, and roles. Adapt it to your own work.
-- **[Prompting Best Practices Guide](../downloads/prompting-guide.md)** — A comprehensive reference covering core principles, depth calibration, XML tags, anti-patterns, task-specific guidance, prompt chaining, versioning, and a quality checklist.
-
 ## Recommended Resources
 
-- **[Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)** — The official reference. Thorough and practical.
+- **[Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)** -- The official reference. Thorough and practical.
 
 ---
 
@@ -264,28 +274,28 @@ These are the actual files I use. Download, adapt, and paste them into your own 
 
 <div class="grid cards" markdown>
 
--   **Document your preferences**
+-   **Build your voice file**
 
     ---
 
-    Capture your prompting style in a reusable file. Paste it into any AI project.
+    Make AI output sound like your writing, not generic AI prose.
 
-    [:octicons-arrow-right-24: Prompt Preferences Template](../downloads/prompt-preferences-template.md)
+    [:octicons-arrow-right-24: Teaching AI Your Voice](voice.md)
 
 -   **Stress-test your plans**
 
     ---
 
-    Paste a plan into a fresh chat with an adversarial prompt and get structured critique — no coding needed.
+    Paste a plan into a fresh chat with an adversarial prompt and get structured critique -- no coding needed.
 
     [:octicons-arrow-right-24: Plan Review (Browser)](../workflows/plan-review-browser.md)
 
--   **See prompts in action**
+-   **Set up project folders**
 
     ---
 
-    The `/prompt` skill automates prompt formatting inside Claude Code.
+    Turn recurring legal tasks into reusable AI workflows.
 
-    [:octicons-arrow-right-24: Skill Library](../setup/skill-reference.md)
+    [:octicons-arrow-right-24: AI Project Folders](project-folders.md)
 
 </div>

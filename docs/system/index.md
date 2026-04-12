@@ -1,8 +1,10 @@
 # Build Your Own
 
-**How to create your own skills, agents, and self-improving workflows.**
+<div class="badge-workshop">Workshop Session 5</div>
 
-The Essentials taught you to use AI tools. The Toolkit gave you a configured system. This path teaches you to *build* — to create custom tools that solve your specific problems and a system that gets better the more you use it.
+**How to create your own workflows, agents, and custom tools for legal work.**
+
+The earlier sections taught you to use Claude Code and connect it to your services. This section teaches you to *build* -- to create custom workflows that solve your specific problems and a system that gets better the more you use it.
 
 ---
 
@@ -10,23 +12,33 @@ The Essentials taught you to use AI tools. The Toolkit gave you a configured sys
 
 | Page | What You'll Learn |
 |------|------------------|
-| **[Building Skills](building-skills.md)** | How to create custom slash commands from scratch. The skill development lifecycle. |
-| **[Agents vs Skills](agents-vs-skills.md)** | When to use a subagent vs. a skill. Architecture decisions for different workflows. |
-| **[Continuous Improvement](continuous-improvement.md)** | The tips pipeline — capture discoveries, curate them, integrate them into your config. |
-| **[Patterns](patterns.md)** | Reusable design patterns for skills and workflows. Quality checklist. |
+| **[Your First Workflow](../workflows/first-session-skills.md)** | The prompt-plan-review-revise loop. A hands-on walkthrough of the core method. |
+| **[Skills and Agents Explained](agents-vs-skills.md)** | When to use a skill vs. an agent. Architecture decisions for different tasks. |
+| **[Patterns and Templates](patterns.md)** | Reusable design patterns for workflows. Quality checklist for anything you build. |
 
 ---
 
 ## The Core Idea
 
-The most valuable thing about this system isn't any individual skill or configuration. It's the *meta-skill* of continuous improvement:
+The most valuable thing about this system is not any individual workflow or configuration. It is the *meta-skill* of continuous improvement:
 
-1. **Notice friction** — Where do you do the same thing repeatedly? Where do you copy-paste between tools? Where do you lose context between sessions?
-2. **Build a solution** — Create a skill or configure a workflow that handles it.
-3. **Critique and iterate** — Use Claude to review and improve what you built. (Yes, use the AI to improve the AI tools.)
-4. **Share what works** — Publish skills that might help others. Learn from what others share.
+1. **Notice friction** -- Where do you do the same thing repeatedly? Where do you copy-paste between tools? Where do you lose context between sessions?
+2. **Build a solution** -- Create a workflow or configure a process that handles it.
+3. **Critique and iterate** -- Use Claude to review and improve what you built. (Yes, use the AI to improve the AI tools.)
+4. **Share what works** -- Publish workflows that might help colleagues. Learn from what others share.
 
-This cycle is what turns a collection of tools into a system that compounds over time. Every skill you build makes the next one easier to build. Every pattern you learn applies to the next problem.
+This cycle is what turns a collection of tools into a system that compounds over time. Every workflow you build makes the next one easier to build. Every pattern you learn applies to the next problem.
+
+### What This Looks Like for Law Faculty
+
+Here are real examples of the kind of friction you might notice -- and the workflows that solve them:
+
+| Friction | Workflow Solution |
+|----------|-------------------|
+| "I spend 30 minutes at the start of each semester reformatting my syllabus" | A syllabus template workflow that updates dates, case assignments, and reading lists from a structured input |
+| "I write the same type of committee memo every month" | A memo template that pulls from meeting notes and generates a first draft in your voice |
+| "I lose track of where I left off on my article draft" | A session handoff workflow that captures decisions and open questions, so the next session starts with context |
+| "I need to review 20 student papers and write individualized feedback" | A feedback workflow that reads each paper, checks it against a rubric, and drafts comments for your review |
 
 ---
 
@@ -36,20 +48,16 @@ You should have:
 
 - A working Claude Code installation ([Install guides](../toolkit/install-mac.md))
 - A configured CLAUDE.md file ([Setup guide](../toolkit/claude-md.md))
-- Some experience using existing skills ([Skill Library](../setup/skill-reference.md))
-- Comfort reading and editing markdown files
+- Comfort reading and editing text files (markdown is just structured text -- not a programming language)
 
-You don't need to know how to code. Skills are written in markdown (structured text), not a programming language.
+You do not need to know how to code. Workflows are written in markdown (structured text with simple formatting), not a programming language.
 
 ---
 
-## Reference Materials
+## Getting Started
 
-Downloadable guides from my setup, for when you want to go deeper:
+If you are new to building workflows, start with **[Your First Workflow](../workflows/first-session-skills.md)**. It walks through the core loop -- structure your thinking, make a plan, stress-test it, execute, and capture what you learned -- using concrete examples.
 
-- **[Skill Design Patterns](../downloads/skill-patterns.md)** — Archetypes, quality checklist, and performance logging conventions
-- **[Agents vs Skills Decision Guide](../downloads/agents-vs-skills-guide.md)** — Detailed decision framework
-- **[Claude Code Under the Hood](../downloads/claude-under-the-hood.md)** — How the message stack, agentic loop, and context window actually work (16,000 words)
-- **[Collected Tips & Research Log](../downloads/collected-tips-log.md)** — Curated findings from ongoing research into prompting, agents, and context management
+If you have already worked through that and want to understand the architecture, move to **[Skills and Agents Explained](agents-vs-skills.md)** to learn when each approach is the right choice.
 
-See the full [Downloads & Reference Library](../downloads/index.md) for all available resources.
+When you are ready to build something of your own, **[Patterns and Templates](patterns.md)** gives you the building blocks -- reusable design patterns and a quality checklist so your first custom workflow is solid from the start.

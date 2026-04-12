@@ -1,9 +1,9 @@
-site_name: Claude Blattman · AI for Professionals Who Don't Code
-site_url: https://claudeblattman.com
-site_description: A project manager's guide to building AI workflows — from chatbots to self-improving systems
-site_author: Chris Blattman
-repo_url: https://github.com/chrisblattman/claudeblattman
-repo_name: chrisblattman/claudeblattman
+site_name: VAILL Coding Agents Workshop
+site_url: https://willimj3.github.io/vaill-coding-agents-workshop/
+site_description: A hands-on workshop for law faculty — from AI chatbots to coding agents with Claude Code. Vanderbilt AI Law Lab.
+site_author: Vanderbilt AI Law Lab
+repo_url: https://github.com/willimj3/vaill-coding-agents-workshop
+repo_name: vaill-coding-agents-workshop
 
 edit_uri: ""
 
@@ -15,14 +15,14 @@ theme:
   custom_dir: overrides
   palette:
     - scheme: slate
-      primary: blue grey
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     - scheme: default
-      primary: blue grey
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -49,53 +49,48 @@ theme:
 
 nav:
   - Home: index.md
-  - Essentials:
+  - AI Essentials:
     - essentials/index.md
     - Chatbots Done Right: essentials/chatbots.md
-    - The Cost Reality: essentials/cost.md
     - Prompt Engineering: essentials/prompting.md
     - "Teaching AI Your Voice": essentials/voice.md
     - AI Project Folders: essentials/project-folders.md
     - "Stress-Test Any Plan": workflows/plan-review-browser.md
-    - Voice Dictation: essentials/wispr-flow.md
-    - Meeting Transcription: essentials/granola.md
-    - NotebookLM: essentials/notebooklm.md
     - "ChatGPT vs Claude": essentials/chatgpt-vs-claude.md
+    - The Cost Reality: essentials/cost.md
+  - What Are Coding Agents?:
+    - agents/index.md
+    - The Agent Landscape: agents/landscape.md
+    - Why Claude Code?: agents/why-claude-code.md
+    - What Agents Can Do: agents/capabilities.md
+    - Limitations & Risks: agents/limitations.md
   - Setup:
     - setup/index.md
     - Install (Mac): toolkit/install-mac.md
     - Install (Windows): toolkit/install-windows.md
     - Set Up VS Code: setup/vscode-setup.md
-    - Your CLAUDE.md: toolkit/claude-md.md
-    - MCP Setup: toolkit/mcp-setup.md
-    - Skill Library: setup/skill-reference.md
-  - Workflows:
-    - workflows/index.md
-    - "Prompt, Plan, Review, Revise": workflows/first-session-skills.md
-    - Executive Assistant:
-      - toolkit/executive-assistant.md
-      - "Example: Noise Canceling": workflows/school-digest.md
-    - Project Management: workflows/project-management.md
-    - "Example: Project Dashboard": workflows/examples/project-overview-example.md
-    - "Example: Research Design": workflows/examples/research-design-example.md
-    - "Tax Season":
-      - tax-workflow/index.md
-      - Privacy & Setup: tax-workflow/before-you-start/privacy-and-setup.md
-      - Workflow Overview: tax-workflow/case-study/the-workflow-overview.md
-      - Document Collection: tax-workflow/case-study/document-collection.md
-      - Compilation & Review: tax-workflow/case-study/compilation-and-review.md
-      - What AI Got Wrong: tax-workflow/case-study/what-ai-got-wrong.md
-      - Architecture Patterns: tax-workflow/build-your-own/architecture-patterns.md
-      - Starter Templates: tax-workflow/build-your-own/starter-templates.md
-      - Academic Tax Basics: tax-workflow/reference/academic-tax-basics.md
-      - When to Get Help: tax-workflow/reference/when-to-get-help.md
+    - "Your CLAUDE.md": toolkit/claude-md.md
+    - MCP Connections: toolkit/mcp-setup.md
+  - For Legal Practice:
+    - legal-practice/index.md
+    - Contract Review: legal-practice/contract-review.md
+    - Brief Drafting: legal-practice/brief-drafting.md
+    - Legal Research: legal-practice/legal-research.md
+    - Client Communication: legal-practice/client-communication.md
+    - Document Analysis: legal-practice/document-analysis.md
+  - For Legal Academia:
+    - legal-academia/index.md
+    - Literature Reviews: legal-academia/literature-reviews.md
+    - Empirical Legal Research: legal-academia/empirical-research.md
+    - Syllabus & Course Design: legal-academia/syllabus-design.md
+    - Exam Drafting & Rubrics: legal-academia/exam-drafting.md
+    - Grant Writing: legal-academia/grant-writing.md
+    - Student Feedback: legal-academia/student-feedback.md
   - Build Your Own:
     - system/index.md
-    - Building Skills: system/building-skills.md
-    - Agents vs Skills: system/agents-vs-skills.md
-    - Continuous Improvement: system/continuous-improvement.md
-    - Patterns: system/patterns.md
-    - "A Real CLAUDE.md": downloads/real-claude-md-example.md
+    - Your First Workflow: workflows/first-session-skills.md
+    - "Skills & Agents Explained": system/agents-vs-skills.md
+    - Patterns & Templates: system/patterns.md
   - About:
     - about.md
     - Resources: resources.md
@@ -133,19 +128,20 @@ plugins:
         essentials/folders/shopping.md: essentials/project-folders.md
         essentials/folders/health.md: essentials/project-folders.md
         setup/modes.md: setup/index.md
-        toolkit/skills-guide.md: setup/skill-reference.md
+        toolkit/skills-guide.md: setup/index.md
+        setup/skill-reference.md: setup/index.md
   - social:
       cards_layout_options:
-        background_color: "#263238"
-        color: "#80cbc4"
+        background_color: "#1C1C1C"
+        color: "#CFAE70"
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/chrisblattman/claudeblattman
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/cblatts
+      link: https://github.com/willimj3/vaill-coding-agents-workshop
+    - icon: fontawesome/solid/globe
+      link: https://law.vanderbilt.edu/ai-law-lab/
 
 copyright: >
-  Built by <a href="https://chrisblattman.com">Chris Blattman</a> &mdash;
+  Built by <a href="https://law.vanderbilt.edu/ai-law-lab/">Vanderbilt AI Law Lab</a> &mdash;
   shared freely under MIT License

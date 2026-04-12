@@ -1,125 +1,133 @@
 ---
 hide:
   - navigation
-description: A professor's open-source AI workflow system for managing research projects, email, meetings, and teams using Claude Code. Free tools, setup guides, and tutorials.
-social:
-  cards_layout_options:
-    title: Claude Blattman
-    description: AI workflow tools for researchers & managers. Free and open source.
+description: A hands-on workshop for law faculty — from AI chatbots to coding agents with Claude Code. By Vanderbilt AI Law Lab. No coding experience needed.
 ---
 
-# Claude Blattman
+# VAILL Coding Agents Workshop
 
-<p class="hero-pitch">Tools I use to manage my schedule, communication, and complex projects with large teams across several countries. Examples and tutorials for productivity and sanity.</p>
+<p class="hero-pitch">Tools and techniques for law faculty to use AI effectively — from chatbot prompting to coding agents that read your files, draft documents, and build workflows. Whether you have never used an AI tool or are ready to try advanced automation, this workshop meets you where you are.</p>
 
 <div class="credibility-strip" markdown>
-By [Chris Blattman](https://chrisblattman.com), political economist at UChicago Harris. In January 2026 I started building AI workflows with Claude Code. What seemed impossible then — inbox triage, meeting capture, proposal drafting, project dashboards, trip planning — is running today. Claude Blattman isn't real, but the tools are. I've never coded in my life, so if I can do this you can.
+By [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/). This workshop teaches law faculty to use AI tools — from browser chatbots to coding agents like [Claude Code](https://code.claude.com/docs/en/overview). No coding experience is needed. We start with practical prompting and project organization, then progress to hands-on work with agentic AI tools purpose-built for legal professionals.
 </div>
 
 ## What Is This?
 
-This site covers AI tools for knowledge work — from [chatbot prompting](essentials/index.md) to advanced automation with [Claude Code](https://code.claude.com/docs/en/overview), a terminal-based AI tool that can read your files, search your email, manage your calendar, and run custom workflows. The site documents how I built a working system and shares everything so you can do the same. Here's [how I got here](about.md#how-i-got-here).
+This site is the companion resource for the VAILL Coding Agents Workshop. It covers the full spectrum of AI tools relevant to legal professionals: how to get real value from chatbots like ChatGPT and Claude, how to structure prompts and project folders for legal work, and how to set up and use coding agents — AI tools that go beyond chat to read files, search databases, draft documents, and execute multi-step workflows.
 
-!!! tip "Already a power user? Skip the tour."
-    [Skill Library](setup/skill-reference.md) — 20 skills, one-command install · [Config Templates](downloads/index.md#templates) — starter files for CLAUDE.md, email policy, voice · [GitHub Repo](https://github.com/chrisblattman/claudeblattman) — browse the source
+Every page is designed for law faculty with little or no technical background. We explain concepts before we use them, and every guide includes step-by-step instructions you can follow in real time during workshop sessions.
+
+!!! tip "Already comfortable with AI? Skip ahead."
+    [Setup Guide](setup/index.md) — install Claude Code and configure your environment | [For Legal Practice](legal-practice/index.md) — contract review, brief drafting, legal research | [Build Your Own](system/index.md) — design custom workflows and skills
 
 ## Where to Start
 
-!!! example "Never used AI tools? Start here — no installation required."
-    Three pages that work in any browser: [Chatbots Done Right](essentials/chatbots.md) · [Prompt Engineering](essentials/prompting.md) · [AI Project Folders](essentials/project-folders.md). Total time: 30 minutes. You'll leave with better prompts and a reusable system for any recurring task.
+!!! example "Track 1: New to AI (no installation, browser only)"
+    If you have never used ChatGPT, Claude, or similar tools — or if you use them casually and want to get more out of them — start here. These three pages work in any web browser with no software to install: [Chatbots Done Right](essentials/chatbots.md) | [Prompt Engineering](essentials/prompting.md) | [AI Project Folders](essentials/project-folders.md). Total time: about 30 minutes. You will leave with better prompts and a reusable system for any recurring legal task.
+
+!!! example "Track 2: Ready for Coding Agents"
+    If you are comfortable with chatbots and want to explore what agentic AI can do, start with the setup path: [What Are Coding Agents?](agents/index.md) | [Setup Guide](setup/index.md) | [Your CLAUDE.md](toolkit/claude-md.md). These pages walk you through installing Claude Code, configuring it for your work, and running your first agent-assisted task.
+
+---
 
 <div class="grid cards" markdown>
 
--   **:material-lightbulb-outline: New to AI Tools?** <span class="badge-teal">No Claude Code required</span>
+-   **:material-lightbulb-outline: AI Essentials** <span class="badge-gold">No install needed</span>
 
     ---
 
-    Start with the essentials: which chatbot to use, prompt engineering that works, hands-free dictation, and meeting transcription. No coding or terminal needed.
+    The foundation: which chatbot to use, prompt engineering that works, teaching AI your writing voice, and building reusable project folders. Everything here works in a browser — no coding or terminal required.
 
-    [:octicons-arrow-right-24: The Essentials](essentials/index.md)
+    [:octicons-arrow-right-24: Start with the Essentials](essentials/index.md)
 
--   **:material-rocket-launch-outline: Claude Code for Newbies**
-
-    ---
-
-    Set up Claude Code, configure your CLAUDE.md, connect your email and calendar, and install your first skills. Step-by-step for Mac and Windows.
-
-    [:octicons-arrow-right-24: Setup Guide](setup/index.md)
-
--   **:octicons-download-16: Get Skills & Templates**
+-   **:material-robot-outline: What Are Coding Agents?**
 
     ---
 
-    Browse 20 downloadable skills with one-command install. Starter config templates for CLAUDE.md, email policy, voice files, and more. Already have Claude Code? Start here.
+    Understand what coding agents are, how they differ from chatbots, why Claude Code is our tool of choice, what agents can and cannot do, and the risks every legal professional should know about.
 
-    [:octicons-arrow-right-24: Skill Library](setup/skill-reference.md) · [:octicons-arrow-right-24: Templates](downloads/index.md#templates)
+    [:octicons-arrow-right-24: Explore Coding Agents](agents/index.md)
 
--   **:material-sync: Prompt, Plan, Review, Revise**
-
-    ---
-
-    A repeatable loop: brain-dump an idea, structure it with `/prompt`, stress-test it with fresh agents via `/review-plan`, and capture what you learned with `/done`. Works on day one — no integrations needed.
-
-    [:octicons-arrow-right-24: Learn the loop](workflows/first-session-skills.md)
-
--   **:material-view-dashboard-outline: Project Management with Claude Code**
+-   **:material-wrench-outline: Setup Guide**
 
     ---
 
-    A system for tracking complex projects across email, docs, meetings, and messaging. Each project gets a living dashboard with status, history, and next steps — maintained automatically from meeting transcripts and project documents.
+    Step-by-step installation for Mac and Windows. Set up VS Code, configure your CLAUDE.md file, and connect external tools through MCP. Designed for faculty who have never used a terminal.
 
-    [:octicons-arrow-right-24: Project Management Workflow](workflows/project-management.md)
+    [:octicons-arrow-right-24: Get Set Up](setup/index.md)
 
--   **:material-email-check-outline: Executive Assistant**
-
-    ---
-
-    Email triage, morning briefings, meeting prep, post-meeting follow-up, and communication drafting. Skills that handle the daily overhead of managing a busy schedule and high-volume inbox.
-
-    [:octicons-arrow-right-24: Executive Assistant Workflow](toolkit/executive-assistant.md)
-
--   **:material-text-account: Teaching AI Your Voice** <span class="badge-teal">Claude Code optional</span>
+-   **:material-scale-balance: For Legal Practice** <span class="badge-gold">Law-specific</span>
 
     ---
 
-    AI has a house style and it's not yours. Build a voice file that captures how you actually write — ban list, annotated examples, sentence-level rules — and load it into any chatbot or Claude Code project.
+    Practical workflows for practicing attorneys: contract review, brief drafting, legal research, client communication, and document analysis — all powered by coding agents.
 
-    [:octicons-arrow-right-24: Build your voice file](essentials/voice.md)
+    [:octicons-arrow-right-24: Legal Practice Workflows](legal-practice/index.md)
 
--   **:material-sync-circle: Continuous Improvement**
-
-    ---
-
-    Email yourself tips and discoveries from any device. Two skills curate them, then propose concrete changes to your CLAUDE.md, skills, and rules — so your system gets better every week.
-
-    [:octicons-arrow-right-24: The Tips Pipeline](system/continuous-improvement.md)
-
--   **:material-file-document-check-outline: Tax Season Case Study** <span class="badge-teal">New</span>
+-   **:material-school-outline: For Legal Academia** <span class="badge-gold">Law-specific</span>
 
     ---
 
-    A complete case study: using Claude Code to collect tax documents from email, compile deductions, and catch errors with a three-year review. What worked, what AI got wrong, and transferable patterns for any document-heavy workflow.
+    Workflows designed for law professors: literature reviews, empirical legal research, syllabus and course design, exam drafting with rubrics, grant writing, and student feedback.
 
-    [:octicons-arrow-right-24: Tax Workflow](tax-workflow/index.md)
+    [:octicons-arrow-right-24: Legal Academia Workflows](legal-academia/index.md)
 
--   **:material-chart-box-outline: Data Analysis Co-Pilot** <span class="badge-preview">Planned</span>
-
-    ---
-
-    Using AI to write, debug, and audit statistical code in Stata, R, and Python. Replication verification, robustness checks, and the "Referee 2" pattern. In the meantime, see [AI for Economists resources](resources.md#ai-for-economists-and-researchers).
-
--   **:material-file-document-edit-outline: Research Writing** <span class="badge-preview">Planned</span>
+-   **:material-cog-outline: Build Your Own**
 
     ---
 
-    LaTeX and Overleaf workflows: drafting sections, responding to referee reports, maintaining voice consistency across co-authored papers, and version control with Claude Code.
+    Ready to build custom workflows? Learn the difference between skills and agents, explore reusable patterns and templates, and design your first automation for your own practice or research.
+
+    [:octicons-arrow-right-24: Build Custom Workflows](system/index.md)
+
+-   **:material-text-account: Teaching AI Your Voice** <span class="badge-gold">No install needed</span>
+
+    ---
+
+    AI has a default writing style — and it is not yours. Build a voice file that captures how you actually write, with ban lists, annotated examples, and sentence-level rules. Works with any chatbot or coding agent.
+
+    [:octicons-arrow-right-24: Build Your Voice File](essentials/voice.md)
+
+-   **:material-swap-horizontal: ChatGPT vs Claude**
+
+    ---
+
+    An honest comparison of the two leading AI platforms. When each one wins, where they fall short, and how to decide what to invest in for legal work.
+
+    [:octicons-arrow-right-24: Compare Platforms](essentials/chatgpt-vs-claude.md)
+
+-   **:material-sync: Your First Workflow**
+
+    ---
+
+    A repeatable loop: brain-dump an idea, structure it with a prompt, stress-test it with a fresh agent, and capture what you learned. Works from day one — no integrations required.
+
+    [:octicons-arrow-right-24: Learn the Loop](workflows/first-session-skills.md)
+
+-   **:material-cash-check: The Cost Reality**
+
+    ---
+
+    What AI tools actually cost. Subscription tiers, usage-based pricing for Claude Code, and practical guidance on what is worth the investment for law faculty.
+
+    [:octicons-arrow-right-24: Understand the Costs](essentials/cost.md)
 
 </div>
 
-## What's New
+---
 
-- **March 2026:** Meeting prep and follow-up skills. Updated [Executive Assistant](toolkit/executive-assistant.md) workflow with daily ritual stack.
-- **February 2026:** [Tax Season](tax-workflow/index.md) case study. Nav restructure. 13 new downloadable skills in the [Skill Library](setup/skill-reference.md).
+## Workshop Sessions
 
-!!! tip "Stay in the loop"
-    I add new tools and guides regularly. [Get email updates](https://buttondown.email/claudeblattman) — a few times a year, no spam. Or [star it on GitHub](https://github.com/chrisblattman/claudeblattman) so others can find it. Something broken or unclear? [Send a quick note](mailto:claudeblattman+feedback@gmail.com?subject=Feedback).
+The VAILL Coding Agents Workshop is structured as five sessions. Each session builds on the previous one, but every page on this site can also be used independently.
+
+| Session | Focus | Key Pages |
+|---------|-------|-----------|
+| **Session 1** | AI Foundations | [Chatbots Done Right](essentials/chatbots.md) | [Prompt Engineering](essentials/prompting.md) | [AI Project Folders](essentials/project-folders.md) |
+| **Session 2** | Understanding Agents | [What Are Coding Agents?](agents/index.md) | [ChatGPT vs Claude](essentials/chatgpt-vs-claude.md) | [The Cost Reality](essentials/cost.md) |
+| **Session 3** | Setup & Configuration | [Setup Guide](setup/index.md) | [Install (Mac)](toolkit/install-mac.md) | [Install (Windows)](toolkit/install-windows.md) | [Your CLAUDE.md](toolkit/claude-md.md) |
+| **Session 4** | Legal Workflows | [For Legal Practice](legal-practice/index.md) | [For Legal Academia](legal-academia/index.md) | [Teaching AI Your Voice](essentials/voice.md) |
+| **Session 5** | Build & Customize | [Your First Workflow](workflows/first-session-skills.md) | [Build Your Own](system/index.md) | [Patterns & Templates](system/patterns.md) |
+
+!!! tip "Using this site outside the workshop?"
+    Every page is self-contained. If you are working through this material on your own, we recommend starting with Track 1 (the Essentials) and progressing at your own pace. The [About](about.md) page has more detail on how the workshop is structured.

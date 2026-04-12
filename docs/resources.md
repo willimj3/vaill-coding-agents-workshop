@@ -1,178 +1,111 @@
 # Resources
 
-A curated collection of the resources, tools, and reference implementations that shaped this project. Each entry includes a brief summary of what's useful and why I found it worth your time.
-
-Thanks to [Anup Malani](https://www.law.uchicago.edu/faculty/malani) for being my first tutor on the basics — he's the one who got me started with Claude Code and showed me what was possible.
+A curated collection of resources for law faculty working with AI. We focus on tools, guidance, and scholarship that are directly relevant to legal education, legal practice, and the responsible use of AI in professional settings.
 
 ---
 
-## Reference Implementations
+## Legal AI Ethics and Guidance
 
-These are the projects and posts that most influenced how I built my system. If you want to see how other people are doing this, start here.
+Professional responsibility is the first concern for any lawyer using AI. These resources cover the evolving regulatory landscape.
 
-### Boris Tane — How I Use Claude Code
-
-[:octicons-link-external-16: boristane.com](https://boristane.com/blog/how-i-use-claude-code/)
-
-A developer's opinionated workflow with Claude Code. The Research → Plan → Annotate → Implement structure he describes became the backbone of how I think about multi-step tasks. His use of persistent markdown files as shared state between Claude and the user directly influenced my CLAUDE.md approach. Well-written and confident — one of the first posts that made me think this was more than a toy.
-
-### Pedro Sant'Anna — Claude Code My Workflow
-
-[:octicons-link-external-16: psantanna.com](https://psantanna.com/claude-code-my-workflow/)
-
-The closest thing to what I'm building, but for econometrics. Pedro is an academic (economics) who built an ambitious system with 10 agents and 19 commands. His MEMORY.md pattern for persistent learning across sessions was an early influence. His research-specific slash commands showed me what was possible. Fair warning: the complexity can be overwhelming for beginners — I deliberately kept my system simpler.
-
-### Mike Murchison — Claude Chief of Staff
-
-[:octicons-link-external-16: GitHub](https://github.com/mimurchison/claude-chief-of-staff)
-
-A four-pillar structure (Communicate, Learn, Deepen Relationships, Achieve Goals) for using Claude as an executive assistant. The Goals.yaml as a single source of truth, the `/gm` morning briefing command, and the idea of CLAUDE.md as "your AI operating system" all shaped my approach. My `/morning-brief` and `/checkin` skills descend directly from this repo.
-
-### Dave Killeen — Dex
-
-[:octicons-link-external-16: GitHub](https://github.com/davekilleen/Dex)
-
-An extension of Murchison's Chief of Staff pattern that adds structured pillars (`pillars.yaml`), session learnings capture, and usage logging. If Murchison's repo is the architecture, Dex is the operational layer. I used it alongside the original when designing my session capture (`/done`) and goal alignment (`/goals-review`) skills. Discovered February 2026.
-
-### Obie Fernandez — Building a Personal CTO Operating System
-
-[:octicons-link-external-16: Medium](https://obie.medium.com/building-a-personal-cto-operating-system-with-claude-code-b3fb9c4933c7)
-
-A real workflow where Claude Code acts as an EA for a CTO: managing priorities, shipping work, and maintaining an operational cadence. What's useful here isn't the CTO-specific parts — it's the pattern of encoding your daily rhythm into skills so Claude runs your system instead of you running Claude. The "operating system" framing influenced how I think about the whole EA layer.
-
-### Chris Wiles — Claude Code Showcase
-
-[:octicons-link-external-16: GitHub](https://github.com/ChrisWiles/claude-code-showcase)
-
-A full example of a `.claude/` directory structure with hooks, skills, agents, commands, and GitHub workflows. If you want to see what a well-organized Claude Code project looks like before building your own, this is the best single reference. I used it as a structural template when organizing my own skills and hooks directories.
-
-### Ethan Mollick — One Useful Thing
-
-[:octicons-link-external-16: oneusefulthing.org](https://www.oneusefulthing.org/)
-
-Ethan's blog is the gold standard for writing about AI for non-technical professionals. His Models / Apps / Harnesses framework helped me think about where different tools fit. Key insight that stuck with me: "the shift from chatbot to agent is the most important change since ChatGPT launched." If you read one person on AI and work, make it Ethan.
+| Resource | What it covers |
+|----------|---------------|
+| [ABA Formal Opinion 512 (2024)](https://www.americanbar.org/groups/professional_responsibility/publications/ethics_opinions/) | The ABA's guidance on lawyers' obligations when using generative AI -- competence, confidentiality, supervision, and communication with clients |
+| [ABA Resolution 604 (2019)](https://www.americanbar.org/groups/leadership/office-of-the-president/ai-task-force/) | The ABA's foundational resolution on AI and the practice of law, establishing the Task Force on Law and Artificial Intelligence |
+| [State Bar AI Ethics Opinions](https://www.americanbar.org/groups/professional_responsibility/) | A growing collection from California, Florida, New York, Texas, and other state bars -- each interpreting how existing rules of professional conduct apply to AI tools |
+| [Model Rule 1.6 -- Confidentiality](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/) | The text of Model Rule 1.6 and its comments -- essential reading before using any AI tool with client information |
+| [Model Rule 1.1 -- Competence](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_client_lawyer_relationship/) | Competence now includes understanding the benefits and risks of technology relevant to your practice |
 
 ---
 
-## Official Documentation
+## AI Tools for Legal Professionals
 
-### Claude Code
+These are the major AI platforms designed for or commonly used in legal work. We do not endorse any specific product -- this is a reference for understanding the landscape.
 
-[:octicons-link-external-16: docs.anthropic.com](https://code.claude.com/docs/en/overview)
+### Legal-Specific AI Tools
 
-The official setup, configuration, and usage guide. Start here if you're installing Claude Code for the first time. Covers CLAUDE.md, MCP integrations, slash commands, and the permission model. The docs have improved significantly — they're now genuinely useful as a reference.
+| Tool | What it does | Notes |
+|------|-------------|-------|
+| [CoCounsel (by Thomson Reuters)](https://casetext.com/cocounsel) | AI legal assistant integrated with Westlaw -- case research, document review, deposition preparation | Enterprise pricing; widely adopted by large firms |
+| [Lexis+ AI](https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page) | AI assistant integrated with LexisNexis research platform | Includes citation verification and hallucination checks |
+| [Harvey AI](https://www.harvey.ai/) | General-purpose legal AI platform for drafting, analysis, and research | Used by major law firms; enterprise-only |
+| [Westlaw AI-Assisted Research](https://legal.thomsonreuters.com/en/products/westlaw) | AI features within the Westlaw research platform | Available to existing Westlaw subscribers |
+| [vLex / Vincent AI](https://vlex.com/) | AI-powered legal research across jurisdictions | Strong international law coverage |
 
-### Claude Code Best Practices
+### General AI Platforms We Use in This Workshop
 
-[:octicons-link-external-16: code.claude.com](https://code.claude.com/docs/en/best-practices)
-
-Anthropic's comprehensive best practices guide: context management, CLAUDE.md conventions, subagent patterns, parallel sessions, and common failure modes. If you read one official guide, make it this one.
-
-### Anthropic Skills Repository
-
-[:octicons-link-external-16: github.com/anthropics/skills](https://github.com/anthropics/skills)
-
-Anthropic's official collection of example Agent Skills — the first-party reference for skill structure, YAML frontmatter conventions, and the `SKILL.md` format. Useful as a template when building your own.
-
-### Anthropic Prompt Engineering Guide
-
-[:octicons-link-external-16: docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
-
-Anthropic's own guide to writing effective prompts. More technical than what I cover in my [Essentials section](essentials/prompting.md), but worth reading if you want to understand the mechanics. I adapted several patterns from here into my prompt formatting skills.
-
-### MCP (Model Context Protocol)
-
-[:octicons-link-external-16: modelcontextprotocol.io](https://modelcontextprotocol.io/)
-
-The protocol that lets Claude Code talk to Gmail, Google Calendar, Google Docs, and other services. Understanding MCP is essential if you want to build integrations beyond what I've packaged. The spec is well-documented; the ecosystem is growing fast.
-
-### MkDocs Material
-
-[:octicons-link-external-16: squidfunk.github.io](https://squidfunk.github.io/mkdocs-material/)
-
-The framework this site is built with. If you want to build something similar — a documentation site for your own tools or research — Material is the best option I've found. Free, well-maintained, and the configuration is all YAML (no JavaScript required).
+| Tool | What we use it for | Link |
+|------|-------------------|------|
+| **Claude** (Anthropic) | Primary AI for this workshop -- browser chatbot and Claude Code | [claude.ai](https://claude.ai) |
+| **ChatGPT** (OpenAI) | Deep Research for literature reviews, web search, broad knowledge tasks | [chatgpt.com](https://chatgpt.com) |
+| **Perplexity** | Citation-heavy factual lookups with sourced answers | [perplexity.ai](https://www.perplexity.ai/) |
+| **Gemini** (Google) | Google Workspace integration, long-document analysis | [gemini.google.com](https://gemini.google.com/) |
 
 ---
 
-## Tools Used on This Site
+## Research and Scholarship on AI in Law
 
-### AI Assistants
+### Essential Reading
 
-| Tool | What I use it for | Link |
-|------|------------------|------|
-| **Claude** | Primary AI — Claude Code for workflows, Claude.ai for conversations | [claude.ai](https://claude.ai) |
-| **ChatGPT** | Deep Research for literature reviews and web synthesis | [chat.openai.com](https://chat.openai.com) |
-| **Perplexity** | Citation-heavy factual lookups, sourced answers | [perplexity.ai](https://www.perplexity.ai/) |
-| **Gemini** | Google Sheets work, video/audio analysis | [gemini.google.com](https://gemini.google.com/) |
+| Resource | Why it matters |
+|----------|---------------|
+| [Ethan Mollick -- One Useful Thing](https://www.oneusefulthing.org/) | The gold standard for writing about AI for non-technical professionals. Mollick (Wharton) writes clearly about how AI changes professional work, with practical experiments anyone can try. |
+| [Artificial Intelligence and the Practice of Law (various law reviews)](https://scholar.google.com/scholar?q=artificial+intelligence+practice+of+law+law+review) | A growing body of law review scholarship on AI's impact on legal practice, access to justice, and the legal profession |
+| [Harry Surden -- AI and Law Overview](https://scholar.google.com/citations?user=qkJ0l0IAAAAJ) | Foundational legal scholarship on AI, machine learning, and their applications to law |
+| [Daniel Martin Katz -- Legal AI Research](https://scholar.google.com/citations?user=fhGW0GEAAAAJ) | Leading work on computational law, legal analytics, and AI in the legal profession |
+| [Maura Grossman and Gordon Cormack](https://scholar.google.com/citations?user=TnXnvaAAAAAJ) | Pioneering research on technology-assisted review (TAR) and AI in e-discovery |
 
-### Productivity Tools
-
-| Tool | What it does | Why I use it | Link |
-|------|-------------|-------------|------|
-| **Wispr Flow** | Dictation everywhere on Mac | I dictate most of my Claude Code input. 3-5x faster than typing for long instructions. | [wispr.flow](https://www.wispr.flow/) |
-| **Granola** | Meeting transcription | Runs silently in the background. Transcripts feed into my meeting-to-action-item pipeline. | [granola.ai](https://www.granola.ai/) |
-| **Zotero** | Reference management | Connected to Claude via MCP. I can search my library and pull citation details from the terminal. | [zotero.org](https://www.zotero.org/) |
-
-### Infrastructure
-
-| Tool | Role in this project | Link |
-|------|---------------------|------|
-| **GitHub** | Version control, hosting, collaboration | [github.com/chrisblattman/claudeblattman](https://github.com/chrisblattman/claudeblattman) |
-| **GitHub Pages** | Free site hosting, auto-deploys on push | [pages.github.com](https://pages.github.com/) |
-| **GitHub Actions** | CI/CD — builds and deploys the site | Configured in `.github/workflows/deploy.yml` |
-
----
-
-## AI for Economists and Researchers
-
-This site focuses on project management, communication, and workflow automation. But the biggest wave of AI adoption in economics is around **data analysis, statistical coding, and empirical methods** — areas I haven't covered yet (coming soon). These are the essential resources for that side of the work.
-
-### Anton Korinek — Generative AI for Economic Research
-
-[:octicons-link-external-16: JEL Paper (AEA)](https://www.aeaweb.org/articles?id=10.1257/jel.20231736) · [:octicons-link-external-16: AI Agents Update (NBER, 2025)](https://www.nber.org/papers/w34202) · [:octicons-link-external-16: Substack](https://genaiforecon.substack.com)
-
-The authoritative academic treatment. Korinek's 2023 *Journal of Economic Literature* paper identifies six use case domains for LLMs in economics (ideation, writing, background research, data analysis, coding, mathematical derivations) and has been updated twice — most recently with an NBER working paper on AI agents for autonomous literature reviews, econometric coding, and data analysis. If you read one academic paper on this topic, make it this one.
-
-### Scott Cunningham — MixtapeTools
-
-[:octicons-link-external-16: GitHub](https://github.com/scunning1975/MixtapeTools) · [:octicons-link-external-16: Substack](https://causalinf.substack.com)
-
-A GitHub repo of tools for coding, teaching, and presentations with AI assistance — includes a "Referee 2" audit protocol for verifying empirical code across R/Stata/Python, a PDF reading skill for parsing academic papers, and a CLAUDE.md template for Claude Code sessions. Cunningham (author of *Causal Inference: The Mixtape*) also writes regularly about AI and causal inference on Substack.
-
-### Awesome Econ AI Stuff
-
-[:octicons-link-external-16: meleantonio.github.io](https://meleantonio.github.io/awesome-econ-ai-stuff/)
-
-14+ curated AI skills across 7 categories (Analysis, Data, Theory, Writing, Communication, Literature, Ideation) designed for Claude Code, Cursor, and GitHub Copilot. Includes skills that automate DiD/IV/RD coding in Stata and LaTeX paper writing. The closest thing to a skill library specifically for empirical economists.
-
-### More Resources
+### AI and Legal Education
 
 | Resource | Focus |
 |----------|-------|
-| [Jesse Lastunen — AI for Economists](https://sites.google.com/view/lastunen/ai-for-economists) | Worked prompt examples across Korinek's six domains, with real LLM outputs and usefulness ratings |
-| [Guide2EconRA (GitHub)](https://github.com/Alalalalaki/Guide2EconRA) | Comprehensive resource collection for economics RAs — Python/R/Julia/Stata, causal inference, ML, reproducibility |
-| [AEI — AI Tools for Economists](https://www.aei.org/technology-and-innovation/ai-tools-for-economists-and-policy-analysts/) | Practical tool comparison (ChatGPT, Claude, Gemini, NotebookLM, Cursor) written for policy economists |
-
-Know a resource that should be here? [Send a quick note](mailto:claudeblattman+feedback@gmail.com?subject=AI%20for%20economists%20resource) — I'm always looking for what I've missed.
+| [Building AI Literacy in Law Schools (AALS)](https://www.aals.org/) | Emerging guidance on integrating AI into the law school curriculum |
+| [Teaching with AI in Law Schools (various)](https://scholar.google.com/scholar?q=teaching+AI+law+school+pedagogy) | Scholarship on how law professors are adapting courses, assessments, and clinical programs for an AI-enabled practice |
 
 ---
 
-## Further Reading
+## Claude Code Resources
 
-Resources for thinking about AI in research and professional work more broadly.
+These are the technical resources for the coding agent tool we use in this workshop.
 
-| Resource | Why it's worth reading |
-|----------|----------------------|
-| [Simon Willison's Blog](https://simonwillison.net/) | The most technically literate and honest AI blog. Simon builds tools and explains what works without hype. |
-| [Claude Code projects on GitHub](https://github.com/topics/claude-code) | Community projects, extensions, and configurations tagged with "claude-code" on GitHub. |
-| [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) | Active subreddit for Claude users. Good for troubleshooting and discovering new patterns. |
-| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Curated index of Claude Code skills, hooks, slash commands, and CLAUDE.md patterns. The closest thing to a package manager catalog for the ecosystem. |
-| [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 380+ curated skills from official dev teams (Anthropic, Vercel, Stripe, Cloudflare) and community. Cross-tool compatible. Quality-vetted. |
-| [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | 20,000+ lines, 16 specialized guides, 41 diagrams. The most comprehensive community reference for Claude Code architecture and workflows. CC BY-SA 4.0 licensed. |
-| [LangChain Executive AI Assistant](https://github.com/langchain-ai/executive-ai-assistant) | Production-ready Gmail-monitoring AI agent framework. Their "draft-only" pattern and human-in-the-loop review influenced how I built inbox triage. |
+| Resource | What it covers |
+|----------|---------------|
+| [Claude Code Documentation](https://code.claude.com/docs/en/overview) | Official setup, configuration, and usage guide -- start here if you are installing Claude Code |
+| [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) | Anthropic's guide to context management, CLAUDE.md conventions, and common patterns |
+| [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) | How to write effective prompts -- more technical than our [Prompt Engineering](essentials/prompting.md) page, but excellent for going deeper |
+| [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) | Code examples and recipes for working with Claude's API and tools |
+| [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) | The protocol that lets Claude Code connect to external services like Gmail, Google Calendar, and databases |
+
+---
+
+## General AI Literacy
+
+Resources for understanding AI more broadly -- useful for faculty who want to develop their own informed perspective on the technology.
+
+| Resource | Why it is worth reading |
+|----------|------------------------|
+| [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) | The best single guide to writing effective prompts, from the company that makes Claude |
+| [OpenAI Documentation](https://platform.openai.com/docs/) | Comprehensive documentation for ChatGPT and the OpenAI API -- useful even if you primarily use Claude |
+| [Simon Willison's Blog](https://simonwillison.net/) | The most technically literate and honest AI blog. Willison builds tools and explains what works without hype. |
+| [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) | Active community for Claude users -- good for troubleshooting and discovering new patterns |
+| [Stanford HAI (Human-Centered AI)](https://hai.stanford.edu/) | Academic research on AI policy, governance, and societal impact |
+| [AI Snake Oil (Arvind Narayanan)](https://www.aisnakeoil.com/) | A clear-eyed, critical perspective on AI hype versus reality -- essential reading for anyone who wants to separate marketing from substance |
+
+---
+
+## Workshop Materials
+
+Everything in this workshop is available on this site:
+
+- **[AI Essentials](essentials/index.md)** -- Chatbot skills, prompting, voice files, project folders
+- **[What Are Coding Agents?](agents/index.md)** -- Understanding the agent landscape
+- **[Setup Guide](setup/index.md)** -- Installing and configuring Claude Code
+- **[For Legal Practice](legal-practice/index.md)** -- Contract review, brief drafting, legal research
+- **[For Legal Academia](legal-academia/index.md)** -- Literature reviews, course design, exam drafting
+- **[Build Your Own](system/index.md)** -- Custom skills, agents, and self-improving workflows
 
 ---
 
 ## Contributing
 
-Found a resource that should be here? Have a correction? Open an issue or start a discussion on [GitHub](https://github.com/chrisblattman/claudeblattman/discussions).
+Found a resource that should be here? Have a correction? Open an issue on [GitHub](https://github.com/willimj3/vaill-coding-agents-workshop/issues) or contact the [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/).

@@ -1,4 +1,4 @@
-# Agents vs Skills
+# Skills vs. Agents
 
 Claude Code has two main building blocks: **skills** (slash commands that run in the main conversation) and **agents** (subprocesses that run in a separate context). Choosing the right one matters for reliability and quality.
 
@@ -8,10 +8,10 @@ Claude Code has two main building blocks: **skills** (slash commands that run in
 
 | Dimension | Skill | Agent |
 |-----------|-------|-------|
-| **Context** | Runs in the main conversation with full history | Runs in a fresh context — no prior conversation |
+| **Context** | Runs in the main conversation with full history | Runs in a fresh context -- no prior conversation |
 | **User interaction** | Can ask questions, show drafts, get feedback | Returns a single result when done |
 | **Memory** | Sees everything discussed so far | Sees only what you explicitly pass to it |
-| **Bias** | May be influenced by prior conversation ("self-bias") | Fresh perspective — evaluates only what's written |
+| **Bias** | May be influenced by prior conversation ("self-bias") | Fresh perspective -- evaluates only what is written |
 | **Speed** | Instant (already in context) | Slower (starts a new process) |
 
 ---
@@ -20,15 +20,16 @@ Claude Code has two main building blocks: **skills** (slash commands that run in
 
 Skills work best when the task:
 
-- **Needs conversation context** — The task builds on what you've already discussed
-- **Requires user input** — You need to answer questions or make choices mid-workflow
-- **Is a workflow** — Multi-step processes with user checkpoints
-- **Modifies state** — Writing files, sending emails, updating docs
+- **Needs conversation context** -- The task builds on what you have already discussed
+- **Requires user input** -- You need to answer questions or make choices mid-workflow
+- **Is a multi-step workflow** -- Processes with user checkpoints along the way
+- **Modifies files** -- Writing documents, updating configurations, generating drafts
 
-**Examples:**
-- `/done` — Captures decisions from the *current session* (needs conversation history)
-- `/prompt` — Formats and executes a prompt (needs to interact with the user)
-- `/setup-project-management` — Multi-phase setup with user decisions at each stage
+**Law faculty examples:**
+
+- **Formatting a prompt** -- You dictate a rough idea for a research question, and the skill restructures it into a well-organized prompt with role, context, task, and constraints
+- **Setting up a project** -- A multi-step process that asks you questions about your course or research area and configures files based on your answers
+- **Capturing session notes** -- Summarizing decisions from the current conversation so your next session starts with context
 
 ---
 
@@ -36,45 +37,46 @@ Skills work best when the task:
 
 Agents work best when the task:
 
-- **Benefits from fresh eyes** — Review, critique, or evaluation tasks where prior context creates blind spots
-- **Can run in parallel** — Multiple evaluations or analyses that don't depend on each other
-- **Needs isolation** — You don't want the task polluting your main conversation context
-- **Has a clear input and output** — "Here's a file, give me a review" rather than "let's work through this together"
+- **Benefits from fresh eyes** -- Review, critique, or evaluation tasks where prior context creates blind spots
+- **Can run in parallel** -- Multiple evaluations or analyses that do not depend on each other
+- **Needs isolation** -- You do not want the task polluting your main conversation context
+- **Has a clear input and output** -- "Here is a document, give me a review" rather than "let us work through this together"
 
-**Examples:**
-- **Writing review** — A fresh context evaluates the prose without knowing "what you meant"
-- **Methodology review** — Catches issues that the session that wrote the paper might miss
-- **Parallel research** — Launch 3 agents to investigate different approaches simultaneously
+**Law faculty examples:**
+
+- **Reviewing a brief draft** -- A fresh context evaluates the argument structure without knowing what compromises you made during drafting
+- **Stress-testing a clinic proposal** -- Catches problems that the session that helped write the proposal might miss
+- **Parallel research** -- Launch three agents to investigate different jurisdictions simultaneously and return independent analyses
 
 ---
 
 ## Agent Debates: Multiple Perspectives on the Same Problem
 
-One of the most powerful uses of agents is getting them to argue with each other. Instead of a single review, you set up multiple agents with different expertise or perspectives and let them debate your data, your plan, or your design.
+One of the most powerful uses of agents is getting them to argue with each other. Instead of a single review, you set up multiple agents with different expertise or perspectives and let them debate your plan, your draft, or your analysis.
 
-??? example "Qualitative researchers analyzing pilot field data"
+??? example "Three reviewers critiquing a cert petition strategy"
 
-    We'd just finished a pilot — seven university students visited low-income neighborhoods in Bogota they'd never been to. We had memos the students wrote, open-ended survey responses, and quantitative survey data. Normally, a first pass through qualitative data like this takes days.
+    A faculty member was helping a clinic student draft a certiorari petition. They had a plan: lead with the circuit split, emphasize the practical consequences of the lower court ruling, and argue that the case presented a clean vehicle.
 
-    I set up two agents as qualitative researchers from different traditions — one grounded theory, one thematic analysis — and gave them the anonymized memos, open-ended responses, and quantitative results. Their tasks: produce an initial interpretive report, compare the qualitative themes against the survey patterns, and draft best practices for a post-pilot debriefing interview guide.
+    She set up three agent personas to review the strategy:
 
-    Twenty minutes later, we had intelligent first glimpses across the whole dataset. The agents flagged where the memos contradicted the survey numbers — students reported feeling safer in the quantitative data, but their memos focused on discovery and surprise rather than safety. They caught that one survey item moved in an unexpected direction and proposed interview questions to probe it. Each agent emphasized different things depending on their methodological lens, which told us what to pay attention to when we went back to read carefully.
+    - **The former Supreme Court clerk** focused on vehicle problems. The case had a potential procedural defect -- the petitioner had not raised the constitutional argument below in exactly the right way. "This is the first thing the cert pool memo will flag," the agent noted.
+    - **The opposing counsel** reframed the circuit split as narrower than claimed. Two of the four circuits the petition cited had distinguishable facts, and a careful respondent would argue there was no genuine conflict requiring resolution.
+    - **The skeptical law professor** argued the petition buried the lead. The strongest argument was not the circuit split but an unresolved question about the standard of review. "The Court takes cases to resolve legal questions, not to pick winners in fact-bound disputes."
 
-    It didn't replace our own close reading. But it meant we had quick analysis and multiple perspectives immediately — a starting point for reflection rather than starting from scratch. We then used our own custom LLMs for the deeper qualitative analysis.
+    Each persona saw different weaknesses. The debate produced a revised strategy that led with the standard-of-review question, addressed the vehicle problem preemptively, and narrowed the circuit split argument to the two circuits that were genuinely in conflict.
 
-??? example "Behavioral economists critiquing a research design"
+??? example "Reviewing a proposed course redesign from multiple stakeholder perspectives"
 
-    For the same project, I asked Claude to impersonate three close colleagues of mine — Alex Imas, Leonardo Bursztyn, and Richard Thaler, all behavioral economists at UChicago — and debate our study design.
+    A professor wanted to redesign a Constitutional Law course to integrate AI-assisted legal research. She set up agents as three stakeholders:
 
-    "Imas" reframed our entire finding: the treatment wasn't reducing prejudice, it was shifting students' *reference point* for public goods. They'd seen parks in low-income areas that were better than parks in their own wealthy neighborhoods. That's not attitude change — it's a recalibration of what they thought was normal.
+    - **The associate dean for academic affairs** flagged that the proposal did not address how AI tool access would be handled for students who could not afford subscriptions, creating an equity problem.
+    - **The student** pointed out that the weekly AI exercises assumed students already knew how to use the tools. There was no onboarding -- the first exercise jumped straight to advanced prompting.
+    - **The ABA site evaluator** noted that the learning outcomes did not map to any of the new technology competency requirements, missing an opportunity to demonstrate compliance.
 
-    "Bursztyn" was blunt: self-reported attitudes are "essentially worthless" in this context. Students know the right answer. He proposed three revealed-preference measures — including offering students a restaurant gift card redeemable in either their own neighborhood or the one they visited. The choice reveals what they actually believe, not what they'll say on a survey.
+    The three perspectives caught problems that no single reviewer would have found. The equity concern, the missing onboarding, and the accreditation alignment gap were all addressed before the proposal went to the curriculum committee.
 
-    "Thaler" argued we were framing the whole study wrong. This isn't a "contact hypothesis" paper — it's a study about *choice architecture*. The cable car that takes you to the neighborhood *is* the intervention. His proposed title: "The Blank Map: How Elites Think About Neighborhoods They've Never Visited."
-
-    Each persona saw a different paper in the same data. The debate generated a table of nine new measures to add to the full study — none of which were in our original design.
-
-The pattern: give agents distinct identities (methodological traditions, named colleagues, opposing stakeholders) and let the disagreements surface assumptions you hadn't examined. The value isn't in any single perspective — it's in where they clash.
+The pattern: give agents distinct identities (methodological traditions, institutional roles, opposing perspectives) and let the disagreements surface assumptions you had not examined. The value is not in any single perspective -- it is in where they clash.
 
 ---
 
@@ -84,9 +86,11 @@ This is the most important reason to use agents for review tasks.
 
 When Claude writes something in a conversation and then you ask it to review that same thing, it has a systematic bias toward finding its own work acceptable. It "knows what it meant" even if the text is ambiguous. It may not question assumptions it made earlier.
 
-An agent running in a fresh context doesn't have this problem. It evaluates only what's on the page — like handing your draft to a colleague who wasn't in the room when you wrote it.
+An agent running in a fresh context does not have this problem. It evaluates only what is on the page -- like handing your draft to a colleague who was not in the room when you wrote it.
 
-**Rule of thumb:** If you're asking Claude to *critique* something it helped *create*, use an agent.
+**Rule of thumb:** If you are asking Claude to *critique* something it helped *create*, use an agent.
+
+This is the same insight behind our [Stress-Test Any Plan](../workflows/plan-review-browser.md) technique -- you can apply it in a browser chatbot by simply opening a new conversation for the review.
 
 ---
 
@@ -117,8 +121,9 @@ tools:
 ```
 
 The YAML frontmatter specifies:
-- **model** — Which Claude model to use (sonnet is cost-effective for most review tasks)
-- **tools** — Which tools the agent can access (limit to what it needs)
+
+- **model** -- Which Claude model to use (sonnet is cost-effective for most review tasks)
+- **tools** -- Which tools the agent can access (limit to what it needs)
 
 ---
 
@@ -126,13 +131,13 @@ The YAML frontmatter specifies:
 
 From within Claude Code:
 
-> "Launch the writing reviewer agent on ~/Documents/paper-draft.md"
+> "Launch the brief reviewer agent on ~/Documents/cert-petition-draft.md"
 
 Claude Code reads the agent file, starts a subprocess, passes the specified files, and returns the result to your main conversation.
 
 You can launch multiple agents simultaneously:
 
-> "Launch both the writing reviewer and methodology reviewer on this paper draft"
+> "Launch both the argument reviewer and the citation checker on this brief draft"
 
 They run in parallel and return independent assessments.
 
@@ -145,8 +150,8 @@ They run in parallel and return independent assessments.
 | Reviewing your own draft | Agent | Avoids self-bias |
 | Multi-step workflow with decisions | Skill | Needs user interaction |
 | Parallel evaluations | Multiple agents | Independent fresh contexts |
-| Task needs conversation history | Skill | Agent doesn't see prior context |
+| Task needs conversation history | Skill | Agent does not see prior context |
 | Heavy task that would bloat context | Agent | Keeps main conversation lean |
 | One-time setup or configuration | Skill | Needs to read/write files and ask questions |
 
-For a more detailed decision framework with additional examples, see the [Agents vs Skills Decision Guide](../downloads/agents-vs-skills-guide.md) (February 2026).
+The key question: **Does this task benefit from knowing the conversation history, or from not knowing it?** If the answer is "not knowing it," use an agent.

@@ -1,64 +1,48 @@
-# Claude Blattman
+# VAILL Coding Agents Workshop
 
-**A professor's guide to building AI workflows — from chatbots to self-improving systems.**
+**A hands-on workshop for law faculty — from AI chatbots to coding agents with Claude Code.**
 
-Website: [claudeblattman.com](https://claudeblattman.com)
+Website: [willimj3.github.io/vaill-coding-agents-workshop](https://willimj3.github.io/vaill-coding-agents-workshop/)
 
----
+## About
 
-## What This Is
+This site supports the Vanderbilt AI Law Lab (VAILL) Coding Agents Workshop, a 5-session program designed for law faculty with little to no coding experience. It covers:
 
-A free, open-source resource for non-developers who want to build real AI workflows. Three paths:
+- **AI Essentials** — Chatbot best practices, prompt engineering, and AI project management (no installation required)
+- **What Are Coding Agents?** — Understanding the landscape of AI coding tools and what they can do for legal professionals
+- **Setup** — Step-by-step installation of Claude Code on Mac and Windows
+- **For Legal Practice** — Contract review, brief drafting, legal research, client communication, and document analysis
+- **For Legal Academia** — Literature reviews, empirical research, course design, exam drafting, grant writing, and student feedback
+- **Build Your Own** — Creating custom workflows and automation patterns
 
-1. **The Essentials** — Tools and foundations. Chatbots done right, dictation, transcription, prompt engineering.
-2. **The Toolkit** — Claude Code setup, configuration, and downloadable skills. From "what is this?" to a working system.
-3. **Build Your Own** — Creating custom skills, agents, and self-improving workflows.
+## Workshop Structure
 
-## Who It's For
+| Session | Focus | Prerequisites |
+|---------|-------|---------------|
+| Pre-work | Home, Chatbots, Prompting, Cost | None |
+| Session 1 | Voice, Project Folders, Plan Review | Browser only |
+| Session 2 | What Are Coding Agents? | Conceptual |
+| Session 3 | Install, CLAUDE.md, MCP | Laptop required |
+| Session 4 | Legal Practice + Legal Academia | Claude Code installed |
+| Session 5 | Build Your Own workflows | Claude Code installed |
 
-- Academics and researchers managing multiple projects
-- Professionals buried in email, meetings, and coordination
-- Anyone who wants to move beyond casual chatbot use
-
-No coding background required. Everything is built with markdown and AI tools.
-
-## Quick Start
-
-Visit [claudeblattman.com/essentials](https://claudeblattman.com/essentials/) for tools and foundations to get started.
-
-## Install Skills
-
-Skills are markdown files that add slash commands to Claude Code. Install them with:
+## Local Development
 
 ```bash
-mkdir -p ~/.claude/commands
-curl -o ~/.claude/commands/done.md \
-  https://raw.githubusercontent.com/chrisblattman/claudeblattman/main/skills/done.md
+pip install -r requirements.txt
+mkdocs serve
 ```
 
-See `skills/README.md` for the full list and bundle install instructions.
+Open [localhost:8000](http://localhost:8000) to preview.
 
-## Repo Structure
+## Deployment
 
-```
-claudeblattman/
-├── docs/               # Website source (MkDocs Material)
-├── skills/             # Downloadable skill files
-├── agents/             # Downloadable agent files
-├── templates/          # Starter templates (CLAUDE.md, goals.yaml)
-├── mkdocs.yml          # Site configuration
-├── CONTRIBUTING.md     # Maintenance guide
-└── LICENSE             # MIT
-```
+The site auto-deploys to GitHub Pages on every push to `main` via GitHub Actions.
 
-## Contributing
+## Credits
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to edit content, add skills, and maintain the site.
+Adapted from the [claudeblattman](https://github.com/chrisblattman/claudeblattman) open-source project by Chris Blattman. Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
 ## License
 
-MIT — use anything here however you want.
-
----
-
-Built by [Chris Blattman](https://chrisblattman.com). The name is a joke. The tools are real.
+MIT
