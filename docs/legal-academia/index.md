@@ -12,6 +12,16 @@ Every task on this page follows the same principle: AI is a research assistant a
 
 This is not about replacing the intellectual work of legal scholarship. It is about removing the friction that slows that work down — the hours spent formatting bibliographies, the tedious first pass through survey data, the blank-page paralysis of a new syllabus. AI handles the scaffolding so we can focus on the substance.
 
+??? quote "Real-world example: Claude Code replicates and extends a published empirical paper"
+
+    In January 2026, Stanford political economist Andy Hall gave Claude Code a single prompt: replicate and extend a published PNAS paper on vote-by-mail policy. With minimal human oversight and in under an hour, Claude Code downloaded the original replication data, **reproduced the published estimates exactly**, collected new data across three states for 2020-2024 with high accuracy, and ran the extended analysis — producing results nearly identical to an independent human replication.
+
+    An independent audit by UCLA PhD candidate Graham Straus also found real limitations: Claude missed some data for two states, produced lower-quality work when attempting novel analyses beyond the original methodology, and failed to keep adequate records of its decisions.
+
+    The study is not law-specific, but the workflow is directly relevant to empirical legal research: data collection, replication, difference-in-differences analysis, and robustness checks are standard tools in quantitative legal scholarship. The conclusion — that AI agents can dramatically accelerate structured empirical work but require expert oversight for anything beyond well-defined tasks — applies directly to the workflows on this page.
+
+    [:octicons-arrow-right-24: Read the full Straus & Hall audit (PDF)](../papers/Straus_Hall_Claude_Audit.pdf){ target="_blank" }
+
 ---
 
 ## What's Here
