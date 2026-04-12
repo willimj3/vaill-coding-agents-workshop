@@ -18,9 +18,6 @@ This page covers prompt engineering as a repeatable method you can apply to any 
     [fresh chat with an adversarial prompt](../workflows/plan-review-browser.md)
     and get structured critique -- no coding needed.
 
-!!! workshop "Workshop Session 1"
-    We walk through the prompt framework live and build at least one legal prompt together. Bring a real writing task -- a memo topic, a research question, a brief section -- and we will structure it using the six-section method below.
-
 ---
 
 ## Why This Matters

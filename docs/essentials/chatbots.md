@@ -6,9 +6,6 @@ Most people use AI chatbots like Google: one question, one answer, move on. That
 
 This page covers the techniques that separate casual users from people who get genuinely useful work out of AI chatbots -- with examples drawn from legal research, writing, and teaching.
 
-!!! workshop "Workshop Session 1"
-    We cover this material in the first workshop session. If you are following along on your own, budget about 30 minutes and have a Claude or ChatGPT subscription open in another tab.
-
 ---
 
 ## Pick the Right Model

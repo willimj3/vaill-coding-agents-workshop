@@ -204,7 +204,7 @@ Ask Claude to read a case opinion (from a file on your computer or pasted text) 
 
 To get started, try telling Claude:
 
-> "I want to create a case briefing workflow. Read the patterns page on my workshop site for the structure, then help me build one that produces briefs in [your preferred format]."
+> "I want to create a case briefing workflow. Read the patterns page on this site for the structure, then help me build one that produces briefs in [your preferred format]."
 
 ### Research Assistant Pattern
 

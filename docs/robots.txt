@@ -1,4 +1,4 @@
-# robots.txt — VAILL Coding Agents Workshop
+# robots.txt — VAILL Faculty Guide to AI Agents
 # Allow normal search engines; block AI training crawlers
 
 User-agent: *

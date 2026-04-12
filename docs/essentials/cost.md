@@ -76,5 +76,5 @@ If you are not sure whether this is worth it, here is a low-risk sequence:
 
 At each step, you can stop. You do not need the full stack to get value. The chatbot alone, used well, is worth the subscription for most law faculty.
 
-!!! workshop "Workshop Connection"
-    In our workshop sessions, we walk through this entire sequence together. Participants who complete the workshop typically have a working AI setup -- project folders, voice file, practiced prompting habits -- by the end of the second session. The techniques work regardless of which subscription tier you choose.
+!!! tip "Getting started"
+    Working through this guide from the beginning, most faculty have a working AI setup -- project folders, voice file, practiced prompting habits -- within a few hours. The techniques work regardless of which subscription tier you choose.

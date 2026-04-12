@@ -3,7 +3,7 @@
 The coding agent space is moving fast. New tools launch monthly, existing tools add major features weekly, and the boundaries between categories keep shifting. This page provides a snapshot of the major players as of early 2026 — not to make you an expert on all of them, but to give you enough context to understand the options and make informed choices.
 
 !!! tip "Skills transfer across tools"
-    We use Claude Code in this workshop, but the concepts transfer directly to every tool on this page. Learning to describe tasks clearly, provide good context, and verify AI output are universal skills. If you switch tools later, you will not be starting over.
+    We use Claude Code in this guide, but the concepts transfer directly to every tool on this page. Learning to describe tasks clearly, provide good context, and verify AI output are universal skills. If you switch tools later, you will not be starting over.
 
 ---
 
@@ -95,7 +95,7 @@ This deserves clarification. None of these tools require us to *write* code in t
 
 ## A Rapidly Evolving Space
 
-By the time you attend this workshop, some details on this page may already be outdated. A tool may have added new features, changed pricing, or been acquired. New competitors may have launched.
+By the time you read this, some details on this page may already be outdated. A tool may have added new features, changed pricing, or been acquired. New competitors may have launched.
 
 That is fine. The underlying concepts — giving clear instructions, providing context, verifying output, maintaining human judgment — do not change with the tool. We are learning a **way of working**, not just a specific product.
 

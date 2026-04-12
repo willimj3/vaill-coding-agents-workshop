@@ -2,8 +2,7 @@
 
 **AI workflows designed for law faculty — literature reviews, empirical research, course design, exams, grants, and student feedback.**
 
-!!! info "Workshop Session 4"
-    This section is covered in **Session 4: Legal Workflows**. It pairs with the [For Legal Practice](../legal-practice/index.md) section and builds on the foundations from [AI Essentials](../essentials/index.md). If you have not yet worked through the Essentials — particularly [Prompt Engineering](../essentials/prompting.md) and [AI Project Folders](../essentials/project-folders.md) — we recommend starting there. The techniques on those pages underpin everything here.
+This section pairs with the [For Legal Practice](../legal-practice/index.md) section and builds on the foundations from [AI Essentials](../essentials/index.md). If you have not yet worked through the Essentials — particularly [Prompt Engineering](../essentials/prompting.md) and [AI Project Folders](../essentials/project-folders.md) — we recommend starting there. The techniques on those pages underpin everything here.
 
 ---
 

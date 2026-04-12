@@ -1,7 +1,5 @@
 # Setting Up Claude Code
 
-<div class="badge-workshop">Workshop Session 3</div>
-
 **The terminal is the biggest hurdle.** Once you get past it, the rest follows. No coding experience required.
 
 This section takes you from zero to a working Claude Code installation. If you want to see what coding agents *do* before setting one up, start with [What Are Coding Agents?](../agents/index.md).
@@ -26,7 +24,7 @@ Claude Code works the same way regardless of how you run it.
 
 The two most popular options:
 
-- **[VS Code](https://code.visualstudio.com/)** (free) -- Microsoft's code editor. Install the Claude Code extension and you are set. This is what we recommend for the workshop.
+- **[VS Code](https://code.visualstudio.com/)** (free) -- Microsoft's code editor. Install the Claude Code extension and you are set. This is what we recommend.
 - **[Cursor](https://cursor.com/)** ($20/month) -- A code editor built specifically around AI. It is a fork of VS Code, so it looks and works almost identically, but comes with AI features baked in -- including access to Claude and other models through Cursor's own subscription. You can also run Claude Code in Cursor's terminal, so the two complement each other.
 
 **Our recommendation:** We use VS Code because it is free, simple, and does everything we need. If you are already paying for Cursor, it works great too. Either way, a code editor is **optional** -- everything on this site works from a plain terminal. The install guides below start with Terminal, and you can add a code editor afterward if you want.

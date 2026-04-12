@@ -2,10 +2,6 @@
 
 **AI workflows for the work lawyers actually do -- contracts, briefs, research, communication, and document analysis.**
 
-!!! info "Workshop Session 4"
-
-    This section corresponds to **Session 4** of the VAILL Coding Agents Workshop. We will walk through these workflows hands-on, but the pages here are designed to be useful on their own as a reference you can return to after the workshop.
-
 ---
 
 ## Why This Section Exists

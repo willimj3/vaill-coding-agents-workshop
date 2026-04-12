@@ -56,7 +56,7 @@
 
     ---
 
-    An honest comparison from a workshop that uses both daily. When each one wins for legal work.
+    An honest comparison from a team that uses both daily. When each one wins for legal work.
 
     [:octicons-arrow-right-24: Read more](chatgpt-vs-claude.md)
 

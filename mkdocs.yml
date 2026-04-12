@@ -1,6 +1,6 @@
-site_name: VAILL Coding Agents Workshop
+site_name: VAILL Faculty Guide to AI Agents
 site_url: https://willimj3.github.io/vaill-coding-agents-workshop/
-site_description: A hands-on workshop for law faculty — from AI chatbots to coding agents with Claude Code. Vanderbilt AI Law Lab.
+site_description: A faculty guide to AI tools for legal professionals — from chatbot prompting to coding agents with Claude Code. By the Vanderbilt AI Law Lab.
 site_author: Vanderbilt AI Law Lab
 repo_url: https://github.com/willimj3/vaill-coding-agents-workshop
 repo_name: vaill-coding-agents-workshop
@@ -17,14 +17,14 @@ theme:
   favicon: images/vaill_logo.png
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -134,7 +134,7 @@ plugins:
         setup/skill-reference.md: setup/index.md
   - social:
       cards_layout_options:
-        background_color: "#1a1a2e"
+        background_color: "#1C1C1C"
         color: "#ffffff"
 
 extra:

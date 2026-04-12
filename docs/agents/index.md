@@ -1,13 +1,10 @@
 # What Are Coding Agents?
 
-!!! info "Workshop Session 2"
-    This section covers the material for **Session 2** of the VAILL Coding Agents Workshop. We move from chatbot fundamentals to hands-on coding agents — the tools that turn conversation into action.
-
 ---
 
 ## From Chatbot to Agent
 
-In [Session 1](../essentials/index.md), we learned how to use AI chatbots well: picking the right model, writing strong prompts, organizing projects. That is genuinely valuable work. But chatbots have a fundamental limitation: **they can only talk**.
+In the [AI Essentials](../essentials/index.md) section, we covered how to use AI chatbots well: picking the right model, writing strong prompts, organizing projects. That is genuinely valuable work. But chatbots have a fundamental limitation: **they can only talk**.
 
 A chatbot can draft a contract summary — but you have to copy-paste the contract in, copy the summary out, and figure out where to put it. A chatbot can suggest how to organize your files — but it cannot actually move them. It can write code — but it cannot run it.
 
@@ -51,7 +48,7 @@ The practical result: a law professor who has never written a line of code can i
 
     ---
 
-    Why this workshop uses Claude Code specifically, what makes it well-suited for legal work, and an honest account of its downsides.
+    Why this guide uses Claude Code specifically, what makes it well-suited for legal work, and an honest account of its downsides.
 
     [:octicons-arrow-right-24: Our choice explained](why-claude-code.md)
 

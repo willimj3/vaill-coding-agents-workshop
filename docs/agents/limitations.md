@@ -94,7 +94,7 @@ Not all AI tools handle data the same way:
 | **Data sharing** | May be shared with third parties for improvement | Typically not shared |
 | **Compliance certifications** | Rarely | Sometimes (SOC 2, etc.) |
 
-**Key point:** Claude Code, when used through the API or a Pro/Max subscription, operates under Anthropic's commercial terms, which currently state that user data is not used for model training. However, policies change, and we should periodically verify the current terms. The [Privacy](../privacy.md) page provides additional detail on data handling for the tools used in this workshop.
+**Key point:** Claude Code, when used through the API or a Pro/Max subscription, operates under Anthropic's commercial terms, which currently state that user data is not used for model training. However, policies change, and we should periodically verify the current terms. The [Privacy](../privacy.md) page provides additional detail on data handling for the tools covered in this guide.
 
 ---
 

@@ -5,7 +5,7 @@
 Instead of a blank terminal, you get a visual file explorer, a text editor with syntax highlighting, and a built-in terminal where Claude Code runs. You can see your files on the left, edit them in the center, and talk to Claude on the right -- all in one window.
 
 !!! note "Why VS Code"
-    VS Code is what we recommend for this workshop. It is free, has an official Claude Code extension, and works on every platform. Two AI-focused alternatives worth considering:
+    VS Code is what we recommend. It is free, has an official Claude Code extension, and works on every platform. Two AI-focused alternatives worth considering:
 
     - [**Cursor**](https://www.cursor.com/) -- A VS Code fork with AI deeply integrated into the editor itself (autocomplete, inline edits, chat). Very popular with developers. $20/month.
     - [**Windsurf**](https://codeium.com/windsurf) -- Another VS Code fork with an "agentic" AI that tracks your recent actions. Free tier available. $10/month for pro.

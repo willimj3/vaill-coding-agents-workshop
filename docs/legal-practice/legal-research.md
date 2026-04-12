@@ -40,7 +40,7 @@ AI is useful at specific research tasks. Understanding which tasks it handles we
 
 ## Two AI Tools, Two Research Roles
 
-The AI tools covered in this workshop serve different research functions. Understanding the distinction helps you choose the right tool for each task.
+The AI tools covered in this guide serve different research functions. Understanding the distinction helps you choose the right tool for each task.
 
 ### ChatGPT Deep Research
 

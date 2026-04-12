@@ -32,11 +32,11 @@ These are the major AI platforms designed for or commonly used in legal work. We
 | [Westlaw AI-Assisted Research](https://legal.thomsonreuters.com/en/products/westlaw) | AI features within the Westlaw research platform | Available to existing Westlaw subscribers |
 | [vLex / Vincent AI](https://vlex.com/) | AI-powered legal research across jurisdictions | Strong international law coverage |
 
-### General AI Platforms We Use in This Workshop
+### General AI Platforms We Use in This Guide
 
 | Tool | What we use it for | Link |
 |------|-------------------|------|
-| **Claude** (Anthropic) | Primary AI for this workshop -- browser chatbot and Claude Code | [claude.ai](https://claude.ai) |
+| **Claude** (Anthropic) | Primary AI for this guide -- browser chatbot and Claude Code | [claude.ai](https://claude.ai) |
 | **ChatGPT** (OpenAI) | Deep Research for literature reviews, web search, broad knowledge tasks | [chatgpt.com](https://chatgpt.com) |
 | **Perplexity** | Citation-heavy factual lookups with sourced answers | [perplexity.ai](https://www.perplexity.ai/) |
 | **Gemini** (Google) | Google Workspace integration, long-document analysis | [gemini.google.com](https://gemini.google.com/) |
@@ -66,7 +66,7 @@ These are the major AI platforms designed for or commonly used in legal work. We
 
 ## Claude Code Resources
 
-These are the technical resources for the coding agent tool we use in this workshop.
+These are the technical resources for the coding agent tool we use in this guide.
 
 | Resource | What it covers |
 |----------|---------------|
@@ -90,19 +90,6 @@ Resources for understanding AI more broadly -- useful for faculty who want to de
 | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) | Active community for Claude users -- good for troubleshooting and discovering new patterns |
 | [Stanford HAI (Human-Centered AI)](https://hai.stanford.edu/) | Academic research on AI policy, governance, and societal impact |
 | [AI Snake Oil (Arvind Narayanan)](https://www.aisnakeoil.com/) | A clear-eyed, critical perspective on AI hype versus reality -- essential reading for anyone who wants to separate marketing from substance |
-
----
-
-## Workshop Materials
-
-Everything in this workshop is available on this site:
-
-- **[AI Essentials](essentials/index.md)** -- Chatbot skills, prompting, voice files, project folders
-- **[What Are Coding Agents?](agents/index.md)** -- Understanding the agent landscape
-- **[Setup Guide](setup/index.md)** -- Installing and configuring Claude Code
-- **[For Legal Practice](legal-practice/index.md)** -- Contract review, brief drafting, legal research
-- **[For Legal Academia](legal-academia/index.md)** -- Literature reviews, course design, exam drafting
-- **[Build Your Own](system/index.md)** -- Custom skills, agents, and self-improving workflows
 
 ---
 

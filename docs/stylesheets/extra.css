@@ -1,30 +1,79 @@
 /* ============================
-   VAILL Coding Agents Workshop
-   Clean, readable theme
-   Relies on Material's built-in indigo palette
+   VAILL Faculty Guide to AI Agents
+   Black / White / Gold palette
    ============================ */
 
 /* ============================
-   Typography
+   Custom palette — CSS variables
    ============================ */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #1C1C1C;
+  --md-primary-fg-color--light: #2a2a2a;
+  --md-primary-fg-color--dark: #111111;
+  --md-accent-fg-color: #D4A843;
+  --md-accent-fg-color--transparent: rgba(212, 168, 67, 0.1);
+  --md-accent-bg-color: #D4A843;
+  --md-accent-bg-color--light: rgba(212, 168, 67, 0.1);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1C1C1C;
+  --md-primary-fg-color--light: #2a2a2a;
+  --md-primary-fg-color--dark: #111111;
+  --md-accent-fg-color: #D4A843;
+  --md-accent-fg-color--transparent: rgba(212, 168, 67, 0.1);
+  --md-accent-bg-color: #D4A843;
+  --md-accent-bg-color--light: rgba(212, 168, 67, 0.1);
+}
+
+/* ============================
+   Logo — white on dark header
+   ============================ */
+.md-header .md-logo img {
+  filter: brightness(0) invert(1);
+}
+
+/* ============================
+   Typography — Fraunces headings
+   ============================ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap');
+
 h1, h2 {
+  font-family: "Fraunces", serif;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
 
-/* Page titles — use the theme accent color */
+/* Page titles */
 .md-content__inner > h1:first-child {
+  font-family: "Fraunces", serif;
   font-weight: 700;
   margin-bottom: 0.2rem;
   letter-spacing: -0.03em;
 }
 
 /* Landing page: larger title */
-.md-content__inner > h1:first-child:is([id="vaill-coding-agents-workshop"]) {
+.md-content__inner > h1:first-child:is([id="vaill-faculty-guide-to-ai-agents"]) {
   font-size: 2.8rem;
 }
 
-/* Hero pitch line */
+/* ============================
+   Links — visually distinct
+   ============================ */
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-source):not(.md-footer__link):not(.headerlink) {
+  color: var(--md-accent-fg-color);
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, var(--md-accent-fg-color) 40%, transparent);
+}
+
+.md-typeset a:not(.md-button):not(.md-nav__link):not(.md-source):not(.md-footer__link):not(.headerlink):hover {
+  text-decoration-color: var(--md-accent-fg-color);
+}
+
+/* ============================
+   Hero pitch line
+   ============================ */
 .md-typeset .hero-pitch {
   font-size: 1.15rem !important;
   font-weight: 400;
@@ -63,20 +112,6 @@ h1, h2 {
 /* ============================
    Badges
    ============================ */
-.badge-workshop {
-  display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--md-accent-fg-color);
-  border: 1px solid var(--md-accent-fg-color);
-  border-radius: 3px;
-  padding: 2px 6px;
-  margin-bottom: 0.75rem;
-  opacity: 0.85;
-}
-
 .badge-gold,
 .badge-teal {
   display: inline-block;
@@ -241,12 +276,6 @@ h1, h2 {
 .md-typeset details {
   border-radius: 8px;
   box-shadow: none;
-}
-
-/* Workshop session admonition */
-.md-typeset .admonition.workshop,
-.md-typeset details.workshop {
-  border-left-color: var(--md-accent-fg-color);
 }
 
 /* Try-it / ask-claude admonition */

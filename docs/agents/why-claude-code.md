@@ -1,6 +1,6 @@
 # Why Claude Code?
 
-With several capable coding agents available, a fair question is: why does this workshop use Claude Code specifically? This page explains our reasoning — and, just as importantly, the honest downsides.
+With several capable coding agents available, a fair question is: why does this guide use Claude Code specifically? This page explains our reasoning — and, just as importantly, the honest downsides.
 
 ---
 
@@ -8,7 +8,7 @@ With several capable coding agents available, a fair question is: why does this 
 
 ### Best-in-Class Documentation and Onboarding
 
-Claude Code has the most comprehensive documentation of any coding agent available today. Anthropic has invested heavily in guides, tutorials, and explanations aimed at people who have never used a terminal before. For a workshop serving law faculty with little or no coding background, this matters enormously. When we leave the room, participants need to be able to continue learning on their own, and good documentation is what makes that possible.
+Claude Code has the most comprehensive documentation of any coding agent available today. Anthropic has invested heavily in guides, tutorials, and explanations aimed at people who have never used a terminal before. For law faculty with little or no coding background, this matters enormously. Good documentation means you can continue learning on your own, and that is what makes the difference between a tool you try once and a tool you actually use.
 
 ### Strong Reasoning for Complex Tasks
 
@@ -70,7 +70,7 @@ When we use Claude Code, our instructions and file contents are sent to Anthropi
 
 ## The Bottom Line
 
-We chose Claude Code because it offers the best combination of accessibility, reasoning quality, and extensibility for legal professionals who are new to coding agents. It is not the only good option, and it is not without drawbacks. But for the specific task of this workshop — helping law faculty understand and begin using coding agents — it is the right tool for the job.
+We chose Claude Code because it offers the best combination of accessibility, reasoning quality, and extensibility for legal professionals who are new to coding agents. It is not the only good option, and it is not without drawbacks. But for the specific goal of this guide — helping law faculty understand and begin using coding agents — it is the right tool for the job.
 
 !!! tip "Your mileage may vary"
-    If you explore other tools after this workshop and find that Cursor, Copilot, or something else fits your workflow better, that is a perfectly good outcome. The goal is not Claude Code loyalty. The goal is AI fluency — and that is portable.
+    If you explore other tools after working through this guide and find that Cursor, Copilot, or something else fits your workflow better, that is a perfectly good outcome. The goal is not Claude Code loyalty. The goal is AI fluency — and that is portable.

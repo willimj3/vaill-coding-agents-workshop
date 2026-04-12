@@ -2,7 +2,7 @@
 
 <span class="badge-gold">No Claude Code required</span>
 
-We use and pay for both daily in our workshop and research. Here is an honest comparison, focused on what matters for legal work.
+We use and pay for both daily in our research and teaching. Here is an honest comparison, focused on what matters for legal work.
 
 ---
 

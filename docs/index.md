@@ -1,22 +1,22 @@
 ---
 hide:
   - navigation
-description: A hands-on workshop for law faculty — from AI chatbots to coding agents with Claude Code. By Vanderbilt AI Law Lab. No coding experience needed.
+description: A faculty guide to AI tools for legal professionals — from chatbot prompting to coding agents with Claude Code. By Vanderbilt AI Law Lab. No coding experience needed.
 ---
 
-# VAILL Coding Agents Workshop
+# VAILL Faculty Guide to AI Agents
 
-<p class="hero-pitch">Tools and techniques for law faculty to use AI effectively — from chatbot prompting to coding agents that read your files, draft documents, and build workflows. Whether you have never used an AI tool or are ready to try advanced automation, this workshop meets you where you are.</p>
+<p class="hero-pitch">Tools and techniques for law faculty to use AI effectively — from chatbot prompting to coding agents that read your files, draft documents, and build workflows. Whether you have never used an AI tool or are ready to try advanced automation, this guide meets you where you are.</p>
 
 <div class="credibility-strip" markdown>
-By [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/). This workshop teaches law faculty to use AI tools — from browser chatbots to coding agents like [Claude Code](https://code.claude.com/docs/en/overview). No coding experience is needed. We start with practical prompting and project organization, then progress to hands-on work with agentic AI tools purpose-built for legal professionals.
+By [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/ai-law-lab/). This guide teaches law faculty to use AI tools — from browser chatbots to coding agents like [Claude Code](https://code.claude.com/docs/en/overview). No coding experience is needed. We start with practical prompting and project organization, then progress to hands-on work with agentic AI tools purpose-built for legal professionals.
 </div>
 
 ## What Is This?
 
-This site is the companion resource for the VAILL Coding Agents Workshop. It covers the full spectrum of AI tools relevant to legal professionals: how to get real value from chatbots like ChatGPT and Claude, how to structure prompts and project folders for legal work, and how to set up and use coding agents — AI tools that go beyond chat to read files, search databases, draft documents, and execute multi-step workflows.
+This site is a comprehensive guide for law faculty learning to use AI tools. It covers the full spectrum of AI tools relevant to legal professionals: how to get real value from chatbots like ChatGPT and Claude, how to structure prompts and project folders for legal work, and how to set up and use coding agents — AI tools that go beyond chat to read files, search databases, draft documents, and execute multi-step workflows.
 
-Every page is designed for law faculty with little or no technical background. We explain concepts before we use them, and every guide includes step-by-step instructions you can follow in real time during workshop sessions.
+Every page is designed for law faculty with little or no technical background. We explain concepts before we use them, and every guide includes step-by-step instructions you can follow at your own pace.
 
 !!! tip "Already comfortable with AI? Skip ahead."
     [Setup Guide](setup/index.md) — install Claude Code and configure your environment | [For Legal Practice](legal-practice/index.md) — contract review, brief drafting, legal research | [Build Your Own](system/index.md) — design custom workflows and skills
@@ -115,19 +115,3 @@ Every page is designed for law faculty with little or no technical background. W
 
 </div>
 
----
-
-## Workshop Sessions
-
-The VAILL Coding Agents Workshop is structured as five sessions. Each session builds on the previous one, but every page on this site can also be used independently.
-
-| Session | Focus | Key Pages |
-|---------|-------|-----------|
-| **Session 1** | AI Foundations | [Chatbots Done Right](essentials/chatbots.md) | [Prompt Engineering](essentials/prompting.md) | [AI Project Folders](essentials/project-folders.md) |
-| **Session 2** | Understanding Agents | [What Are Coding Agents?](agents/index.md) | [ChatGPT vs Claude](essentials/chatgpt-vs-claude.md) | [The Cost Reality](essentials/cost.md) |
-| **Session 3** | Setup & Configuration | [Setup Guide](setup/index.md) | [Install (Mac)](toolkit/install-mac.md) | [Install (Windows)](toolkit/install-windows.md) | [Your CLAUDE.md](toolkit/claude-md.md) |
-| **Session 4** | Legal Workflows | [For Legal Practice](legal-practice/index.md) | [For Legal Academia](legal-academia/index.md) | [Teaching AI Your Voice](essentials/voice.md) |
-| **Session 5** | Build & Customize | [Your First Workflow](workflows/first-session-skills.md) | [Build Your Own](system/index.md) | [Patterns & Templates](system/patterns.md) |
-
-!!! tip "Using this site outside the workshop?"
-    Every page is self-contained. If you are working through this material on your own, we recommend starting with Track 1 (the Essentials) and progressing at your own pace. The [About](about.md) page has more detail on how the workshop is structured.

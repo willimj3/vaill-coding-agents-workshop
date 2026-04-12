@@ -1,7 +1,5 @@
 # Build Your Own
 
-<div class="badge-workshop">Workshop Session 5</div>
-
 **How to create your own workflows, agents, and custom tools for legal work.**
 
 The earlier sections taught you to use Claude Code and connect it to your services. This section teaches you to *build* -- to create custom workflows that solve your specific problems and a system that gets better the more you use it.

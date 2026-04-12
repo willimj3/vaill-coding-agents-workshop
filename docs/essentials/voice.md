@@ -6,9 +6,6 @@ AI has a house style. You have seen it -- the same cadence, the same filler word
 
 The fix is not better prompting. It is giving the AI a reference document -- a "voice file" -- that captures how you actually write. Load it once, and every conversation starts with your patterns, not the AI's defaults.
 
-!!! workshop "Workshop Session 1"
-    We build voice files together in the first session. Bring 3-5 writing samples you are proud of -- a published article section, a strong brief excerpt, a well-received client letter, a memo that nailed the tone. We will use the five-step process below to create your voice file live.
-
 ---
 
 ## Before and After

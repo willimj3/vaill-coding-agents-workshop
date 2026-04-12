@@ -1,5 +1,5 @@
 ---
-description: About the VAILL Coding Agents Workshop — a Vanderbilt AI Law Lab initiative teaching law faculty to use AI tools from chatbots to coding agents. Free and open source.
+description: About the VAILL Faculty Guide to AI Agents — a Vanderbilt AI Law Lab initiative teaching law faculty to use AI tools from chatbots to coding agents. Free and open source.
 ---
 
 # About
@@ -10,11 +10,11 @@ The [Vanderbilt AI Law Lab (VAILL)](https://law.vanderbilt.edu/ai-law-lab/) is a
 
 ---
 
-## About This Workshop
+## About This Guide
 
-The VAILL Coding Agents Workshop is a hands-on training program designed to equip law faculty with practical AI skills. We start from the assumption that most participants have little or no coding experience — and that this should not be a barrier to using powerful AI tools.
+The VAILL Faculty Guide to AI Agents is a resource designed to equip law faculty with practical AI skills. We start from the assumption that most readers have little or no coding experience — and that this should not be a barrier to using powerful AI tools.
 
-The workshop covers the full spectrum of AI tools relevant to legal professionals:
+The guide covers the full spectrum of AI tools relevant to legal professionals:
 
 - **Chatbot fundamentals** — getting real value from ChatGPT, Claude, and similar tools through structured prompting and project organization.
 - **Coding agents** — understanding and using agentic AI tools like [Claude Code](https://code.claude.com/docs/en/overview) that go beyond chat to read files, draft documents, conduct research, and execute multi-step workflows.
@@ -23,23 +23,7 @@ The workshop covers the full spectrum of AI tools relevant to legal professional
 
 Our goal is not to turn law faculty into programmers. It is to give you enough understanding and hands-on experience to direct AI tools confidently — the same way you might direct a research assistant without needing to do every step yourself.
 
----
-
-## Workshop Structure
-
-The workshop is organized into five sessions, each building on the previous one:
-
-| Session | Title | What You Will Learn |
-|---------|-------|-------------------|
-| **1** | AI Foundations | How chatbots work, prompt engineering for legal tasks, building reusable project folders |
-| **2** | Understanding Agents | What coding agents are, how they differ from chatbots, capabilities and limitations |
-| **3** | Setup & Configuration | Installing Claude Code, configuring VS Code, writing your CLAUDE.md, connecting external tools |
-| **4** | Legal Workflows | Hands-on practice with legal practice and legal academia workflows |
-| **5** | Build & Customize | Designing your first custom workflow, patterns and templates, next steps |
-
-Sessions 1 and 2 require no software installation — everything works in a web browser. Sessions 3 through 5 involve working with Claude Code on your own machine.
-
-Every page on this site is also designed to work independently, so you can revisit material at your own pace or share individual guides with colleagues who did not attend the workshop.
+Every page on this site is designed to work independently, so you can work through the material at your own pace or share individual guides with colleagues.
 
 ---
 
@@ -49,9 +33,9 @@ This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-mat
 
 **Source code:** [github.com/willimj3/vaill-coding-agents-workshop](https://github.com/willimj3/vaill-coding-agents-workshop)
 
-**Framework:** MkDocs Material with custom Vanderbilt-branded theming (gold accent palette, Fraunces display font, DM Sans body text).
+**Framework:** MkDocs Material with custom Vanderbilt-branded theming (black/gold palette, Fraunces display font, Inter body text).
 
-The content was developed collaboratively with AI assistance — which is fitting, given the subject matter. Every workflow and technique described on this site has been tested by the workshop team.
+The content was developed collaboratively with AI assistance — which is fitting, given the subject matter. Every workflow and technique described on this site has been tested by the VAILL team.
 
 ---
 
@@ -67,14 +51,14 @@ This project is released under the **MIT License** — you are free to use, modi
 - **Source code and contributions:** [GitHub Repository](https://github.com/willimj3/vaill-coding-agents-workshop)
 - **Vanderbilt AI Law Lab:** [law.vanderbilt.edu/ai-law-lab/](https://law.vanderbilt.edu/ai-law-lab/)
 
-We welcome feedback from workshop participants and the broader legal education community. If something on this site is unclear, broken, or could be improved, please open a GitHub issue or reach out through the VAILL website.
+We welcome feedback from readers and the broader legal education community. If something on this site is unclear, broken, or could be improved, please open a GitHub issue or reach out through the VAILL website.
 
 ---
 
 ## Acknowledgments
 
-This workshop site was adapted from the [claudeblattman](https://github.com/chrisblattman/claudeblattman) open-source project by Chris Blattman, a political economist at the University of Chicago who built and shared an AI workflow system for academic research management. We are grateful for his willingness to share that work under an open-source license, which provided the foundation for the site architecture, CSS theming, and several of the essentials guides.
+This site was adapted from the [claudeblattman](https://github.com/chrisblattman/claudeblattman) open-source project by Chris Blattman, a political economist at the University of Chicago who built and shared an AI workflow system for academic research management. We are grateful for his willingness to share that work under an open-source license, which provided the foundation for the site architecture, CSS theming, and several of the essentials guides.
 
-The VAILL team has substantially adapted the content for a legal audience, added law-specific workflow guides, restructured the material around a five-session workshop format, and developed new sections on coding agents, legal practice, and legal academia.
+The VAILL team has substantially adapted the content for a legal audience, added law-specific workflow guides, and developed new sections on coding agents, legal practice, and legal academia.
 
 Thanks also to [Anthropic](https://www.anthropic.com/) for building Claude Code and to the broader open-source community behind [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
