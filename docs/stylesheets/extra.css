@@ -1,78 +1,37 @@
 /* ============================
-   Fraunces display font for headings
-   ============================ */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&display=swap');
-
-/* ============================
-   Vanderbilt Color Palette
-   Primary: #1C1C1C (Black)
-   Accent:  #ECB748 (Vanderbilt Gold)
-   Display: #CFAE70 (Muted Gold for headings)
+   VAILL Coding Agents Workshop
+   Clean, readable theme
+   Relies on Material's built-in indigo palette
    ============================ */
 
-/* Custom color scheme variables */
-:root {
-  --md-primary-fg-color: #1C1C1C;
-  --md-primary-fg-color--light: #333333;
-  --md-primary-fg-color--dark: #000000;
-  --md-accent-fg-color: #ECB748;
-  --md-accent-fg-color--transparent: rgba(236, 183, 72, 0.1);
-  --md-accent-bg-color: #1C1C1C;
-}
-
-[data-md-color-scheme="slate"] {
-  --md-hue: 40;
-  --md-primary-fg-color: #1C1C1C;
-  --md-accent-fg-color: #ECB748;
-}
-
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #1C1C1C;
-  --md-primary-fg-color--light: #333333;
-  --md-primary-fg-color--dark: #000000;
-  --md-accent-fg-color: #C9960C;
-  --md-accent-fg-color--transparent: rgba(201, 150, 12, 0.1);
-}
-
 /* ============================
-   Fraunces on display headings
+   Typography
    ============================ */
 h1, h2 {
-  font-family: 'Fraunces', Georgia, serif;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
 
-/* Featured section headings — bigger and gold */
-.md-typeset .section-hero {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: var(--md-accent-fg-color);
-  letter-spacing: -0.03em;
-  margin-top: 2rem;
-}
-
-/* Page titles in gold */
+/* Page titles — use the theme accent color */
 .md-content__inner > h1:first-child {
   font-weight: 700;
   margin-bottom: 0.2rem;
   letter-spacing: -0.03em;
-  color: var(--md-accent-fg-color);
 }
 
-/* Landing page: extra-large title */
+/* Landing page: larger title */
 .md-content__inner > h1:first-child:is([id="vaill-coding-agents-workshop"]) {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
 }
 
-/* Hero pitch line — prominent value prop */
+/* Hero pitch line */
 .md-typeset .hero-pitch {
   font-size: 1.15rem !important;
   font-weight: 400;
   color: var(--md-default-fg-color--light);
-  line-height: 1.55;
+  line-height: 1.6;
   margin: 0.4rem 0 1.8rem;
-  max-width: 100%;
+  max-width: 680px;
 }
 
 /* Hero buttons row */
@@ -85,11 +44,25 @@ h1, h2 {
 }
 
 .hero-buttons .md-button {
-  font-size: 0.72rem;
-  padding: 0.3rem 0.7rem;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.8rem;
 }
 
-/* Workshop session badge */
+/* Credibility strip */
+.credibility-strip {
+  font-size: 0.92rem;
+  color: var(--md-default-fg-color--light);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  margin: 0 0 2.5rem;
+  line-height: 1.6;
+}
+
+/* ============================
+   Badges
+   ============================ */
 .badge-workshop {
   display: inline-block;
   font-size: 0.65rem;
@@ -104,8 +77,8 @@ h1, h2 {
   opacity: 0.85;
 }
 
-/* Gold inline badge for cards */
-.badge-gold {
+.badge-gold,
+.badge-teal {
   display: inline-block;
   font-size: 0.6rem;
   font-weight: 700;
@@ -119,7 +92,6 @@ h1, h2 {
   vertical-align: middle;
 }
 
-/* "Start here" badge */
 .badge-start {
   display: inline-block;
   font-size: 0.65rem;
@@ -134,20 +106,55 @@ h1, h2 {
   margin-bottom: 0.5rem;
 }
 
-/* Credibility strip with bottom rule */
-.credibility-strip {
-  font-size: 0.92rem;
+.badge-preview {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--md-default-fg-color--light);
-  border-left: 3px solid var(--md-accent-fg-color);
-  border-bottom: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 20%, transparent);
-  padding-left: 1rem;
-  padding-bottom: 1.5rem;
-  margin: 0 0 2.5rem;
-  line-height: 1.6;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin-bottom: 0.5rem;
 }
 
 /* ============================
-   Bento grid
+   Card grid
+   ============================ */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.md-typeset .grid.cards > ul > li > p:last-child > a {
+  position: static;
+}
+
+.md-typeset .grid.cards > ul > li > p:last-child > a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Keyboard nav accessibility */
+.md-typeset .grid.cards > ul > li:focus-within {
+  border-color: var(--md-accent-fg-color);
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+/* ============================
+   Bento grid (homepage)
    ============================ */
 .bento-grid {
   display: grid;
@@ -185,12 +192,8 @@ h1, h2 {
 
 .bento-cell--featured {
   grid-column: span 3;
-  background: color-mix(in srgb, var(--md-accent-fg-color) 8%, var(--md-default-bg-color));
-  border-color: color-mix(in srgb, var(--md-accent-fg-color) 35%, transparent);
-}
-
-[data-md-color-scheme="slate"] .bento-cell--featured {
-  background: color-mix(in srgb, var(--md-accent-fg-color) 12%, var(--md-default-bg-color));
+  background: color-mix(in srgb, var(--md-accent-fg-color) 5%, var(--md-default-bg-color));
+  border-color: color-mix(in srgb, var(--md-accent-fg-color) 25%, transparent);
 }
 
 .bento-icon {
@@ -220,33 +223,8 @@ h1, h2 {
 }
 
 /* ============================
-   Card grid
+   Content images
    ============================ */
-.md-typeset .grid.cards > ul > li {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 8px;
-  padding: 1.2rem 1.4rem;
-  transition: border-color 0.2s, box-shadow 0.2s;
-  position: relative;
-  cursor: pointer;
-}
-
-.md-typeset .grid.cards > ul > li > p:last-child > a {
-  position: static;
-}
-
-.md-typeset .grid.cards > ul > li > p:last-child > a::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-
-.md-typeset .grid.cards > ul > li:hover {
-  border-color: var(--md-accent-fg-color);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-}
-
-/* Content images */
 .md-content img {
   max-width: 100%;
   height: auto;
@@ -256,76 +234,30 @@ h1, h2 {
   max-width: 400px !important;
 }
 
-/* Softer admonitions */
+/* ============================
+   Admonitions — clean, rounded
+   ============================ */
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: 8px;
   box-shadow: none;
 }
 
-/* ============================
-   Workshop session admonition
-   ============================ */
+/* Workshop session admonition */
 .md-typeset .admonition.workshop,
 .md-typeset details.workshop {
-  border-left-color: #ECB748;
-  background: color-mix(in srgb, #ECB748 6%, var(--md-default-bg-color));
+  border-left-color: var(--md-accent-fg-color);
 }
 
-[data-md-color-scheme="slate"] .md-typeset .admonition.workshop,
-[data-md-color-scheme="slate"] .md-typeset details.workshop {
-  background: color-mix(in srgb, #ECB748 8%, var(--md-default-bg-color));
-}
-
-.md-typeset .admonition.workshop > .admonition-title,
-.md-typeset details.workshop > summary {
-  background: color-mix(in srgb, #ECB748 12%, var(--md-default-bg-color));
-}
-
-.md-typeset .admonition.workshop > .admonition-title::before,
-.md-typeset details.workshop > summary::before {
-  -webkit-mask-image: var(--md-admonition-icon--example);
-  mask-image: var(--md-admonition-icon--example);
-  background-color: #ECB748;
-}
-
-/* ============================
-   "Try It" custom admonition (replaces ask-claude)
-   ============================ */
+/* Try-it / ask-claude admonition */
 .md-typeset .admonition.ask-claude,
 .md-typeset details.ask-claude,
 .md-typeset .admonition.try-it,
 .md-typeset details.try-it {
-  border-left-color: #ECB748;
-  background: color-mix(in srgb, #ECB748 6%, var(--md-default-bg-color));
+  border-left-color: var(--md-accent-fg-color);
 }
 
-[data-md-color-scheme="slate"] .md-typeset .admonition.ask-claude,
-[data-md-color-scheme="slate"] .md-typeset details.ask-claude,
-[data-md-color-scheme="slate"] .md-typeset .admonition.try-it,
-[data-md-color-scheme="slate"] .md-typeset details.try-it {
-  background: color-mix(in srgb, #ECB748 8%, var(--md-default-bg-color));
-}
-
-.md-typeset .admonition.ask-claude > .admonition-title,
-.md-typeset details.ask-claude > summary,
-.md-typeset .admonition.try-it > .admonition-title,
-.md-typeset details.try-it > summary {
-  background: color-mix(in srgb, #ECB748 12%, var(--md-default-bg-color));
-}
-
-.md-typeset .admonition.ask-claude > .admonition-title::before,
-.md-typeset details.ask-claude > summary::before,
-.md-typeset .admonition.try-it > .admonition-title::before,
-.md-typeset details.try-it > summary::before {
-  -webkit-mask-image: var(--md-admonition-icon--question);
-  mask-image: var(--md-admonition-icon--question);
-  background-color: #ECB748;
-}
-
-/* ============================
-   Narrative blocks
-   ============================ */
+/* Narrative blocks */
 .narrative-block {
   border-left: 3px solid var(--md-accent-fg-color);
   background: color-mix(in srgb, var(--md-accent-fg-color) 4%, var(--md-default-bg-color));
@@ -334,21 +266,12 @@ h1, h2 {
   margin: 1rem 0 1.2rem;
 }
 
-[data-md-color-scheme="slate"] .narrative-block {
-  background: color-mix(in srgb, var(--md-accent-fg-color) 6%, var(--md-default-bg-color));
-}
-
 .md-typeset .narrative-teaser {
   font-size: 0.88rem !important;
   font-style: italic;
   color: var(--md-default-fg-color);
   margin-bottom: 0.3rem !important;
   line-height: 1.5;
-}
-
-.narrative-icon {
-  color: var(--md-accent-fg-color);
-  margin-right: 0.3rem;
 }
 
 .narrative-block details {
@@ -360,7 +283,6 @@ h1, h2 {
 }
 
 .narrative-block details summary {
-  font-family: 'Fraunces', Georgia, serif;
   font-size: 0.85rem;
   font-weight: 500;
   color: var(--md-accent-fg-color);
@@ -368,7 +290,7 @@ h1, h2 {
 }
 
 .narrative-block details[open] summary {
-  border-bottom: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 20%, transparent);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
   margin-bottom: 1rem;
   padding-bottom: 0.6rem;
 }
@@ -383,45 +305,24 @@ h1, h2 {
 .md-typeset .admonition.field-note,
 .md-typeset details.field-note {
   border-left-color: var(--md-accent-fg-color);
-  background: color-mix(in srgb, var(--md-accent-fg-color) 3%, var(--md-default-bg-color));
   font-size: 0.88rem;
 }
 
-[data-md-color-scheme="slate"] .md-typeset .admonition.field-note,
-[data-md-color-scheme="slate"] .md-typeset details.field-note {
-  background: color-mix(in srgb, var(--md-accent-fg-color) 5%, var(--md-default-bg-color));
-}
-
-/* Lessons admonition */
 .md-typeset .admonition.lessons,
 .md-typeset details.lessons {
   border-left-color: var(--md-accent-fg-color);
 }
 
-/* Keyboard nav accessibility for cards */
-.md-typeset .grid.cards > ul > li:focus-within {
-  border-color: var(--md-accent-fg-color);
-  outline: 2px solid var(--md-accent-fg-color);
-  outline-offset: 2px;
-}
-
 /* ============================
-   Table of contents — right sidebar
+   TOC — right sidebar
    ============================ */
 .md-nav--secondary > .md-nav__title {
   color: var(--md-accent-fg-color);
   font-weight: 600;
 }
 
-.md-nav--secondary .md-nav__item::before {
-  content: "\2022";
-  color: var(--md-default-fg-color--lightest);
-  margin-right: 0.4rem;
-  font-size: 0.7rem;
-}
-
 /* ============================
-   Blockquotes — compact
+   Blockquotes
    ============================ */
 .md-typeset blockquote {
   padding: 0.4rem 0.8rem;
@@ -432,6 +333,14 @@ h1, h2 {
 
 .md-typeset blockquote p {
   margin: 0.3rem 0;
+}
+
+/* ============================
+   Logo sizing in header
+   ============================ */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: auto;
 }
 
 /* ============================

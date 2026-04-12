@@ -13,21 +13,23 @@ extra_css:
 theme:
   name: material
   custom_dir: overrides
+  logo: images/vaill_logo.png
+  favicon: images/vaill_logo.png
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
     - scheme: default
-      primary: custom
-      accent: custom
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   font:
-    text: DM Sans
+    text: Inter
     code: JetBrains Mono
   features:
     - navigation.tabs
@@ -132,8 +134,8 @@ plugins:
         setup/skill-reference.md: setup/index.md
   - social:
       cards_layout_options:
-        background_color: "#1C1C1C"
-        color: "#CFAE70"
+        background_color: "#1a1a2e"
+        color: "#ffffff"
 
 extra:
   social:
