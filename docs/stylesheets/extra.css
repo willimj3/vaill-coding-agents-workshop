@@ -93,10 +93,11 @@ h1, h2 {
   line-height: 1.15;
 }
 
-.hero-header .hero-pitch {
+.hero-header .hero-pitch,
+.md-typeset .hero-header .hero-pitch {
   max-width: 580px;
-  margin: 0 auto 1.8rem;
-  text-align: center;
+  margin: 0 auto 1.8rem !important;
+  text-align: center !important;
 }
 
 .hero-header .hero-buttons {

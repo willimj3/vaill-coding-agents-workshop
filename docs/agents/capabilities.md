@@ -101,5 +101,32 @@ Notice what is consistent across all six examples:
 
 This division of labor — agent handles volume and mechanics, human provides judgment and expertise — is the fundamental pattern of productive agent use. It does not replace legal reasoning. It frees up time and attention for more of it.
 
+---
+
+## Case Study: Replicating a Published Empirical Paper
+
+The examples above are hypothetical. Here is a real one.
+
+In January 2026, Stanford political economist Andy Hall gave Claude Code a single prompt: replicate and extend a published empirical paper on vote-by-mail policy (Thompson et al. 2020, *Proceedings of the National Academy of Sciences*). With minimal human oversight, Claude Code:
+
+- **Downloaded the original replication data** from the paper's repository and correctly identified the key datasets
+- **Replicated the original paper's estimates exactly** — matching the published tables
+- **Collected new data** on vote-by-mail adoption for 2020-2024, correctly identifying treatment dates for 29 out of 30 California counties (the one error was one the human auditor also initially made)
+- **Ran the extended analysis** using difference-in-differences with county and state-year fixed effects, producing results nearly identical to the independent human replication (main coefficient: 0.003 vs. 0.004)
+
+The whole process took **less than an hour** with extremely limited oversight.
+
+The independent audit, conducted by UCLA PhD candidate Graham Straus, also found clear limitations:
+
+- Claude **failed to collect** senatorial and gubernatorial data for Utah and Washington in 2020 and 2024 — a significant omission
+- When going **beyond the original paper's approach** to produce novel analyses, the quality dropped: the new analyses drifted from the research intent and made specification decisions the auditors would not have made
+- Claude **did not keep adequate records** of its data collection decisions — a transparency and reproducibility problem
+
+The conclusion: *"While it's clear to us that AI agents require expert oversight to accurately produce new papers, it is also clear to us that this constitutes a major potential change to how empirical research will be conducted moving forward."*
+
+[:octicons-arrow-right-24: Read the full audit (PDF)](../papers/Straus_Hall_Claude_Audit.pdf){ target="_blank" } | Graham Straus and Andy Hall, January 2026
+
+---
+
 !!! warning "Always verify"
     None of these examples should suggest that we can hand off work to an agent and walk away. Every output requires verification. The agent can and will make mistakes — sometimes subtle ones. The [Limitations & Risks](limitations.md) page covers this in detail.

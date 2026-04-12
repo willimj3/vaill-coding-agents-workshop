@@ -11,6 +11,23 @@ AI lowers that barrier dramatically. Claude Code can write Python or R scripts, 
 
 ---
 
+## What This Looks Like in Practice
+
+Before getting into the workflow details, it helps to see what AI-assisted empirical research actually produces. In January 2026, Stanford political economist Andy Hall gave Claude Code a single prompt: replicate and extend a published PNAS paper on vote-by-mail policy. An independent audit by UCLA PhD candidate Graham Straus found that Claude Code:
+
+- **Replicated the original paper's published estimates exactly**
+- **Collected new data** across three states for 2020-2024 with high accuracy (29/30 counties correct on treatment dates)
+- **Ran the extended analysis** with difference-in-differences, producing results nearly identical to the human replication (main coefficient: 0.003 vs. 0.004)
+- Completed the work in **under an hour** with minimal oversight
+
+But the audit also found real problems: Claude missed gubernatorial and senatorial data for two states, produced lower-quality work when going beyond the original methodology, and failed to keep adequate records of data collection decisions.
+
+The takeaway for law faculty: AI can dramatically accelerate the mechanical parts of empirical research — data collection, cleaning, replication, standard statistical analysis. But it requires expert oversight, especially when the work moves beyond well-defined tasks into novel analysis. The combination of your domain expertise and the agent's computational capability is where the real value lies.
+
+[:octicons-arrow-right-24: Read the full Straus & Hall audit (PDF)](../papers/Straus_Hall_Claude_Audit.pdf){ target="_blank" }
+
+---
+
 ## Why This Matters
 
 Empirical legal scholarship is growing. Journals increasingly publish quantitative work — analysis of case outcomes, survey data on legal attitudes, natural language processing of judicial opinions. But many law faculty were trained in doctrinal methods and may not have taken a statistics course since college, if at all.
