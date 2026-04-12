@@ -64,8 +64,14 @@ h1, h2 {
 /* ============================
    Homepage hero header
    ============================ */
+.hero-header,
+.md-typeset .hero-header,
+.md-typeset .hero-header p,
+.md-typeset .hero-header h1 {
+  text-align: center !important;
+}
+
 .hero-header {
-  text-align: center;
   padding: 2.5rem 0 1rem;
 }
 
@@ -93,8 +99,7 @@ h1, h2 {
   line-height: 1.15;
 }
 
-.hero-header .hero-pitch,
-.md-typeset .hero-header .hero-pitch {
+.md-typeset p.hero-pitch {
   max-width: 580px;
   margin: 0 auto 1.8rem !important;
   text-align: center !important;
