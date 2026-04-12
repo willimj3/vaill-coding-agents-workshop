@@ -2,14 +2,14 @@
 hide:
   - navigation
   - toc
-description: A faculty guide to AI tools for legal professionals — from chatbot prompting to coding agents with Claude Code. By Vanderbilt AI Law Lab. No coding experience needed.
+description: A faculty guide to AI coding agents for legal professionals — from AI you chat with to AI that takes action for you. By Vanderbilt AI Law Lab.
 ---
 
 <div class="hero-header">
   <img src="images/vaill_logo.png" alt="VAILL — Vanderbilt AI Law Lab" class="hero-logo">
   <div class="hero-rule"></div>
-  <h1 class="hero-title">Faculty Guide to AI Agents</h1>
-  <p class="hero-pitch">From chatbot prompting to coding agents that read your files, draft documents, and build workflows. No coding experience needed.</p>
+  <h1 class="hero-title">Faculty Guide to AI Coding Agents</h1>
+  <p class="hero-pitch">From AI you chat with to AI that takes action for you.</p>
   <div class="hero-buttons">
     <a href="essentials/" class="md-button">Start with the Essentials</a>
     <a href="agents/" class="md-button md-button--primary">What Are Coding Agents?</a>
