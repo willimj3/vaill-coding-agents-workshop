@@ -1,12 +1,8 @@
 {% extends "base.html" %}
 
-{% block announce %}
+{% block announce %}{% endblock %}
+
   <style>
-    .md-banner {
-      background: color-mix(in srgb, var(--md-accent-fg-color) 15%, var(--md-default-bg-color));
-      color: var(--md-default-fg-color--light);
-      font-size: 0.75rem;
-    }
     .feedback-line {
       margin-top: 2.5rem;
       padding-top: 1rem;
@@ -16,8 +12,6 @@
     }
     .feedback-line:hover { opacity: 0.85; }
   </style>
-  <span style="font-weight: 600; color: var(--md-accent-fg-color);">VAILL Faculty Guide:</span> AI Agents for Legal Professionals &mdash; <a href="{{ 'agents/' | url }}" style="font-weight: 600; color: var(--md-accent-fg-color);">What Are Coding Agents? &rarr;</a>
-{% endblock %}
 
 {% block content %}
   {{ super() }}
