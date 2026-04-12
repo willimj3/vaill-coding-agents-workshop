@@ -163,17 +163,12 @@ Analyze the patterns:
 
 ## Privacy and FERPA Considerations
 
-!!! danger "Non-negotiable privacy rules"
-    These rules apply every time you use AI for student feedback:
+!!! danger "Protect student data — check your tools"
+    Student education records are classified as **Level 3 (Restricted)** under [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) due to FERPA protections. Before using any AI tool with student data, verify that the tool meets your institution's requirements for restricted data.
 
-    1. **Remove all identifying information** before pasting student work into any AI tool. This includes:
-        - Student name
-        - Student ID number
-        - Institutional email address
-        - Course section number (if sections are small enough to be identifying)
-        - Any personal details the student included in their writing
+    1. **Remove identifying information** before pasting student work into free or public AI tools. This includes student names, student ID numbers, institutional email addresses, course section numbers (if small enough to be identifying), and any personal details the student included in their writing.
 
-    2. **Do not paste grade information** into AI tools. If you want to analyze grade patterns, use local tools (Excel, R) that do not transmit data.
+    2. **Check your tools against your institution's data classification.** Free and public AI tools (ChatGPT free tier, Claude.ai free tier) are not appropriate for student records. Enterprise or institutional AI tools may be approved — check with your IT security office. Local tools (Excel, R, Claude Code running locally) do not transmit data to third-party servers.
 
     3. **Do not use AI to make final grading decisions.** AI-generated feedback is a drafting aid, not a grading authority. The grade is your professional judgment.
 
@@ -181,7 +176,7 @@ Analyze the patterns:
 
     5. **Be transparent.** If you use AI as part of your feedback process, consider disclosing that to students. Norms are evolving, and transparency builds trust. A simple syllabus note suffices: "I use AI tools as a drafting aid when preparing feedback on student writing. All feedback is reviewed and finalized by me before being returned to you."
 
-**Why this matters beyond compliance:** Even if your institution's policies do not explicitly address AI, FERPA protects education records — which includes student work and grades. Uploading identifiable student work to a third-party AI platform creates risks that are easy to avoid by simply removing identifying information first.
+**Why this matters beyond compliance:** Even if your institution's policies do not explicitly address AI, FERPA protects education records — which includes student work and grades. Uploading identifiable student work to a public AI platform creates risks that are easy to avoid by removing identifying information or using institutionally approved tools.
 
 ---
 

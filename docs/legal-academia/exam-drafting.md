@@ -4,8 +4,8 @@
 
 Exam writing is a peculiar skill. We need questions that are challenging but fair, that test what we actually taught, that distinguish among student ability levels, and that can be graded consistently. We also need rubrics that make grading efficient and defensible, and model answers that help teaching assistants grade reliably. AI can help with all of this — as a drafting partner, a difficulty-calibration tool, and a rubric-generation engine.
 
-!!! warning "Two non-negotiable rules"
-    **1. Never reuse AI-generated questions verbatim.** Students have access to the same AI tools. If you paste an AI-generated question directly into an exam, a student could paste the question into ChatGPT and get the model answer. Always modify, combine, or substantially rework AI suggestions. **2. Never input student information into AI tools.** No names, no student IDs, no grades, no identifying details. See the [privacy section below](#privacy-and-academic-integrity) for specifics.
+!!! warning "Two important practices"
+    **1. Rework AI-generated questions before using them.** Students have access to the same AI tools. If you paste an AI-generated question directly into an exam, a student could paste it back into ChatGPT and get a detailed analysis. Modify, combine, or substantially rework AI-generated questions before they appear on an exam. **2. Know your data classification before inputting student information.** Free and public AI tools (ChatGPT, Claude.ai free tier) are not appropriate for student records. Before using any AI tool with student data, check [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) — student education records are Level 3 (Restricted) under FERPA and require VUIT-managed platforms. See the [privacy section below](#privacy-and-academic-integrity) for specifics.
 
 ---
 
@@ -209,15 +209,16 @@ how to fix it.
 
 ## Privacy and Academic Integrity
 
-!!! danger "Never input student data"
-    Do not enter student names, student IDs, grades, performance data, or any information that could identify a student into any AI tool — ChatGPT, Claude, or any other platform. This includes:
+!!! danger "Protect student data — check your tools"
+    Student education records are classified as **Level 3 (Restricted)** under [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) due to FERPA protections. Before using any AI tool with student data, verify that the tool meets your institution's requirements for restricted data.
 
-    - Rosters or enrollment lists
-    - Grade spreadsheets
-    - Individual student performance on specific questions
-    - Identifying details in exam answers (even anonymized IDs should be treated with caution)
+    **What this means in practice:**
 
-    AI platforms may retain conversation data for training. Inputting student information creates FERPA risks and potential liability for you and your institution. If you need to analyze grade distributions or exam performance data, use local tools (Excel, R, Python) that do not transmit data to third-party servers — or use Claude Code in [local-only mode if available].
+    - **Free and public AI tools** (ChatGPT free tier, Claude.ai free tier, Gemini) are **not appropriate** for student records. These platforms may retain conversation data and are not VUIT-managed.
+    - **Enterprise or institutional AI tools** may be approved for some uses — check with your institution's IT security office.
+    - **Local tools** (Excel, R, Python, Claude Code running locally) do not transmit data to third-party servers and are generally safer for sensitive data.
+
+    When in doubt, **remove all identifying information** (names, student IDs, grades, section numbers) before using any AI tool. This applies to rosters, grade spreadsheets, individual performance data, and identifying details in exam answers.
 
 **On exam security:** AI-generated exam questions are not inherently insecure, but they are reproducible. If you paste a fact pattern into ChatGPT and ask it to write a Con Law exam question, a student could paste your exam question back into ChatGPT and get a detailed analysis. The defense is simple: never use AI-generated questions without substantial modification. Change the facts, combine elements from multiple generated questions, add your own twists, and rework the phrasing.
 

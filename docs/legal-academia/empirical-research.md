@@ -260,6 +260,142 @@ The key insight: you bring the legal knowledge (what counts as a legally relevan
 
 ---
 
+## Example: Replicating and Extending a Published Study
+
+Replication studies are increasingly valued in empirical legal scholarship. Claude Code is well-suited to this work because the task is well-defined: download an existing dataset, reproduce published results, and extend the analysis with new data. This is exactly the workflow that Straus and Hall (2026) tested in their [audit of Claude Code](../papers/Straus_Hall_Claude_Audit.pdf).
+
+Here is how to structure a replication and extension project.
+
+### Set up the project
+
+Create a project folder and a CLAUDE.md file that describes the original paper, the replication goal, and your extension plan:
+
+```markdown
+# Replication & Extension: [Original Paper Title]
+
+## Original paper
+- Authors: [names]
+- Published: [journal, year]
+- DOI: [link]
+- Replication data: [repository URL]
+
+## Replication goal
+Reproduce Tables [X] and [Y] from the original paper using the
+authors' replication data. Verify that our estimates match the
+published results before proceeding to any extension.
+
+## Extension plan
+[Describe what new data you will add and what new analysis you
+will run. Be specific about the time period, geography, or
+variables you are extending.]
+
+## Methodology
+- Design: [e.g., difference-in-differences, panel fixed effects]
+- Software: Python (pandas, statsmodels) or R (fixest, tidyverse)
+- Clustering: [how standard errors are clustered]
+
+## Rules
+- Replicate first, extend second. Do not begin the extension
+  until the replication matches the published results.
+- Document every data collection decision in a log file.
+- When collecting new data, record the source URL and date
+  accessed for every data point.
+- Never silently drop observations. Flag missing data and ask
+  me how to handle it.
+- Save all intermediate datasets so every step is reproducible.
+```
+
+### Step 1: Replicate the original results
+
+```text
+Download the replication data from [repository URL]. Load the
+main analysis dataset. Replicate Tables [X] and [Y] from the
+original paper exactly.
+
+For each table:
+1. Show me the regression specification you are running
+2. Report your coefficients, standard errors, and sample sizes
+3. Compare them to the published values
+4. Flag any discrepancies, no matter how small
+
+Do not proceed to the extension until we have confirmed the
+replication matches.
+```
+
+This step matters because it verifies your setup before you invest time in new analysis. In the Straus & Hall audit, Claude Code replicated the original estimates exactly — which gave confidence that the data pipeline was correct before moving on.
+
+### Step 2: Collect and integrate new data
+
+```text
+Now extend the analysis. We need [describe new data — e.g.,
+county-level election results for 2020, 2022, and 2024 from
+California, Utah, and Washington].
+
+For each data point you collect:
+1. Record the source URL
+2. Record the date accessed
+3. Record any judgment calls (e.g., how you handled missing
+   values or ambiguous codings)
+
+Save the collection log to data/collection_log.md.
+After collecting, merge the new data with the original dataset
+and show me summary statistics comparing the original and
+extended samples.
+```
+
+!!! warning "Audit your agent's data collection"
+    In the Straus & Hall audit, Claude Code collected treatment data with high accuracy (29/30 counties correct) but silently omitted senatorial and gubernatorial data for two states. The agent did not flag the omission — the human auditor discovered it. Always verify that the new dataset contains what you expected, and cross-check a sample of data points against the original sources.
+
+### Step 3: Run the extended analysis
+
+```text
+Using the merged dataset (original + extension), re-run the
+main specifications from Tables [X] and [Y] on the full sample.
+
+Then run these robustness checks:
+1. The original specification on only the new data (extension
+   period only)
+2. A pre-trends test for the pre-treatment period
+3. [Any additional checks relevant to your extension]
+
+For each result, compare to the original paper's estimates.
+Discuss whether the extended results are consistent with the
+original findings or suggest a different pattern.
+```
+
+### Step 4: Document everything
+
+This is where the Straus & Hall audit found the biggest gap: Claude Code did not keep adequate records of its data collection decisions. Make documentation an explicit requirement.
+
+```text
+Create a README.md in the project root that documents:
+
+1. The original paper being replicated (full citation)
+2. What data was collected for the extension, from where,
+   and when
+3. Every judgment call made during data collection or cleaning
+4. The full list of scripts, in execution order, with a
+   one-line description of what each does
+5. How to reproduce every table and figure from start to finish
+
+Also save all scripts with clear comments explaining each
+analytical decision.
+```
+
+### What this workflow produces
+
+When done well, this workflow produces a replication and extension that is:
+
+- **Verifiable** — every step is documented and reproducible
+- **Fast** — the mechanical work (data collection, cleaning, running regressions) takes hours instead of weeks
+- **Auditable** — the collection log and scripts make it possible for a co-author or reviewer to check every step
+
+The expert judgment — choosing the right identification strategy, interpreting results, deciding what robustness checks matter, writing up the findings — remains entirely yours. The agent handles the computational labor.
+
+[:octicons-arrow-right-24: Read the full Straus & Hall audit (PDF)](../papers/Straus_Hall_Claude_Audit.pdf){ target="_blank" }
+
+---
+
 ## Next Steps
 
 <div class="grid cards" markdown>
