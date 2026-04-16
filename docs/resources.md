@@ -56,6 +56,20 @@ These are the major AI platforms designed for or commonly used in legal work. We
 | [Daniel Martin Katz -- Legal AI Research](https://scholar.google.com/citations?user=fhGW0GEAAAAJ) | Leading work on computational law, legal analytics, and AI in the legal profession |
 | [Maura Grossman and Gordon Cormack](https://scholar.google.com/citations?user=TnXnvaAAAAAJ) | Pioneering research on technology-assisted review (TAR) and AI in e-discovery |
 
+### Academics Using Coding Agents
+
+A growing number of researchers are documenting how they use coding agents in their academic work. These are not theoretical — they are working researchers describing real workflows.
+
+| Resource | Who and what |
+|----------|-------------|
+| [Straus & Hall -- Claude Code Replication Audit (2026)](papers/Straus_Hall_Claude_Audit.pdf) | Andy Hall (Stanford GSB) and Graham Straus (UCLA) independently audited Claude Code's replication and extension of a published PNAS paper. The best empirical evidence of what coding agents can and cannot do in research. |
+| [Messing & Tucker -- "The Train Has Left the Station" (Brookings, 2026)](https://www.brookings.edu/articles/the-train-has-left-the-station-agentic-ai-and-the-future-of-social-science-research/) | Solomon Messing and Joshua Tucker (NYU) argue coding agents are transforming social science. Examples from their own work: an R package built in a day, a 20-page empirical analysis produced in under an hour. |
+| [Mollick -- "Claude Code and What Comes Next" (2025)](https://www.oneusefulthing.org/p/claude-code-and-what-comes-next) | Ethan Mollick (Wharton) gave Claude Code an economics paper with replication data. It read the paper, converted Stata to Python, and reproduced the findings. His broader argument: academics not using agentic tools will get left behind. |
+| [Mollick -- "Speaking Things Into Existence" (2025)](https://www.oneusefulthing.org/p/speaking-things-into-existence) | Mollick on the shift from typing prompts to describing outcomes — and what that means for how professionals work. Accessible and non-technical. |
+| [Sant'Anna -- Claude Code Academic Workflow (2026)](https://psantanna.com/claude-code-my-workflow/) | Pedro Sant'Anna (Emory, Economics) published a detailed Claude Code workflow for LaTeX, Quarto, and R-based research with 14 specialized agents. Adopted by 15+ research groups across economics, political science, and engineering. |
+| [Cunningham -- "Claude Code Changed How I Work" (2026)](https://causalinf.substack.com/p/claude-code-changed-how-i-work-part) | Scott Cunningham (Baylor, Economics), author of *Causal Inference: The Mixtape*, documents his switch to Claude Code for empirical econometrics and why he says he is never going back. |
+| [Blattman -- Claude for Professionals Who Don't Code](https://claudeblattman.com/) | Chris Blattman (U Chicago, Political Economy) built an open-source AI workflow system for academic research management — writing, research, course design. The project this site was originally adapted from. |
+
 ### AI and Legal Education
 
 | Resource | Focus |
