@@ -31,12 +31,16 @@
    Logo — white on dark header, prominently sized
    ============================ */
 .md-header .md-logo {
-  padding: 0.2rem 0;
+  padding: 0.3rem 0;
+}
+
+.md-header[data-md-state] {
+  padding: 0.2rem 0 !important;
 }
 
 .md-header .md-logo img,
 .md-header__button.md-logo img {
-  height: 3.6rem !important;
+  height: 4.5rem !important;
   max-height: none !important;
   width: auto !important;
   filter: brightness(0) invert(1);
