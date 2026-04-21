@@ -28,7 +28,7 @@ For law faculty juggling teaching, research, committee work, and possibly a prac
 
 ### Accessible Pricing
 
-Claude Code offers a free tier that is sufficient for experimentation and light use. The Pro tier ($20/month as of early 2026) provides enough capacity for regular daily use. The Max tier ($100-200/month) is available for heavy users, but most faculty will find Pro more than adequate.
+Claude Code offers a free tier that is sufficient for experimentation and light use. The Pro tier ($20/month) provides enough capacity for regular daily use. The Max tier ($100-200/month) is available for heavy users, but most faculty will find Pro more than adequate. Verify current pricing at [claude.ai/pricing](https://claude.ai/pricing).
 
 Critically, there is no separate charge for Claude Code itself — it is included with a Claude subscription. We are not asking participants to buy an additional product.
 

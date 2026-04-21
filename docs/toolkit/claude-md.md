@@ -245,7 +245,7 @@ Claude should reference information from your file. If it does not, check:
 
 ## Model Choice
 
-Claude Code defaults to the Sonnet 4.6 model, which is fast and capable for most tasks. For complex work -- long-form writing, nuanced analysis, multi-step reasoning -- consider switching to Opus 4.6:
+Claude Code defaults to the Sonnet model, which is fast and capable for most tasks. For complex work -- long-form writing, nuanced analysis, multi-step reasoning -- consider switching to Opus:
 
 ```
 /model opus

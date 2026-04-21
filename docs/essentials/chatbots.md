@@ -16,8 +16,8 @@ Every major AI provider offers multiple models at different capability levels. T
 
 | Provider | Weaker Default | Stronger Option | How to Switch |
 |----------|---------------|----------------|---------------|
-| **Claude** | Sonnet 4.6 (the default on free/Pro) | Opus 4.6 (more capable, slower) | Click the model selector in Claude.ai, or use `/model opus` in Claude Code |
-| **ChatGPT** | GPT-4o (the default) | o1-pro or o3 (stronger reasoning) | Click the model dropdown in ChatGPT |
+| **Claude** | Sonnet (the default on free/Pro) | Opus (more capable, slower) | Click the model selector in Claude.ai, or use `/model opus` in Claude Code |
+| **ChatGPT** | GPT-4o (the default) | o-series models (stronger reasoning) | Click the model dropdown in ChatGPT |
 
 **The practical difference:** For quick questions, the default model is fine. For anything that requires reasoning, synthesis, or careful writing -- a case analysis memo, a summary of competing regulatory frameworks, a draft research proposal -- the stronger model produces noticeably better results. It is the difference between a first-year associate and a senior colleague.
 

@@ -22,7 +22,7 @@ We use and pay for both daily in our research and teaching. Here is an honest co
 
 **Long-form legal writing and editing.** Claude consistently produces better prose -- maintaining voice, following structural instructions, and providing substantive feedback. For memo drafts, brief sections, and law review article editing, the difference is noticeable. Claude is better at following instructions like "write in the voice described in my voice file" or "structure this as a three-part argument with the strongest point first."
 
-**Complex legal reasoning.** For case analysis, statutory interpretation, and multi-factor legal tests, Claude Opus 4.6 tends to produce more thoughtful, better-structured output than GPT-4o. It handles nuance and qualification more naturally -- important for legal analysis where the answer is rarely simply "yes" or "no."
+**Complex legal reasoning.** For case analysis, statutory interpretation, and multi-factor legal tests, Claude's Opus model tends to produce more thoughtful, better-structured output than GPT-4o. It handles nuance and qualification more naturally -- important for legal analysis where the answer is rarely simply "yes" or "no."
 
 **Projects and persistent context.** Claude.ai's Projects feature lets you create a workspace with instructions and files that persist across conversations -- better than ChatGPT's memory system for structured, project-based legal work. See [AI Project Folders](project-folders.md) for how to use this effectively.
 
