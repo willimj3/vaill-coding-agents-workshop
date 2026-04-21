@@ -44,6 +44,14 @@
 
     [:octicons-arrow-right-24: Read more](project-folders.md)
 
+-   **:material-email-fast-outline: Everyday Productivity**
+
+    ---
+
+    Email triage, meeting follow-up, weekly reviews, and project tracking. The workflows every faculty member can use immediately — no legal expertise required.
+
+    [:octicons-arrow-right-24: Read more](everyday-productivity.md)
+
 -   **:material-shield-check-outline: Stress-Test Any Plan**
 
     ---
