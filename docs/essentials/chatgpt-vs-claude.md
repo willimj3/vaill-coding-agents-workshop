@@ -45,11 +45,11 @@ Both tools hallucinate. Both invent citations. This matters more in law than in 
 
 ## Cost Comparison
 
-*Prices as of February 2026 -- verify at [claude.ai](https://claude.ai) and [chatgpt.com/pricing](https://chatgpt.com/pricing) for current rates.*
+*AI tool pricing changes frequently -- verify at [claude.ai/pricing](https://claude.ai/pricing) and [chatgpt.com/pricing](https://chatgpt.com/pricing) for current rates.*
 
 | Tier | ChatGPT | Claude |
 |------|---------|--------|
-| **Free** | GPT-4o (limited) | Sonnet 4.6 (limited) |
+| **Free** | GPT-4o (limited) | Sonnet (limited) |
 | **Basic paid** | Plus: $20/mo | Pro: $20/mo |
 | **Power user** | Pro: $200/mo | Max: $100-200/mo |
 | **API/developer** | Pay per token | Pay per token |

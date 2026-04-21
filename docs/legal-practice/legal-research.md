@@ -216,7 +216,7 @@ graph TD
 
 | Limitation | Practical Impact | Your Mitigation |
 |-----------|-----------------|-----------------|
-| **Training data cutoff** | AI does not know about law enacted or cases decided after its training cutoff. Claude's cutoff is currently early 2025; ChatGPT varies by model. | Always check for recent developments in traditional databases |
+| **Training data cutoff** | AI does not know about law enacted or cases decided after its training data cutoff. Cutoff dates vary by model and change with each release — check the model's documentation for current dates. | Always check for recent developments in traditional databases |
 | **No access to legal databases** | AI cannot search Westlaw, Lexis, or other proprietary databases | Use AI for strategy and synthesis; use databases for authority |
 | **Citation fabrication** | AI will invent case names, citations, and holdings that do not exist | Never use an AI-generated citation without verifying it in an authoritative source |
 | **Jurisdiction confusion** | AI may conflate standards from different jurisdictions or apply federal law when state law governs | Always specify the jurisdiction and verify that authorities are binding |

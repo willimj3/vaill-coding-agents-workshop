@@ -8,13 +8,13 @@ What building an AI workflow costs, who it makes sense for, and who should start
 
 ## The Full Stack
 
-*Prices as of February 2026 -- AI tool pricing changes frequently. Verify at each tool's website for current rates.*
+*AI tool pricing changes frequently. Verify at [claude.ai/pricing](https://claude.ai/pricing) and [chatgpt.com/pricing](https://chatgpt.com/pricing) for current rates.*
 
 Here is what a full AI setup costs per month:
 
 | Tool | What It Does | Monthly Cost |
 |------|-------------|-------------|
-| **Claude Max** (Opus 4.6 + Sonnet 4.6) | Primary AI tool + Claude Code | ~$100 |
+| **Claude Max** | Primary AI tool + Claude Code | ~$100 |
 | **ChatGPT Plus** | Deep Research, web search, images | ~$20 |
 | **Total** | | **~$120/month** |
 

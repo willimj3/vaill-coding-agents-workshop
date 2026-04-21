@@ -251,7 +251,7 @@ Claude Code defaults to the Sonnet 4.6 model, which is fast and capable for most
 /model opus
 ```
 
-Opus 4.6 is more capable but uses more tokens per response (higher cost, faster usage against plan limits). This setting applies to the current session only. Switch back with `/model sonnet`.
+Claude's Opus model is more capable but uses more tokens per response (higher cost, faster usage against plan limits). This setting applies to the current session only. Switch back with `/model sonnet`.
 
 ---
 
