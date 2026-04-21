@@ -57,7 +57,6 @@ nav:
     - Prompt Engineering: essentials/prompting.md
     - "Teaching AI Your Voice": essentials/voice.md
     - AI Project Folders: essentials/project-folders.md
-    - Everyday Productivity: essentials/everyday-productivity.md
     - "Stress-Test Any Plan": workflows/plan-review-browser.md
     - "ChatGPT vs Claude": essentials/chatgpt-vs-claude.md
     - The Cost Reality: essentials/cost.md
@@ -89,6 +88,8 @@ nav:
     - Exam Drafting & Rubrics: legal-academia/exam-drafting.md
     - Grant Writing: legal-academia/grant-writing.md
     - Student Feedback: legal-academia/student-feedback.md
+  - Everyday Productivity:
+    - essentials/everyday-productivity.md
   - Build Your Own:
     - system/index.md
     - Your First Workflow: workflows/first-session-skills.md
