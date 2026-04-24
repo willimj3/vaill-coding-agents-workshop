@@ -164,7 +164,7 @@ Analyze the patterns:
 ## Privacy and FERPA Considerations
 
 !!! danger "Protect student data — check your tools"
-    Student education records are classified as **Level 3 (Restricted)** under [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) due to FERPA protections. Before using any AI tool with student data, verify that the tool meets your institution's requirements for restricted data.
+    Student education records are protected under FERPA and are typically classified as restricted by university data governance policies (for example, [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/)). Before using any AI tool with student data, check your institution's specific requirements.
 
     1. **Remove identifying information** before pasting student work into free or public AI tools. This includes student names, student ID numbers, institutional email addresses, course section numbers (if small enough to be identifying), and any personal details the student included in their writing.
 

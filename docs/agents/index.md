@@ -23,7 +23,7 @@ A useful framework from [Ethan Mollick](https://www.oneusefulthing.org/p/a-guide
 
 | Layer | What it is | Example |
 |-------|-----------|---------|
-| **Model** | The underlying intelligence — the AI brain itself | Claude Opus, GPT-4o, Gemini Pro |
+| **Model** | The underlying intelligence — the AI brain itself | Claude Opus, ChatGPT's reasoning models, Gemini Pro |
 | **App** | The interface you interact with | Claude.ai website, ChatGPT mobile app |
 | **Harness** | The system that lets the model take actions — use tools, read files, run code | Claude Code, OpenAI Codex, Co-work |
 

@@ -162,7 +162,7 @@ The choice of AI tool matters for client communication because you are working w
 
 ### Using Claude Code with Local Files for Sensitive Work
 
-Claude Code processes files on your local machine. When you ask it to draft a client letter, the information does not leave your computer unless you explicitly send it somewhere. This makes it the preferred tool for any client communication that involves confidential details.
+Claude Code reads files from your local machine and sends the text content to Anthropic's API for processing. The file itself is not uploaded to a web interface or shared with a third-party platform, but the text content is transmitted to Anthropic's servers during the conversation. This is still more controlled than pasting client information into a public chatbot, and Anthropic's API terms state that inputs are not used for model training — but you should understand that the data does leave your machine during processing.
 
 ```text
 Read the case summary at ~/cases/smith-matter/case-summary.md and
@@ -171,7 +171,7 @@ from the past two weeks. Use our standard client communication
 voice file.
 ```
 
-The case summary stays on your machine. The AI reads it locally, drafts the letter locally, and the output stays local until you choose to send it.
+The case summary is read from your machine and processed via Claude's API. The output is saved locally. No data is uploaded to a public chatbot interface.
 
 ### Email Triage and Response Drafting with MCP
 

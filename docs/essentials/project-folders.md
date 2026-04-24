@@ -343,7 +343,7 @@ The same principles apply to legal scholarship -- article drafting, literature r
 
 | Dimension | ChatGPT | Claude |
 |-----------|---------|--------|
-| Web research | Deep Research, current case status, recent opinions | Limited |
+| Web research | Deep Research, current case status, recent opinions | Has web search, less comprehensive |
 | Structured analysis | Good | Better |
 | Building the canonical file | Good | Better |
 | Active case research with web sources | Better (browsing) | Good |

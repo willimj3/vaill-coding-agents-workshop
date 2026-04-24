@@ -102,7 +102,7 @@ Vary the examples by context (brief, memo, client letter, scholarly writing). Th
 
 - **Claude.ai**: Click **New Project** -> open Project Settings -> paste your voice file into **Instructions**. Every conversation inside the project inherits it.
 - **ChatGPT**: Click **Projects** -> create a project -> paste into the **Instructions** field.
-- **Claude Code**: Import via `CLAUDE.md` using `@voice/your-voice-file.md`. Claude reads it automatically each session.
+- **Claude Code**: Save your voice file to `~/.claude/rules/` and it auto-loads every session. Or paste it directly into your project's `CLAUDE.md` file. See [Your CLAUDE.md](../toolkit/claude-md.md) for details.
 
 Then test it: ask the AI to write something you have already written -- a paragraph from a recent brief, a memo introduction. Compare the output to the original. If it uses words you would never use, the voice file needs a rule.
 

@@ -5,7 +5,7 @@
 Exam writing is a peculiar skill. We need questions that are challenging but fair, that test what we actually taught, that distinguish among student ability levels, and that can be graded consistently. We also need rubrics that make grading efficient and defensible, and model answers that help teaching assistants grade reliably. AI can help with all of this — as a drafting partner, a difficulty-calibration tool, and a rubric-generation engine.
 
 !!! warning "Two important practices"
-    **1. Rework AI-generated questions before using them.** Students have access to the same AI tools. If you paste an AI-generated question directly into an exam, a student could paste it back into ChatGPT and get a detailed analysis. Modify, combine, or substantially rework AI-generated questions before they appear on an exam. **2. Know your data classification before inputting student information.** Free and public AI tools (ChatGPT, Claude.ai free tier) are not appropriate for student records. Before using any AI tool with student data, check [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) — student education records are Level 3 (Restricted) under FERPA and require VUIT-managed platforms. See the [privacy section below](#privacy-and-academic-integrity) for specifics.
+    **1. Rework AI-generated questions before using them.** Students have access to the same AI tools. If you paste an AI-generated question directly into an exam, a student could paste it back into ChatGPT and get a detailed analysis. Modify, combine, or substantially rework AI-generated questions before they appear on an exam. **2. Know your data classification before inputting student information.** Free and public AI tools (ChatGPT, Claude.ai free tier) are not appropriate for student records. Before using any AI tool with student data, check your institution's data classification guidelines (for example, [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/)). Student education records are typically classified as restricted under FERPA. See the [privacy section below](#privacy-and-academic-integrity) for specifics.
 
 ---
 
@@ -210,7 +210,7 @@ how to fix it.
 ## Privacy and Academic Integrity
 
 !!! danger "Protect student data — check your tools"
-    Student education records are classified as **Level 3 (Restricted)** under [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/) due to FERPA protections. Before using any AI tool with student data, verify that the tool meets your institution's requirements for restricted data.
+    Student education records are protected under FERPA and are typically classified as restricted by university data governance policies (for example, [Vanderbilt's Data Classification Guidelines](https://www.vanderbilt.edu/cybersecurity/guidelines/data-classification/)). Before using any AI tool with student data, check your institution's specific requirements.
 
     **What this means in practice:**
 

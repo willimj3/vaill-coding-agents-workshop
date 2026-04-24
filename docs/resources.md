@@ -49,7 +49,6 @@ These are the major AI platforms designed for or commonly used in legal work. We
 
 | Resource | Why it matters |
 |----------|---------------|
-| [Straus & Hall -- How Accurately Did Claude Code Replicate a Published Paper? (2026)](papers/Straus_Hall_Claude_Audit.pdf) | An independent audit of Claude Code replicating and extending a PNAS political science paper. The best empirical evidence we have of what coding agents can and cannot do in academic research. By Graham Straus (UCLA) and Andy Hall (Stanford). |
 | [Ethan Mollick -- One Useful Thing](https://www.oneusefulthing.org/) | The gold standard for writing about AI for non-technical professionals. Mollick (Wharton) writes clearly about how AI changes professional work, with practical experiments anyone can try. |
 | [Artificial Intelligence and the Practice of Law (various law reviews)](https://scholar.google.com/scholar?q=artificial+intelligence+practice+of+law+law+review) | A growing body of law review scholarship on AI's impact on legal practice, access to justice, and the legal profession |
 | [Harry Surden -- AI and Law Overview](https://scholar.google.com/citations?user=qkJ0l0IAAAAJ) | Foundational legal scholarship on AI, machine learning, and their applications to law |

@@ -8,7 +8,7 @@ We use and pay for both daily in our research and teaching. Here is an honest co
 
 ## When We Use ChatGPT
 
-**Deep Research.** The single best reason to have a ChatGPT subscription. Give it a legal question and it spends 5-30 minutes searching the web, synthesizing multiple sources, and producing a structured report with citations. Claude can do web searches, but they are shallow by comparison. For checking the current status of pending legislation, recent regulatory actions, or newly filed cases, ChatGPT's browsing capability is genuinely useful.
+**Deep Research.** The single best reason to have a ChatGPT subscription. Give it a legal question and it spends 5-30 minutes searching the web, synthesizing multiple sources, and producing a structured report with citations. Claude has web search capabilities, though ChatGPT's Deep Research remains more comprehensive for extended research tasks. For checking the current status of pending legislation, recent regulatory actions, or newly filed cases, ChatGPT's browsing capability is genuinely useful.
 
 **Image generation.** ChatGPT handles this natively. Claude does not generate images. Not a daily need for most law faculty, but useful for presentations and course materials.
 
@@ -22,7 +22,7 @@ We use and pay for both daily in our research and teaching. Here is an honest co
 
 **Long-form legal writing and editing.** Claude consistently produces better prose -- maintaining voice, following structural instructions, and providing substantive feedback. For memo drafts, brief sections, and law review article editing, the difference is noticeable. Claude is better at following instructions like "write in the voice described in my voice file" or "structure this as a three-part argument with the strongest point first."
 
-**Complex legal reasoning.** For case analysis, statutory interpretation, and multi-factor legal tests, Claude's Opus model tends to produce more thoughtful, better-structured output than GPT-4o. It handles nuance and qualification more naturally -- important for legal analysis where the answer is rarely simply "yes" or "no."
+**Complex legal reasoning.** For case analysis, statutory interpretation, and multi-factor legal tests, Claude's Opus model tends to produce more thoughtful, better-structured output than ChatGPT's standard models. It handles nuance and qualification more naturally -- important for legal analysis where the answer is rarely simply "yes" or "no."
 
 **Projects and persistent context.** Claude.ai's Projects feature lets you create a workspace with instructions and files that persist across conversations -- better than ChatGPT's memory system for structured, project-based legal work. See [AI Project Folders](project-folders.md) for how to use this effectively.
 
@@ -36,7 +36,7 @@ Both tools hallucinate. Both invent citations. This matters more in law than in 
 |-----------|---------|--------|
 | **Hallucinated case citations** | Common, especially with browsing | Common, but tends to flag uncertainty more often |
 | **Fabricated holdings** | Frequent -- confident and wrong | Frequent -- sometimes more cautious |
-| **Current case status** | Better (web browsing) but still unreliable | Weaker -- limited web access |
+| **Current case status** | Better (Deep Research) but still unreliable | Has web search but less comprehensive |
 | **Self-correction when challenged** | Sometimes doubles down | More likely to acknowledge uncertainty |
 
 **The bottom line on citations:** Neither tool is reliable for legal citations. Always verify in Westlaw, Lexis, or another authoritative database. See [Chatbots Done Right](chatbots.md#the-hallucinated-citations-problem) for specific protocols.
@@ -49,7 +49,7 @@ Both tools hallucinate. Both invent citations. This matters more in law than in 
 
 | Tier | ChatGPT | Claude |
 |------|---------|--------|
-| **Free** | GPT-4o (limited) | Sonnet (limited) |
+| **Free** | Standard model (limited) | Sonnet (limited) |
 | **Basic paid** | Plus: $20/mo | Pro: $20/mo |
 | **Power user** | Pro: $100-200/mo | Max: $100-200/mo |
 | **API/developer** | Pay per token | Pay per token |
@@ -70,7 +70,7 @@ Google's Gemini is a capable third option, particularly if your institution uses
 
 **Where it falls short:**
 
-- **No coding agent equivalent (yet).** Gemini does not have a tool comparable to Claude Code or OpenAI Codex for taking actions on your computer.
+- **Coding agents are newer.** Google's coding agents (Jules, Antigravity) are less mature than Claude Code or OpenAI Codex. They are developing quickly but are not yet as well-documented or widely adopted for non-engineering use.
 - **Weaker document output.** Despite strong underlying models, Gemini's web interface is less capable than Claude or ChatGPT at producing structured documents like spreadsheets or formatted reports.
 
 **Our take:** Gemini is worth having access to, especially if you are already paying for Google Workspace. But for the agentic workflows this guide focuses on, Claude Code remains the primary tool.

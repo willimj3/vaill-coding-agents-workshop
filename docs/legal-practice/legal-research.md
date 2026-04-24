@@ -57,7 +57,7 @@ ChatGPT's Deep Research feature (available with a ChatGPT Plus or Pro subscripti
 
 ### Claude for Structured Analysis
 
-Claude (in Claude.ai or Claude Code) does not browse the web, but it excels at analyzing documents you provide to it:
+Claude has web search capabilities, but its real strength is analyzing documents you provide to it:
 
 - **Case analysis.** Paste a case opinion into Claude and ask it to summarize the holding, identify the rule, extract the key facts, or compare it to another case.
 - **Statute parsing.** Paste a statutory section and ask Claude to break down its elements, explain ambiguities, or identify interpretive questions.

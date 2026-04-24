@@ -57,7 +57,7 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 ---
 
-### Windsurf (Codeium)
+### Windsurf
 
 **What it is:** Another AI-native code editor, similar to Cursor. A fork of Visual Studio Code with AI capabilities built in.
 

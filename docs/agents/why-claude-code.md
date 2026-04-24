@@ -30,7 +30,7 @@ For law faculty juggling teaching, research, committee work, and possibly a prac
 
 Claude Code offers a free tier that is sufficient for experimentation and light use. The Pro tier ($20/month) provides enough capacity for regular daily use. The Max tier ($100-200/month) is available for heavy users, but most faculty will find Pro more than adequate. Verify current pricing at [claude.ai/pricing](https://claude.ai/pricing).
 
-Critically, there is no separate charge for Claude Code itself — it is included with a Claude subscription. We are not asking participants to buy an additional product.
+Critically, there is no separate charge for Claude Code itself — it is included with a Claude subscription. There is no additional product to buy.
 
 ### Active Development and Community
 
@@ -46,7 +46,7 @@ We would not be doing our jobs as legal educators if we only presented the posit
 
 Claude Code runs in a terminal — a text-based interface with no buttons, no menus, and no graphical elements. For anyone who has never opened a terminal before, the first few minutes can feel disorienting. We address this directly in the [Setup section](../setup/index.md) with step-by-step instructions, but it would be dishonest to pretend the learning curve does not exist.
 
-The good news: most participants report that the terminal feels comfortable within 30-60 minutes of use. The interface is simple precisely because there is so little to learn — we type what we want, and the agent responds.
+The good news: most users report that the terminal feels comfortable within 30-60 minutes of use. The interface is simple precisely because there is so little to learn — we type what we want, and the agent responds.
 
 ### Subscription Required for Serious Use
 

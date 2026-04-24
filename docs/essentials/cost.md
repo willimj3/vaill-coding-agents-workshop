@@ -30,7 +30,7 @@ Verify at [claude.ai/pricing](https://claude.ai/pricing).
 
 | Plan | Monthly Cost | What You Get |
 |------|-------------|-------------|
-| **Free** | $0 | GPT-4o with daily limits. Functional but constrained. |
+| **Free** | $0 | Standard model with daily limits. Functional but constrained. |
 | **Plus** | $20 | Full access to all models, Deep Research, image generation, web browsing. |
 | **Pro** | $100-200 | Higher usage caps, access to strongest reasoning models, higher Codex limits. |
 
@@ -108,7 +108,7 @@ For lawyers billing at professional rates, the productivity gains from faster re
 **The honest caveat:** There is an upfront time investment to learn the tools and build the system. We estimate 8-12 hours over the first two weeks to work through the essentials and build your first project folders. The ROI is real but not instant.
 
 !!! tip "Data policies differ by product"
-    **Claude Code** uses the Anthropic API — your conversations are not used for model training under the current [API data policy](https://www.anthropic.com/policies/privacy). **Claude.ai** (the browser version) is a consumer product with a [different policy](https://www.anthropic.com/legal/consumer-terms) — check your account settings for data usage preferences. If you work with confidential client information or sensitive research data, this distinction matters. See [Privacy](../privacy.md#tools-and-workflows) for more.
+    **Claude Code** uses the Anthropic API — your conversations are not used for model training under the current [API data policy](https://www.anthropic.com/policies/privacy). **Claude.ai** (the browser version) is a consumer product with a [different policy](https://www.anthropic.com/legal/consumer-terms) — check your account settings for data usage preferences. If you work with confidential client information or sensitive research data, this distinction matters. See [Privacy](../privacy.md) for more.
 
 ---
 

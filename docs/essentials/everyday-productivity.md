@@ -131,7 +131,7 @@ These four workflows share the same structure as every other workflow on this si
 3. **You provide the judgment** — deciding what matters, what to act on, what to delegate
 4. **The output is a starting point** — review it, correct it, add what the agent missed
 
-The difference between these and the legal-specific workflows is that these require zero domain expertise to set up. You can try email triage in the workshop open lab and have results in five minutes.
+The difference between these and the legal-specific workflows is that these require zero domain expertise to set up. You can try email triage in a few minutes and see immediate results.
 
 ---
 
