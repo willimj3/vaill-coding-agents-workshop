@@ -92,7 +92,7 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 | **OpenAI Codex** | Terminal (text) | Similar to Claude Code; best if already in OpenAI ecosystem | Varies by plan | No — natural language interface |
 | **Cursor** | Graphical editor | Document editing, code development, visual workflows | Free tier; $20/mo for Pro | Helpful but not required |
 | **GitHub Copilot** | Inside VS Code | Code writing assistance, inline suggestions | Free tier; $10/mo for Pro | Yes — most useful with coding knowledge |
-| **Windsurf** | Graphical editor | Multi-file editing, code development | Free tier; $15/mo for Pro | Helpful but not required |
+| **Windsurf** | Graphical editor | Multi-file editing, code development | Free tier; $20/mo for Pro | Helpful but not required |
 
 ---
 

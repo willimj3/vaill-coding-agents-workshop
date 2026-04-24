@@ -8,7 +8,7 @@ Instead of a blank terminal, you get a visual file explorer, a text editor with 
     VS Code is what we recommend. It is free, has an official Claude Code extension, and works on every platform. Two AI-focused alternatives worth considering:
 
     - [**Cursor**](https://www.cursor.com/) -- A VS Code fork with AI deeply integrated into the editor itself (autocomplete, inline edits, chat). Very popular with developers. $20/month.
-    - [**Windsurf**](https://codeium.com/windsurf) -- Another VS Code fork with an "agentic" AI that tracks your recent actions. Free tier available. $10/month for pro.
+    - [**Windsurf**](https://windsurf.com/) -- Another VS Code fork with an "agentic" AI that tracks your recent actions. Free tier available. $20/month for pro.
 
     Both use the same extensions and layout as VS Code, so this setup guide mostly applies to them too. We chose VS Code because it is free, well-documented, and Claude Code's official extension is designed for it. If you are comfortable with a paid tool, Cursor and Windsurf offer more AI features built into the editor.
 

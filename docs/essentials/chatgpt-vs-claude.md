@@ -51,7 +51,7 @@ Both tools hallucinate. Both invent citations. This matters more in law than in 
 |------|---------|--------|
 | **Free** | GPT-4o (limited) | Sonnet (limited) |
 | **Basic paid** | Plus: $20/mo | Pro: $20/mo |
-| **Power user** | Pro: $200/mo | Max: $100-200/mo |
+| **Power user** | Pro: $100-200/mo | Max: $100-200/mo |
 | **API/developer** | Pay per token | Pay per token |
 
 See [The Cost Reality](cost.md) for a full breakdown including institutional discounts and what your law school may cover.

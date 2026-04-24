@@ -79,7 +79,7 @@ A recommended toolkit for law faculty getting started with AI:
 | Tool | What It Does | Cost | Essential? |
 |------|-------------|------|-----------|
 | **Claude** (Pro or Max) | Primary chatbot + Claude Code | $20-100/mo | Yes |
-| **ChatGPT** (Plus or Pro) | Deep research, web search, image generation | $20-200/mo | Recommended |
+| **ChatGPT** (Plus or Pro) | Deep research, web search, image generation | $20-100/mo | Recommended |
 | **Built-in Dictation** | Voice-to-text on Mac, iPhone, or Windows | Free | Useful for drafting |
 
 You do not need all of these. Start with one chatbot subscription and add tools as you see the value. The [Cost Reality](cost.md) page breaks this down in detail.
