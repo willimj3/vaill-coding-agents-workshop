@@ -17,6 +17,20 @@ A **coding agent** is different. It is an AI that can **take action on your comp
 
 Think of the difference this way: a chatbot is like calling a very smart colleague on the phone. A coding agent is like having that colleague **sit at your desk** with access to your files, your email, and your calendar — and the ability to act on what they find.
 
+### Models, apps, and harnesses
+
+A useful framework from [Ethan Mollick](https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the): the AI you experience is actually three things stacked together.
+
+| Layer | What it is | Example |
+|-------|-----------|---------|
+| **Model** | The underlying intelligence — the AI brain itself | Claude Opus, GPT-4o, Gemini Pro |
+| **App** | The interface you interact with | Claude.ai website, ChatGPT mobile app |
+| **Harness** | The system that lets the model take actions — use tools, read files, run code | Claude Code, OpenAI Codex, Co-work |
+
+This distinction matters because **the same model behaves very differently depending on its harness.** Claude Opus in a chat window can only respond to what you paste in. Claude Opus in Claude Code can read your files, search your email, write and run scripts, and execute multi-step workflows autonomously. Same intelligence, dramatically more capability.
+
+When people say "I tried AI and it was not that useful," they are almost always describing a model in a basic app with no harness. The shift from chatbot to coding agent is primarily a shift in harness — and that is what unlocks the capabilities described on the rest of this page.
+
 ---
 
 ## Why Now?

@@ -69,6 +69,18 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 ---
 
+### Claude Co-work (Anthropic)
+
+**What it is:** A desktop automation tool from Anthropic that lets Claude operate autonomously on your computer — browsing the web, working with local files, using desktop applications, and completing multi-step tasks with a visual interface rather than a terminal.
+
+**How it works:** Instead of typing instructions into a terminal, you interact through a visual sandbox where you can watch Claude work. It can open applications, navigate websites, fill out forms, and manage files — similar to what a human assistant would do sitting at your computer.
+
+**Strengths:** More approachable than terminal-based tools for users who find the command line intimidating. Can interact with desktop applications and websites that terminal-based agents cannot. Built-in security boundaries.
+
+**Considerations:** Newer than Claude Code, with a still-developing feature set. Requires a Claude subscription. Some tasks are better suited to Claude Code's terminal-based approach (especially data analysis and file processing at scale).
+
+---
+
 ## Comparison Table
 
 *Prices and features as of early 2026. This landscape changes rapidly — verify current details on each tool's website.*
@@ -76,6 +88,7 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 | Tool | Interface | Best For | Starting Cost | Coding Experience Required? |
 |------|-----------|----------|---------------|---------------------------|
 | **Claude Code** | Terminal (text) | Complex reasoning tasks, legal analysis, file processing, workflow automation | Free tier available; $20/mo for Pro | No — designed for natural language use |
+| **Claude Co-work** | Visual desktop | Desktop automation, web browsing, working with applications | Included with Claude subscription | No — visual, point-and-click interaction |
 | **OpenAI Codex** | Terminal (text) | Similar to Claude Code; best if already in OpenAI ecosystem | Varies by plan | No — natural language interface |
 | **Cursor** | Graphical editor | Document editing, code development, visual workflows | Free tier; $20/mo for Pro | Helpful but not required |
 | **GitHub Copilot** | Inside VS Code | Code writing assistance, inline suggestions | Free tier; $10/mo for Pro | Yes — most useful with coding knowledge |

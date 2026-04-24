@@ -58,6 +58,25 @@ See [The Cost Reality](cost.md) for a full breakdown including institutional dis
 
 ---
 
+## What About Gemini?
+
+Google's Gemini is a capable third option, particularly if your institution uses Google Workspace. Gemini's models are competitive with Claude and ChatGPT for reasoning and writing tasks.
+
+**Where Gemini stands out:**
+
+- **Google Workspace integration.** If your email, calendar, and documents live in Google, Gemini can work with them natively. This is a real advantage for faculty at institutions (including Vanderbilt) that run on Google.
+- **Long documents.** Gemini handles very long inputs well — useful for analyzing lengthy contracts, transcripts, or legislative text.
+- **NotebookLM.** Google's [NotebookLM](https://notebooklm.google.com/) lets you upload sources and have the AI synthesize them, generate summaries, and even produce AI-hosted podcast-style audio discussions of your research. It is a genuinely unique tool for literature review and research synthesis.
+
+**Where it falls short:**
+
+- **No coding agent equivalent (yet).** Gemini does not have a tool comparable to Claude Code or OpenAI Codex for taking actions on your computer.
+- **Weaker document output.** Despite strong underlying models, Gemini's web interface is less capable than Claude or ChatGPT at producing structured documents like spreadsheets or formatted reports.
+
+**Our take:** Gemini is worth having access to, especially if you are already paying for Google Workspace. But for the agentic workflows this guide focuses on, Claude Code remains the primary tool.
+
+---
+
 ## The Bottom Line
 
 **If you can only pick one:** Claude, especially if you plan to use Claude Code or do significant legal writing. The quality of its long-form output and its Projects feature give it an edge for the kind of work law faculty do most.
