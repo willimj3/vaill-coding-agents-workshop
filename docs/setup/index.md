@@ -27,7 +27,7 @@ If you prefer a visual environment, you can optionally run Claude Code inside a 
 | **Setup** | Just install Claude Code -- nothing else needed | Install VS Code + the Claude Code extension |
 | **Best for** | Most tasks, quick iterations, keeping things simple | Longer sessions where you want to browse files visually |
 
-If you do want a code editor, **[VS Code](https://code.visualstudio.com/)** is what we recommend -- it is free and has an official Claude Code extension. [Cursor](https://cursor.com/) ($20/month) is another option built specifically around AI. Either way, the code editor is optional -- everything on this site works from a plain terminal.
+If you do want a code editor, **[VS Code](https://code.visualstudio.com/)** is what we recommend -- it is free and has an official Claude Code extension. Either way, the code editor is optional -- everything on this site works from a plain terminal.
 
 ---
 

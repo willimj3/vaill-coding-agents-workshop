@@ -33,42 +33,6 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 ---
 
-### Cursor
-
-**What it is:** An AI-native code editor — essentially a version of Visual Studio Code (a popular code editor) rebuilt from the ground up with AI capabilities integrated into every feature.
-
-**How it works:** You open Cursor like any code editor, but AI is woven into the experience. You can highlight text and ask the AI to modify it, generate new files through conversation, and get real-time suggestions as you work.
-
-**Strengths:** The most visual and approachable interface of any coding agent. If the terminal feels intimidating, Cursor's graphical interface may feel more natural. Strong for editing existing documents and code.
-
-**Considerations:** Designed primarily for software developers. The interface includes many features that non-coders will not need. Paid subscription required for full AI features.
-
----
-
-### GitHub Copilot
-
-**What it is:** An AI assistant that lives inside your code editor (typically Visual Studio Code). It suggests completions, answers questions, and can generate code from natural language descriptions.
-
-**How it works:** As you type, Copilot offers suggestions inline — like a very aggressive autocomplete that understands what you are trying to do. You can also chat with it directly within the editor.
-
-**Strengths:** Deeply integrated into the most popular code editor in the world. Excellent for people who are already writing some code and want AI assistance. Recently added an "agent mode" that can make multi-file changes.
-
-**Considerations:** Most useful for people who are already coding. The inline suggestion model is less intuitive for non-coders than a conversational interface.
-
----
-
-### Windsurf
-
-**What it is:** Another AI-native code editor, similar to Cursor. A fork of Visual Studio Code with AI capabilities built in.
-
-**How it works:** Similar to Cursor — a graphical editor with AI conversation, inline suggestions, and the ability to make multi-file changes through natural language instructions.
-
-**Strengths:** Competitive pricing, strong multi-file editing capabilities, and a clean interface. Some users prefer its workflow to Cursor's.
-
-**Considerations:** Smaller community than Cursor or GitHub Copilot. Like Cursor, it is primarily designed for software development.
-
----
-
 ### Claude Co-work (Anthropic)
 
 **What it is:** A desktop automation tool from Anthropic that lets Claude operate autonomously on your computer — browsing the web, working with local files, using desktop applications, and completing multi-step tasks with a visual interface rather than a terminal.
@@ -87,12 +51,10 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 | Tool | Interface | Best For | Starting Cost | Coding Experience Required? |
 |------|-----------|----------|---------------|---------------------------|
-| **Claude Code** | Terminal (text) | Complex reasoning tasks, legal analysis, file processing, workflow automation | Free tier available; $20/mo for Pro | No — designed for natural language use |
+| **Claude Code** | Terminal (text) | Complex reasoning tasks, legal analysis, file processing, workflow automation | Included with Claude subscription ($20/mo Pro) | No — designed for natural language use |
 | **Claude Co-work** | Visual desktop | Desktop automation, web browsing, working with applications | Included with Claude subscription | No — visual, point-and-click interaction |
-| **OpenAI Codex** | Terminal (text) | Similar to Claude Code; best if already in OpenAI ecosystem | Varies by plan | No — natural language interface |
-| **Cursor** | Graphical editor | Document editing, code development, visual workflows | Free tier; $20/mo for Pro | Helpful but not required |
-| **GitHub Copilot** | Inside VS Code | Code writing assistance, inline suggestions | Free tier; $10/mo for Pro | Yes — most useful with coding knowledge |
-| **Windsurf** | Graphical editor | Multi-file editing, code development | Free tier; $20/mo for Pro | Helpful but not required |
+| **OpenAI Codex** | Web-based | Asynchronous task execution, code generation | Included with ChatGPT plans ($20/mo Plus) | No — natural language interface |
+| **Google Jules** | Web-based | Repository-aware coding tasks | Included with Gemini AI Pro ($20/mo) | No — natural language interface |
 
 ---
 
@@ -100,8 +62,8 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 This deserves clarification. None of these tools require us to *write* code in the traditional sense. We give instructions in English; the tool figures out the technical details. However:
 
-- **Terminal-based tools** (Claude Code, Codex) require comfort with a text-based interface — no icons, no menus, just typing. That is a learnable skill, and we cover it in the [Setup section](../setup/index.md), but it is a real adjustment.
-- **Editor-based tools** (Cursor, Copilot, Windsurf) present a more familiar graphical interface, but they are designed around software development workflows that may feel foreign to non-coders.
+- **Terminal-based tools** (Claude Code) require comfort with a text-based interface — no icons, no menus, just typing. That is a learnable skill, and we cover it in the [Setup section](../setup/index.md), but it is a real adjustment.
+- **Visual tools** (Claude Co-work, Codex, Jules) present a more familiar interface but are newer and still developing their feature sets.
 - **The practical reality:** For the tasks we care about in legal work — analyzing documents, drafting memos, managing data — Claude Code's conversational interface turns out to be the most natural fit, despite the terminal. We describe what we want; it does the work.
 
 ---
