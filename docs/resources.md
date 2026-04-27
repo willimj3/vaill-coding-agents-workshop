@@ -43,19 +43,7 @@ These are the major AI platforms designed for or commonly used in legal work. We
 
 ---
 
-## Research and Scholarship on AI in Law
-
-### Essential Reading
-
-| Resource | Why it matters |
-|----------|---------------|
-| [Ethan Mollick -- One Useful Thing](https://www.oneusefulthing.org/) | The gold standard for writing about AI for non-technical professionals. Mollick (Wharton) writes clearly about how AI changes professional work, with practical experiments anyone can try. |
-| [Artificial Intelligence and the Practice of Law (various law reviews)](https://scholar.google.com/scholar?q=artificial+intelligence+practice+of+law+law+review) | A growing body of law review scholarship on AI's impact on legal practice, access to justice, and the legal profession |
-| [Harry Surden -- AI and Law Overview](https://scholar.google.com/citations?user=qkJ0l0IAAAAJ) | Foundational legal scholarship on AI, machine learning, and their applications to law |
-| [Daniel Martin Katz -- Legal AI Research](https://scholar.google.com/citations?user=fhGW0GEAAAAJ) | Leading work on computational law, legal analytics, and AI in the legal profession |
-| [Maura Grossman and Gordon Cormack](https://scholar.google.com/citations?user=TnXnvaAAAAAJ) | Pioneering research on technology-assisted review (TAR) and AI in e-discovery |
-
-### Academics Using Coding Agents
+## Academics Using Coding Agents
 
 A growing number of researchers are documenting how they use coding agents in their academic work. These are not theoretical — they are working researchers describing real workflows.
 
@@ -69,13 +57,6 @@ A growing number of researchers are documenting how they use coding agents in th
 | [Sant'Anna -- Claude Code Academic Workflow (2026)](https://psantanna.com/claude-code-my-workflow/) | Pedro Sant'Anna (Emory, Economics) published a detailed Claude Code workflow for LaTeX, Quarto, and R-based research with 14 specialized agents. Adopted by 15+ research groups across economics, political science, and engineering. |
 | [Cunningham -- "Claude Code Changed How I Work" (2026)](https://causalinf.substack.com/p/claude-code-changed-how-i-work-part) | Scott Cunningham (Baylor, Economics), author of *Causal Inference: The Mixtape*, documents his switch to Claude Code for empirical econometrics and why he says he is never going back. |
 | [Blattman -- Claude for Professionals Who Don't Code](https://claudeblattman.com/) | Chris Blattman (U Chicago, Political Economy) built an open-source AI workflow system for academic research management — writing, research, course design. The project this site was originally adapted from. |
-
-### AI and Legal Education
-
-| Resource | Focus |
-|----------|-------|
-| [Building AI Literacy in Law Schools (AALS)](https://www.aals.org/) | Emerging guidance on integrating AI into the law school curriculum |
-| [Teaching with AI in Law Schools (various)](https://scholar.google.com/scholar?q=teaching+AI+law+school+pedagogy) | Scholarship on how law professors are adapting courses, assessments, and clinical programs for an AI-enabled practice |
 
 ---
 
