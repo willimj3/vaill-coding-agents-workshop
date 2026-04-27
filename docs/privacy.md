@@ -117,7 +117,7 @@ Your law school or university likely has (or is developing) policies on AI use. 
 
 - [Anthropic Privacy Policy](https://www.anthropic.com/policies/privacy) -- How Anthropic handles data from Claude and Claude Code
 - [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy/) -- How OpenAI handles data from ChatGPT
-- [ABA Formal Opinion 512 (2024)](https://www.americanbar.org/groups/professional_responsibility/publications/ethics_opinions/) -- Lawyers' obligations when using generative AI
+- [ABA Formal Opinion 512 (2024)](https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf) -- Lawyers' obligations when using generative AI
 - [FERPA Guidance (US Department of Education)](https://studentprivacy.ed.gov/) -- Federal requirements for student data protection
 
 ---

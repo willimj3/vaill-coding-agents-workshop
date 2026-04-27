@@ -10,11 +10,11 @@ Professional responsibility is the first concern for any lawyer using AI. These 
 
 | Resource | What it covers |
 |----------|---------------|
-| [ABA Formal Opinion 512 (2024)](https://www.americanbar.org/groups/professional_responsibility/publications/ethics_opinions/) | The ABA's guidance on lawyers' obligations when using generative AI -- competence, confidentiality, supervision, and communication with clients |
-| [ABA Resolution 604 (2019)](https://www.americanbar.org/groups/leadership/office-of-the-president/ai-task-force/) | The ABA's foundational resolution on AI and the practice of law, establishing the Task Force on Law and Artificial Intelligence |
-| [State Bar AI Ethics Opinions](https://www.americanbar.org/groups/professional_responsibility/) | A growing collection from California, Florida, New York, Texas, and other state bars -- each interpreting how existing rules of professional conduct apply to AI tools |
+| [ABA Formal Opinion 512 (2024)](https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf) | The ABA's guidance on lawyers' obligations when using generative AI -- competence, confidentiality, supervision, and communication with clients |
+| [ABA Task Force on Law and AI](https://www.americanbar.org/groups/centers_commissions/center-for-innovation/artificial-intelligence/) | The ABA's initiative examining AI's impact on law practice, ethical implications, and strategies for responsible use |
+| [State Bar AI Ethics Opinions](https://www.americanbar.org/groups/professional_responsibility/publications/ethics_opinions/) | A growing collection from California, Florida, New York, Texas, and other state bars -- each interpreting how existing rules of professional conduct apply to AI tools |
 | [Model Rule 1.6 -- Confidentiality](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/) | The text of Model Rule 1.6 and its comments -- essential reading before using any AI tool with client information |
-| [Model Rule 1.1 -- Competence](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_client_lawyer_relationship/) | Competence now includes understanding the benefits and risks of technology relevant to your practice |
+| [Model Rule 1.1 -- Competence](https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_competence/) | Competence now includes understanding the benefits and risks of technology relevant to your practice |
 
 ---
 
@@ -26,7 +26,7 @@ These are the major AI platforms designed for or commonly used in legal work. We
 
 | Tool | What it does | Notes |
 |------|-------------|-------|
-| [CoCounsel (by Thomson Reuters)](https://casetext.com/cocounsel) | AI legal assistant integrated with Westlaw -- case research, document review, deposition preparation | Enterprise pricing; widely adopted by large firms |
+| [CoCounsel (Thomson Reuters)](https://legal.thomsonreuters.com/en/products/cocounsel) | AI legal assistant integrated with Westlaw -- case research, document review, deposition preparation | Enterprise pricing; over 1 million users |
 | [Lexis+ AI](https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page) | AI assistant integrated with LexisNexis research platform | Includes citation verification and hallucination checks |
 | [Harvey AI](https://www.harvey.ai/) | General-purpose legal AI platform for drafting, analysis, and research | Used by major law firms; enterprise-only |
 | [Westlaw AI-Assisted Research](https://legal.thomsonreuters.com/en/products/westlaw) | AI features within the Westlaw research platform | Available to existing Westlaw subscribers |
