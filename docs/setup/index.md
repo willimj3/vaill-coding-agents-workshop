@@ -5,7 +5,7 @@
 This section takes you from zero to a working Claude Code installation. If you want to see what coding agents *do* before setting one up, start with [What Are Coding Agents?](../agents/index.md).
 
 !!! tip "Watch first: Claude Code for non-engineers (43 min)"
-    Before diving into the install steps below, this video walkthrough by [Ally Miller](https://www.youtube.com/@allykmiller) is the best introduction we have found for non-technical users. She walks through the entire setup process, then demonstrates real tasks: creating and editing files, building a dashboard from a CSV, turning data into a presentation, managing files on your computer, and creating reusable agents — all in plain English with no coding background assumed.
+    This video walkthrough by [Ally Miller](https://www.youtube.com/@allykmiller) is the best introduction we have found for non-technical users. She demonstrates real tasks: creating and editing files, building a dashboard from a CSV, turning data into a presentation, managing files on your computer, and creating reusable agents — all in plain English with no coding background assumed. **Note:** The installation steps shown in the video (~2:00) are outdated — use our install guides below instead. Everything after the install is still accurate and worth watching.
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1rem 0;">
       <iframe src="https://www.youtube.com/embed/v1ynWeHhzXs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen loading="lazy"></iframe>
