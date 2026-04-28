@@ -19,17 +19,34 @@ You have probably used Claude through a web browser at claude.ai -- type a quest
 
 Think of it this way: Claude.ai is like texting a smart friend. Claude Code is like having that friend sit at your computer with you.
 
+!!! tip "Prefer a graphical interface?"
+    If the terminal feels intimidating, Anthropic now offers a [Desktop app](https://claude.com/download?utm_source=claude_code&utm_medium=docs) that lets you use Claude Code without the terminal. Download, install, and run -- no command line needed. See the [Desktop quickstart](https://code.claude.com/docs/en/desktop-quickstart) for details.
+
 ---
 
 ## Prerequisites
 
-- **A Windows PC** (Windows 10 or later)
+- **A Windows PC** running Windows 10 (version 1809 or later) or Windows 11
 - **Internet connection**
-- **Anthropic account** -- If you have used Claude.ai, you already have one. If not, you will create one during setup.
+- **Git for Windows** -- required for Claude Code to run commands. Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and install with default settings.
+- **A paid Anthropic account** -- Claude Code requires a **Pro, Max, Team, or Enterprise** subscription. The free Claude.ai plan does not include Claude Code access. Sign up at [claude.ai](https://claude.ai) if you do not have one.
 
 ---
 
-## Step 1: Open PowerShell
+## Step 1: Install Git for Windows
+
+If you do not already have Git installed, do this first:
+
+1. Go to [git-scm.com/downloads/win](https://git-scm.com/downloads/win)
+2. Download the installer
+3. Run it and accept the default settings (click Next through each screen)
+4. When it finishes, **close and reopen PowerShell** if you had it open
+
+Claude Code uses Git for Windows internally to execute commands. You do not need to learn Git -- just install it.
+
+---
+
+## Step 2: Open PowerShell
 
 ### What is PowerShell?
 
@@ -49,66 +66,38 @@ A window will appear with a blue or black background and a prompt that looks som
 PS C:\Users\YourName>
 ```
 
-The `>` is where you type commands.
+The `>` is where you type commands. The `PS` at the beginning tells you that you are in PowerShell (not CMD -- this matters for the install command).
 
 **Do not panic at the blank screen.** PowerShell is just waiting for you to tell it what to do.
 
 ---
 
-## Step 2: Install Node.js
-
-### Why you need this
-
-Claude Code is built using a technology called Node.js. Think of Node.js as the engine that runs the Claude Code program. Without it, Claude Code cannot start.
-
-### How to install
-
-1. Open your web browser and go to: **https://nodejs.org**
-2. You will see two download buttons. Click the **LTS** version (LTS means "Long Term Support" -- it is the stable, reliable version)
-3. Once downloaded, open the installer and follow the prompts (click Next, agree to the license, click Install)
-4. **Important:** When the installer asks about "Tools for Native Modules," check the box to install them -- this prevents common issues later
-5. When it finishes, **close and reopen PowerShell** (the installer needs a fresh window to take effect)
-
-### Verify it worked
-
-In PowerShell, type this command and press Enter:
-
-```powershell
-node --version
-```
-
-You should see a version number like `v20.11.0` or similar. The exact number does not matter -- what matters is that you see a version, not an error.
-
-**If you see an error:** Close PowerShell completely and reopen it, then try again. If the error persists, restart your computer and try once more.
-
----
-
 ## Step 3: Install Claude Code
 
-This downloads Claude Code from Anthropic's servers and installs it on your computer. You only do this once.
+One command. No other software to install first (other than Git, which you did in Step 1).
 
-In PowerShell, type this command and press Enter:
+Copy and paste this into PowerShell and press Enter:
 
 ```powershell
-npm install -g @anthropic-ai/claude-code
+irm https://claude.ai/install.ps1 | iex
 ```
 
-**What to expect:** You will see text scrolling by -- this is normal. It is downloading and installing files. Wait until you see your prompt (`>`) appear again.
+**What to expect:** You will see text scrolling by as it downloads and installs. Wait until you see your prompt (`>`) appear again with a message that says installation is complete.
 
-!!! ask-claude "Stuck? Ask Claude."
-    If you have already started Claude Code (Step 4 below), you can type your problem
-    directly in the Claude Code terminal -- for example:
-    `I got a permission error when installing. Can you help?`
-    Press Enter. Claude can see the context of your session and usually knows what went wrong.
+!!! warning "Getting an error about tokens?"
+    If you see `The token '&&' is not a valid statement separator`, you are in PowerShell but used the wrong command. The command above (`irm ... | iex`) is the correct one for PowerShell.
 
-!!! tip "Permission errors?"
-    Try opening PowerShell as Administrator:
+    If you see `'irm' is not recognized`, you are in CMD, not PowerShell. Either switch to PowerShell, or use this CMD command instead:
+    ```
+    curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+    ```
 
-    1. Press the **Windows key**
-    2. Type **PowerShell**
-    3. Right-click **Windows PowerShell** and select **Run as administrator**
-    4. Click **Yes** when prompted
-    5. Run the install command again
+!!! tip "Alternative install methods"
+    **WinGet:** If you use WinGet, you can install with `winget install Anthropic.ClaudeCode` instead.
+
+    **npm:** If you already have Node.js 18+, you can install with `npm install -g @anthropic-ai/claude-code`. Note: do **not** use elevated permissions -- it can cause issues.
+
+    For all install options, see the [official setup guide](https://code.claude.com/docs/en/getting-started).
 
 ---
 
@@ -128,7 +117,7 @@ And press Enter.
 
 1. Your web browser will open automatically
 2. You will see an Anthropic login page
-3. Log in with your Anthropic account (or create one if needed)
+3. Log in with your Anthropic account (Pro, Max, Team, or Enterprise)
 4. Click "Approve" or "Authorize" when asked to give access
 5. Return to PowerShell -- you should see a welcome message
 
@@ -166,7 +155,7 @@ Press Enter, and Claude will respond -- but now Claude can actually look at your
 
 ## Step 6: Opening Claude Code Again
 
-After the first-time setup, you do not need to repeat Steps 1-4. From now on:
+After the first-time setup, you do not need to repeat the install or authentication. From now on:
 
 ### Starting a new session
 
@@ -195,8 +184,26 @@ claude
 
 ---
 
+## Updates
+
+The native installer keeps Claude Code up to date automatically. Updates download in the background and take effect the next time you start Claude Code. You do not need to do anything.
+
+To update manually at any time:
+
+```powershell
+claude update
+```
+
+To check your current version:
+
+```powershell
+claude --version
+```
+
+---
+
 !!! tip "What Claude Code can access"
-    Claude Code can read any file in the folder where you run it -- and, if asked, files elsewhere on your machine, including cloud-synced folders (OneDrive, Dropbox, Google Drive). It can also run PowerShell commands. This is what makes it powerful: Claude works *with* your files, not in a separate sandbox. When Claude reads a file or processes data, that content is sent to Anthropic's API. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training. For more on data handling, see [Privacy](../privacy.md).
+    Claude Code can read any file in the folder where you run it -- and, if asked, files elsewhere on your machine, including cloud-synced folders (OneDrive, Dropbox, Google Drive). It can also run commands. This is what makes it powerful: Claude works *with* your files, not in a separate sandbox. When Claude reads a file or processes data, that content is sent to Anthropic's API. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training. For more on data handling, see [Privacy](../privacy.md).
 
 ## What's Next
 
@@ -208,21 +215,23 @@ claude
 
 ## Troubleshooting
 
-### Common Issues
+**`'irm' is not recognized`** -- You are in CMD, not PowerShell. Open PowerShell instead (Windows key -> "PowerShell").
 
-**`node: command not found` or `npm is not recognized`** -- Node.js was not added to your PATH. Close and reopen PowerShell. If that does not work, restart your computer. If it still does not work, reinstall Node.js and make sure you do not uncheck any PATH options during installation.
+**`The token '&&' is not a valid statement separator`** -- You are in PowerShell but used the CMD install command. Use `irm https://claude.ai/install.ps1 | iex` instead.
+
+**Git-related errors** -- Make sure Git for Windows is installed from [git-scm.com/downloads/win](https://git-scm.com/downloads/win). Close and reopen PowerShell after installing Git.
+
+**"Free plan" error on authentication** -- Claude Code requires a paid plan (Pro, Max, Team, or Enterprise). The free Claude.ai plan does not include Claude Code access. Upgrade at [claude.ai](https://claude.ai).
 
 **Execution policy errors** -- Run this command first, then try the install again:
-
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
-
 Type **Y** and press Enter when prompted.
 
-**Antivirus blocking installation** -- Some antivirus software may flag npm packages. Temporarily disable real-time scanning during installation if needed, then re-enable it afterward.
-
 **Browser doesn't open for authentication** -- Copy the URL from PowerShell and paste it into your browser manually.
+
+**Other issues** -- Run `claude doctor` for diagnostics, or see the [official troubleshooting guide](https://code.claude.com/docs/en/troubleshooting).
 
 ---
 
@@ -231,10 +240,11 @@ Type **Y** and press Enter when prompted.
 | Task | Command |
 |------|---------|
 | Open PowerShell | Windows key -> "PowerShell" -> Enter |
-| Check Node.js | `node --version` |
-| Install Claude Code | `npm install -g @anthropic-ai/claude-code` |
+| Install Claude Code | `irm https://claude.ai/install.ps1 \| iex` |
 | Start Claude Code | `claude` |
 | Continue last session | `claude -c` |
 | Resume a past session | `claude --resume` |
+| Update Claude Code | `claude update` |
+| Check version | `claude --version` |
 | Get help | `/help` |
 | Exit | `/exit` or Ctrl+C |

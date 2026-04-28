@@ -40,32 +40,22 @@ If you do want a code editor, **[VS Code](https://code.visualstudio.com/)** is w
     **Open Terminal** (Cmd + Space -> "Terminal" -> Enter), then run:
 
     ```bash
-    # Install Node.js first from https://nodejs.org (LTS version)
-    node --version          # verify it worked
-
-    # Then install Claude Code
-    npm install -g @anthropic-ai/claude-code
+    curl -fsSL https://claude.ai/install.sh | bash
     claude                  # first run — authenticates in browser
     ```
 
-    Permission error? Use `sudo npm install -g @anthropic-ai/claude-code`
+    That is it -- one command installs everything. No other software to install first.
 
     [:octicons-arrow-right-24: Full Mac walkthrough](../toolkit/install-mac.md)
 
 === "Windows"
 
-    **Open PowerShell** (Windows key -> "PowerShell" -> Enter), then run:
+    **Install [Git for Windows](https://git-scm.com/downloads/win)** first (required). Then **open PowerShell** (Windows key -> "PowerShell" -> Enter) and run:
 
     ```powershell
-    # Install Node.js first from https://nodejs.org (LTS version)
-    node --version          # verify it worked
-
-    # Then install Claude Code
-    npm install -g @anthropic-ai/claude-code
+    irm https://claude.ai/install.ps1 | iex
     claude                  # first run — authenticates in browser
     ```
-
-    Permission error? Right-click PowerShell -> "Run as administrator" and retry.
 
     [:octicons-arrow-right-24: Full Windows walkthrough](../toolkit/install-windows.md)
 
@@ -113,8 +103,8 @@ If you do want a code editor, **[VS Code](https://code.visualstudio.com/)** is w
 Before starting:
 
 1. **Have used a chatbot** (Claude.ai or ChatGPT) at least a few times
-2. **Have a paid Anthropic account** (Claude Pro at minimum; Claude Max recommended for heavy use)
-3. **Be comfortable with the idea of using a terminal** -- you do not need experience, but you do need willingness
+2. **Have a paid Anthropic account** -- Claude Code requires **Pro, Max, Team, or Enterprise**. The free Claude.ai plan does not include Claude Code access.
+3. **Be comfortable with the idea of using a terminal** -- you do not need experience, but you do need willingness. (Or use the [Desktop app](https://code.claude.com/docs/en/desktop-quickstart) instead.)
 
 If you have not used chatbots much yet, start with [AI Essentials](../essentials/index.md) first.
 
@@ -140,9 +130,8 @@ If you get stuck during setup, check here before giving up:
 
 | Problem | Fix |
 |---------|-----|
-| **`node: command not found`** | Close Terminal and reopen it. If that does not work, reinstall Node.js from [nodejs.org](https://nodejs.org). |
-| **`npm: command not found`** | Same as above -- npm comes with Node.js. |
-| **Permission errors during install** | Use `sudo npm install -g @anthropic-ai/claude-code` and enter your Mac password. |
+| **Install command fails** | Make sure you are using the correct command for your shell. Mac: `curl -fsSL https://claude.ai/install.sh \| bash`. Windows PowerShell: `irm https://claude.ai/install.ps1 \| iex`. See the [official setup guide](https://code.claude.com/docs/en/getting-started). |
+| **"Free plan" error** | Claude Code requires a paid plan (Pro, Max, Team, or Enterprise). Upgrade at [claude.ai](https://claude.ai). |
 | **Browser doesn't open for authentication** | Copy the URL from Terminal and paste it into your browser manually. |
 | **Google OAuth tokens expire every 7 days** | Your Google Cloud project is in "Testing" mode. Switch to "Production" in the [Cloud Console](https://console.cloud.google.com) -> Google Auth platform -> Audience. See [MCP Setup](../toolkit/mcp-setup.md) for details. |
 | **MCP server not responding** | Check that all paths in `~/.claude.json` are correct and absolute. Run `claude doctor` for diagnostics. Restart Claude Code. |

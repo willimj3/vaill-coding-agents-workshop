@@ -19,13 +19,16 @@ You have probably used Claude through a web browser at claude.ai -- type a quest
 
 Think of it this way: Claude.ai is like texting a smart friend. Claude Code is like having that friend sit at your computer with you.
 
+!!! tip "Prefer a graphical interface?"
+    If the terminal feels intimidating, Anthropic now offers a [Desktop app](https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect?utm_source=claude_code&utm_medium=docs) that lets you use Claude Code without the terminal. Download, install, and run -- no command line needed. See the [Desktop quickstart](https://code.claude.com/docs/en/desktop-quickstart) for details.
+
 ---
 
 ## Prerequisites
 
-- **A Mac** (Windows? See [Install -- Windows](install-windows.md))
+- **A Mac** running macOS 13.0 or later (Windows? See [Install -- Windows](install-windows.md))
 - **Internet connection**
-- **Anthropic account** -- If you have used Claude.ai, you already have one. If not, you will create one during setup.
+- **A paid Anthropic account** -- Claude Code requires a **Pro, Max, Team, or Enterprise** subscription. The free Claude.ai plan does not include Claude Code access. Sign up at [claude.ai](https://claude.ai) if you do not have one.
 
 ---
 
@@ -55,63 +58,30 @@ The `%` (or sometimes `$`) is where you type commands.
 
 ---
 
-## Step 2: Install Node.js
+## Step 2: Install Claude Code
 
-### Why you need this
+One command. No other software to install first.
 
-Claude Code is built using a technology called Node.js. Think of Node.js as the engine that runs the Claude Code program. Without it, Claude Code cannot start.
-
-### How to install
-
-1. Open your web browser and go to: **https://nodejs.org**
-2. You will see two download buttons. Click the **LTS** version (LTS means "Long Term Support" -- it is the stable, reliable version)
-3. Once downloaded, open the installer and follow the prompts (click Continue, Agree, Install)
-4. When it finishes, go back to Terminal
-
-### Verify it worked
-
-In Terminal, type this command and press Enter:
+Copy and paste this into Terminal and press Enter:
 
 ```bash
-node --version
+curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-You should see a version number like `v20.11.0` or similar. The exact number does not matter -- what matters is that you see a version, not an error.
+**What to expect:** You will see text scrolling by as it downloads and installs. Wait until you see your prompt (`%` or `$`) appear again with a message that says installation is complete.
 
-**If you see an error:** Close Terminal completely and reopen it, then try again. The installer sometimes requires a fresh Terminal window.
+This typically takes under a minute.
+
+!!! tip "Alternative install methods"
+    **Homebrew:** If you use Homebrew, you can install with `brew install --cask claude-code` instead.
+
+    **npm:** If you already have Node.js 18+, you can install with `npm install -g @anthropic-ai/claude-code`. Note: do **not** use `sudo` with npm installs -- it can cause permission issues.
+
+    For all install options, see the [official setup guide](https://code.claude.com/docs/en/getting-started).
 
 ---
 
-## Step 3: Install Claude Code
-
-This downloads Claude Code from Anthropic's servers and installs it on your computer. You only do this once.
-
-In Terminal, type this command and press Enter:
-
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-**What to expect:** You will see text scrolling by -- this is normal. It is downloading and installing files. Wait until you see your prompt (`%` or `$`) appear again, meaning it is done.
-
-This may take a minute or two depending on your internet connection.
-
-!!! ask-claude "Stuck? Ask Claude."
-    If you have already started Claude Code (Step 4 below), you can type your problem
-    directly in the Claude Code terminal -- for example:
-    `I got a permission error when installing. Can you help?`
-    Press Enter. Claude can see the context of your session and usually knows what went wrong.
-
-!!! tip "Permission errors?"
-    If you see permission errors, try running the command with `sudo` in front:
-    ```bash
-    sudo npm install -g @anthropic-ai/claude-code
-    ```
-    You will be asked for your Mac password. When you type it, no characters will appear (this is a security feature) -- just type your password and press Enter.
-
----
-
-## Step 4: First Run and Authentication
+## Step 3: First Run and Authentication
 
 The first time you run Claude Code, you need to link it to your Anthropic account. This is a one-time setup.
 
@@ -127,7 +97,7 @@ And press Enter.
 
 1. Your web browser will open automatically
 2. You will see an Anthropic login page
-3. Log in with your Anthropic account (or create one if needed)
+3. Log in with your Anthropic account (Pro, Max, Team, or Enterprise)
 4. Click "Approve" or "Authorize" when asked to give Terminal access
 5. Return to Terminal -- you should see a welcome message
 
@@ -135,7 +105,7 @@ And press Enter.
 
 ---
 
-## Step 5: Your First Conversation
+## Step 4: Your First Conversation
 
 Once Claude Code is running, you will see a prompt where you can type messages. Just type like you would in any chat:
 
@@ -163,9 +133,9 @@ Press Enter, and Claude will respond -- but now Claude can actually look at your
 
 ---
 
-## Step 6: Opening Claude Code Again
+## Step 5: Opening Claude Code Again
 
-After the first-time setup, you do not need to repeat Steps 1-4. From now on:
+After the first-time setup, you do not need to repeat the install or authentication. From now on:
 
 ### Starting a new session
 
@@ -196,6 +166,24 @@ This way Claude can see and work with the files in that project.
 
 ---
 
+## Updates
+
+The native installer keeps Claude Code up to date automatically. Updates download in the background and take effect the next time you start Claude Code. You do not need to do anything.
+
+To update manually at any time:
+
+```bash
+claude update
+```
+
+To check your current version:
+
+```bash
+claude --version
+```
+
+---
+
 !!! tip "What Claude Code can access"
     Claude Code can read any file in the folder where you run it -- and, if asked, files elsewhere on your machine, including cloud-synced folders (Dropbox, iCloud, Google Drive). It can also run terminal commands. This is what makes it powerful: Claude works *with* your files, not in a separate sandbox. When Claude reads a file or processes data, that content is sent to Anthropic's API. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training. For more on data handling, see [Privacy](../privacy.md).
 
@@ -216,11 +204,12 @@ You have installed Claude Code and had your first conversation. The recommended 
 | Task | Command |
 |------|---------|
 | Open Terminal | Cmd + Space -> "Terminal" -> Enter |
-| Check Node.js | `node --version` |
-| Install Claude Code | `npm install -g @anthropic-ai/claude-code` |
+| Install Claude Code | `curl -fsSL https://claude.ai/install.sh \| bash` |
 | Start Claude Code | `claude` |
 | Continue last session | `claude -c` |
 | Resume a past session | `claude --resume` |
+| Update Claude Code | `claude update` |
+| Check version | `claude --version` |
 | Get help | `/help` |
 | Exit | `/exit` or Ctrl+C |
 
@@ -228,12 +217,12 @@ You have installed Claude Code and had your first conversation. The recommended 
 
 ## Troubleshooting
 
-**`node: command not found`** -- Close Terminal and reopen it. If that does not work, reinstall Node.js from nodejs.org.
-
-**`npm: command not found`** -- Same fix as above. npm comes with Node.js.
-
-**Permission errors during install** -- Use `sudo npm install -g @anthropic-ai/claude-code` and enter your Mac password.
+**Installation fails** -- Make sure you are running macOS 13.0 or later. Check your internet connection.
 
 **Browser doesn't open for authentication** -- Copy the URL from Terminal and paste it into your browser manually.
 
+**"Free plan" error on authentication** -- Claude Code requires a paid plan (Pro, Max, Team, or Enterprise). The free Claude.ai plan does not include Claude Code access. Upgrade at [claude.ai](https://claude.ai).
+
 **Claude Code feels slow** -- The first response in a session can take a few seconds as it loads context. Subsequent responses are faster.
+
+**Other issues** -- Run `claude doctor` for diagnostics, or see the [official troubleshooting guide](https://code.claude.com/docs/en/troubleshooting).
