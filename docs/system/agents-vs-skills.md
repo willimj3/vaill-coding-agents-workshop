@@ -2,6 +2,9 @@
 
 Claude Code has two main building blocks: **skills** (slash commands that run in the main conversation) and **agents** (subprocesses that run in a separate context). Choosing the right one matters for reliability and quality.
 
+!!! note "Skills travel"
+    Custom skills are not unique to Claude Code. They are also layer 5 of the nine-layer system Chloe Keywell describes for [Claude Cowork](../agents/cowork.md) — the same reusable workflows, used in the desktop app instead of the terminal. A skill written for one tool generally works in the other.
+
 ---
 
 ## The Key Difference

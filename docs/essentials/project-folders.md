@@ -8,7 +8,7 @@ A single file stores your stable preferences, hard constraints, and behavioral r
 
 We use project folders for two broad categories: **legal practice tasks** (case research, contract review, client intake) and **academic work** (article writing, course prep, exam drafting). The pattern is the same -- we will walk through it using case research as the main example, then show how it applies across domains.
 
-This works in both ChatGPT Projects and Claude.ai Projects, with minor setup differences noted below.
+This works in both ChatGPT Projects and Claude.ai Projects, with minor setup differences noted below. The same structural logic — a stable home for context, preferences, and reference material — also underlies Chloe Keywell's recommended setup for [Claude Cowork](../agents/cowork.md), where folder structure is one of nine layers in a working delegation system.
 
 ---
 

@@ -58,6 +58,7 @@ nav:
     - agents/index.md
     - The Agent Landscape: agents/landscape.md
     - Why Claude Code?: agents/why-claude-code.md
+    - "Cowork: Agents Without the Terminal": agents/cowork.md
     - What Agents Can Do: agents/capabilities.md
     - Limitations & Risks: agents/limitations.md
   - Setup:

@@ -4,6 +4,9 @@ A `CLAUDE.md` file is a personal instruction document that Claude Code reads aut
 
 Without it, every session starts fresh. With it, Claude begins each session already understanding your context.
 
+!!! note "Same file, second use"
+    The CLAUDE.md convention also anchors [Claude Cowork](../agents/cowork.md) — the desktop, non-terminal counterpart to Claude Code. If you set this file up well once, both tools benefit from it.
+
 ---
 
 ## Why This Matters

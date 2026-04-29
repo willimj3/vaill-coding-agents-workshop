@@ -83,6 +83,7 @@ Resources for understanding AI more broadly -- useful for faculty who want to de
 | [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) | The best single guide to writing effective prompts, from the company that makes Claude |
 | [OpenAI Documentation](https://platform.openai.com/docs/) | Comprehensive documentation for ChatGPT and the OpenAI API -- useful even if you primarily use Claude |
 | [Simon Willison's Blog](https://simonwillison.net/) | The most technically literate and honest AI blog. Willison builds tools and explains what works without hype. |
+| [Chloe Keywell -- Claude Cowork Guide](https://chlokey.com/#what-is-cowork) | The most thorough public guide to Claude Cowork — the desktop, non-terminal counterpart to Claude Code. The basis for our [Cowork page](agents/cowork.md). |
 | [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) | Active community for Claude users -- good for troubleshooting and discovering new patterns |
 | [Stanford HAI (Human-Centered AI)](https://hai.stanford.edu/) | Academic research on AI policy, governance, and societal impact |
 | [AI Snake Oil (Arvind Narayanan)](https://www.aisnakeoil.com/) | A clear-eyed, critical perspective on AI hype versus reality -- essential reading for anyone who wants to separate marketing from substance |
