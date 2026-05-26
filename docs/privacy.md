@@ -1,6 +1,6 @@
 # Privacy and Data Handling
 
-*Last updated: April 2026*
+*This page reflects the current state of these tools at time of publication. AI vendors update privacy practices frequently — verify the linked policies before relying on any specific detail.*
 
 Using AI tools in legal work raises serious data privacy questions. This page covers two things: (1) how this website handles your data, and (2) the privacy framework every law faculty member should understand before using AI tools with sensitive information.
 

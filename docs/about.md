@@ -27,6 +27,14 @@ Every page on this site is designed to work independently, so you can work throu
 
 ---
 
+## A Note on Origins
+
+This site began as the companion resource for a private faculty workshop at Vanderbilt Law School. After running the workshop, we realized the material would be just as useful to faculty colleagues at other institutions — and to anyone in legal education or practice trying to get oriented in this space without a technical background. So we cleaned up the workshop-specific content, generalized the framing, and released it publicly. You should not need to have attended anything to make full use of what is here.
+
+If you are running your own workshop, course, or training session and want to adapt material from this site, the MIT license below means you can — we only ask for attribution.
+
+---
+
 ## How This Site Was Built
 
 This site is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), an open-source documentation framework. It is hosted on [GitHub Pages](https://pages.github.com/) and auto-deploys on every push via GitHub Actions.

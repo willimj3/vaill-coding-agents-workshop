@@ -143,4 +143,4 @@ To use: start a new conversation with the GPT each time. Colleagues can use it i
     - [How Can I Create and Manage Projects? -- Claude Help Center](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) -- Creating Projects, setting custom instructions, sharing with teams.
     - [Creating a GPT -- OpenAI Help Center](https://help.openai.com/en/articles/8554397-creating-a-gpt) -- Building Custom GPTs: Configure tab, instructions, capabilities, publishing.
 
-*Current as of April 2026. Model names and capabilities change frequently.*
+*Model names and capabilities change frequently. Verify current details on each tool's website before relying on a specific feature.*

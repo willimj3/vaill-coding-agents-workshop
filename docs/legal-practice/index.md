@@ -58,6 +58,14 @@ The goal is not to replace your legal judgment. It is to free up more of your ti
 
     [:octicons-arrow-right-24: Read more](document-analysis.md)
 
+-   **:material-puzzle-outline: Claude Legal Plugins**
+
+    ---
+
+    A brief orientation to Anthropic's `claude-for-legal` plugin suite -- twelve practice-area plugins released in May 2026, with built-in guardrails around privilege, citation, and jurisdiction. Links and install pointers; deeper coverage forthcoming.
+
+    [:octicons-arrow-right-24: Read more](claude-legal-plugins.md)
+
 </div>
 
 ---

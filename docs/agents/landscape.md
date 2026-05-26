@@ -1,6 +1,6 @@
 # The Agent Landscape
 
-The coding agent space is moving fast. New tools launch monthly, existing tools add major features weekly, and the boundaries between categories keep shifting. This page provides a snapshot of the major players as of early 2026 — not to make you an expert on all of them, but to give you enough context to understand the options and make informed choices.
+The coding agent space is moving fast. New tools launch monthly, existing tools add major features weekly, and the boundaries between categories keep shifting. This page provides a snapshot of the major players at time of publication — not to make you an expert on all of them, but to give you enough context to understand the options and make informed choices.
 
 !!! tip "Skills transfer across tools"
     We use Claude Code in this guide, but the concepts transfer directly to every tool on this page. Learning to describe tasks clearly, provide good context, and verify AI output are universal skills. If you switch tools later, you will not be starting over.
@@ -47,7 +47,7 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 ## Comparison Table
 
-*Prices and features as of early 2026. This landscape changes rapidly — verify current details on each tool's website.*
+*This landscape changes rapidly — verify current pricing and features on each tool's website.*
 
 | Tool | Interface | Best For | Starting Cost | Coding Experience Required? |
 |------|-----------|----------|---------------|---------------------------|
