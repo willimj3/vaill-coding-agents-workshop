@@ -26,8 +26,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: Inter Tight
+    code: IBM Plex Mono
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -95,6 +95,7 @@ nav:
     - about.md
     - Resources: resources.md
     - Privacy: privacy.md
+    - License: license.md
 
 markdown_extensions:
   - admonition
@@ -142,4 +143,4 @@ extra:
 
 copyright: >
   Built by <a href="https://law.vanderbilt.edu/vanderbilt-ai-law-lab/">Vanderbilt AI Law Lab</a> &mdash;
-  shared freely under MIT License
+  shared freely under the <a href="/license/">MIT License</a>

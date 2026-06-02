@@ -7,8 +7,9 @@ description: A faculty guide to AI coding agents for legal professionals — fro
 
 <div class="hero-header">
   <img src="images/vaill_logo.png" alt="VAILL — Vanderbilt AI Law Lab" class="hero-logo">
-  <div class="hero-rule"></div>
+  <span class="hero-eyebrow">Vanderbilt AI Law Lab</span>
   <h1 class="hero-title">Faculty Guide to AI Coding Agents</h1>
+  <div class="hero-rule"></div>
   <p class="hero-pitch">From AI you chat with to AI that takes action for you.</p>
   <div class="hero-buttons">
     <a href="essentials/" class="md-button">Start with the Essentials</a>

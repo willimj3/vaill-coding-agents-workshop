@@ -1,3 +1,18 @@
+---
+hide:
+  - toc
+description: This guide is shared freely under the MIT License by the Vanderbilt AI Law Lab.
+---
+
+# License
+
+This guide is published by the [Vanderbilt AI Law Lab](https://law.vanderbilt.edu/vanderbilt-ai-law-lab/) and shared freely under the **MIT License**. You are welcome to use, copy, adapt, and republish the material — including for your own teaching, training, or institutional guides — provided you retain the copyright and permission notice below.
+
+The site is adapted from the open-source [claudeblattman](https://github.com/chrisblattman/claudeblattman) project by Chris Blattman. Under the terms of the MIT License, his original copyright notice is retained alongside ours.
+
+---
+
+```text
 MIT License
 
 Copyright (c) 2026 Vanderbilt AI Law Lab
@@ -20,3 +35,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
