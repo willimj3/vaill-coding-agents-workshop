@@ -222,8 +222,9 @@ Before relying on any AI contract review, verify the following yourself:
 
 **Confidentiality.** If you are pasting contract text into a consumer chatbot (ChatGPT, Claude.ai), the text may be processed on remote servers. For sensitive transactions:
 
-- Use Claude Code with local files (the contract stays on your machine)
-- Review your AI provider's data handling policies
+- Use an institutionally approved commercial/API tool or account type
+- If using Claude Code with local files, remember that relevant contract text is still sent to Anthropic for processing
+- Review your AI provider's data handling policies and your organization's AI policy
 - Consider whether the contract itself contains a confidentiality provision that restricts sharing its contents with third-party services
 - Redact party names and identifying details if using a consumer chatbot for general clause analysis
 

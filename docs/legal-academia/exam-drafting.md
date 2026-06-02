@@ -216,7 +216,7 @@ how to fix it.
 
     - **Free and public AI tools** (ChatGPT free tier, Claude.ai free tier, Gemini) are **not appropriate** for student records. These platforms may retain conversation data and are not VUIT-managed.
     - **Enterprise or institutional AI tools** may be approved for some uses — check with your institution's IT security office.
-    - **Local tools** (Excel, R, Python, Claude Code running locally) do not transmit data to third-party servers and are generally safer for sensitive data.
+    - **Purely local tools** (Excel, R, Python scripts you run yourself) do not transmit data to third-party servers. Claude Code runs on your machine but still sends relevant prompts and file content to Anthropic for processing, so treat it as a cloud AI tool for FERPA purposes unless your institution has approved the specific account and workflow.
 
     When in doubt, **remove all identifying information** (names, student IDs, grades, section numbers) before using any AI tool. This applies to rosters, grade spreadsheets, individual performance data, and identifying details in exam answers.
 

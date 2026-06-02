@@ -19,7 +19,7 @@ Keywell's clearest framing is a trichotomy. Three Anthropic products, three diff
 | **Claude Code** | "Lives inside your terminal, writes and executes real code, manages repositories." | Pair-programming partner |
 | **Claude Cowork** | "You delegate a task, it breaks it into subtasks, spins up a virtual machine, and drops the finished output into your folder while you step away." | Task delegation |
 
-Or, as she puts it more bluntly: **"Chat is a conversation. CoWork is task delegation. Completely different relationship. Completely different results."**
+Or, as she puts it more bluntly: **"Chat is a conversation. Cowork is task delegation. Completely different relationship. Completely different results."**
 
 Cowork is not a chatbot you talk to. It is closer to an assistant you hand work to. You describe a task, walk away, and come back to a finished file — a draft, a research summary, a triaged inbox, a comparison table. The work happened in a sandboxed virtual machine; the output landed in a folder you specified.
 
@@ -77,7 +77,7 @@ Each of these is a task you have probably done by hand, or wished you had time t
 
 ## Honest Considerations
 
-- **Paid plan required.** Cowork is gated behind Claude Pro or Max — there is no free tier at the time of publication.
+- **Paid plan required.** Cowork is available on paid Claude plans and is not included with the free Claude.ai plan.
 - **Newer than Claude Code.** Documentation, third-party guides, and community knowledge are thinner. Keywell's guide is among the best resources currently available, which itself reflects how new the space is.
 - **Desktop app, not browser.** Cowork runs inside the Claude Desktop application — fine on a personal laptop, potentially restricted on a managed institutional machine. Check with IT before assuming you can install it.
 - **Output verification still required.** Delegating a task does not remove the obligation to read what comes back. Hallucinated citations and confident-but-wrong summaries do not become less of a risk because the work happened while you were at lunch.

@@ -283,7 +283,7 @@ article-draft/
 This is useful when you work on multiple projects with different co-authors, citation styles, or conventions.
 
 !!! tip "What goes in your CLAUDE.md is sent to the API"
-    Everything in your CLAUDE.md files is included in every conversation with Claude Code. This is how Claude knows about you and your projects. The data is covered by Anthropic's [API data policy](https://www.anthropic.com/policies/privacy). Avoid including passwords, API keys, or information you would not want transmitted to a cloud service.
+    Everything in your CLAUDE.md files may be included in Claude Code conversations. This is how Claude knows about you and your projects. Data handling depends on whether you use an individual Claude plan, Team/Enterprise, or API/commercial access. Avoid including passwords, API keys, or information you would not want transmitted to a cloud service.
 
 ### Voice and Writing Style
 

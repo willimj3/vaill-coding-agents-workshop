@@ -1,8 +1,8 @@
-# VAILL Faculty Guide to AI Agents
+# VAILL Faculty Guide to AI Coding Agents
 
 **A faculty guide to AI tools for legal professionals — from chatbot prompting to coding agents with Claude Code.**
 
-Website: [willimj3.github.io/vaill-coding-agents-workshop](https://willimj3.github.io/vaill-coding-agents-workshop/)
+Website: [vaillagentsworkshop.org](https://vaillagentsworkshop.org/)
 
 ## About
 

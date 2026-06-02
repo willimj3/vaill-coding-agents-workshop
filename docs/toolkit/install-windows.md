@@ -28,21 +28,21 @@ Think of it this way: Claude.ai is like texting a smart friend. Claude Code is l
 
 - **A Windows PC** running Windows 10 (version 1809 or later) or Windows 11
 - **Internet connection**
-- **Git for Windows** -- required for Claude Code to run commands. Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and install with default settings.
+- **Git for Windows** -- recommended for the smoothest Claude Code experience on Windows. Download from [git-scm.com/downloads/win](https://git-scm.com/downloads/win) and install with default settings.
 - **A paid Anthropic account** -- Claude Code requires a **Pro, Max, Team, or Enterprise** subscription. The free Claude.ai plan does not include Claude Code access. Sign up at [claude.ai](https://claude.ai) if you do not have one.
 
 ---
 
 ## Step 1: Install Git for Windows
 
-If you do not already have Git installed, do this first:
+If you do not already have Git installed, we recommend doing this first:
 
 1. Go to [git-scm.com/downloads/win](https://git-scm.com/downloads/win)
 2. Download the installer
 3. Run it and accept the default settings (click Next through each screen)
 4. When it finishes, **close and reopen PowerShell** if you had it open
 
-Claude Code uses Git for Windows internally to execute commands. You do not need to learn Git -- just install it.
+Claude Code can run natively on Windows, with or without Git for Windows, but Git gives it access to Git Bash and makes more workflows behave like the examples in this guide. You do not need to learn Git -- just install it.
 
 ---
 
@@ -203,7 +203,7 @@ claude --version
 ---
 
 !!! tip "What Claude Code can access"
-    Claude Code can read any file in the folder where you run it -- and, if asked, files elsewhere on your machine, including cloud-synced folders (OneDrive, Dropbox, Google Drive). It can also run commands. This is what makes it powerful: Claude works *with* your files, not in a separate sandbox. When Claude reads a file or processes data, that content is sent to Anthropic's API. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training. For more on data handling, see [Privacy](../privacy.md).
+    Claude Code can read files in the folder where you run it -- and, if asked, files elsewhere on your machine, including cloud-synced folders (OneDrive, Dropbox, Google Drive). It can also run commands. This is what makes it powerful: Claude works *with* your files. When Claude reads a file or processes data, the relevant content is sent to Anthropic for analysis. Data handling depends on whether you use an individual Claude plan, Team/Enterprise, or API/commercial access. For more on data handling, see [Privacy](../privacy.md).
 
 ## What's Next
 

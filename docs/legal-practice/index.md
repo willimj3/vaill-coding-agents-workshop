@@ -76,7 +76,7 @@ Every page in this section includes ethics considerations specific to that workf
 
 **Competence (Model Rule 1.1).** The duty of competence includes understanding the tools you use. You do not need to understand how a large language model works at a technical level, but you do need to understand what it is good at, where it fails, and why human verification is non-negotiable. Reading this section is a step toward that understanding.
 
-**Confidentiality (Model Rule 1.6).** Client information entered into a consumer AI product may be used for training, logged by the provider, or otherwise exposed. We address this on every page, but the short version: be deliberate about what information you share with AI tools, use local processing options (like Claude Code running on your own machine) for sensitive work, and review your AI provider's data handling policies.
+**Confidentiality (Model Rule 1.6).** Client information entered into a consumer AI product may be used for training, logged by the provider, or otherwise exposed. We address this on every page, but the short version: be deliberate about what information you share with AI tools, use institutionally approved commercial/API tools for sensitive work, and review your AI provider's data handling policies.
 
 **Supervision (Model Rules 5.1 and 5.3).** AI output requires the same level of review you would give to work produced by a junior associate. This means reading every word, verifying every citation, and applying your own judgment to every conclusion. "The AI wrote it" is not a defense to a malpractice claim.
 

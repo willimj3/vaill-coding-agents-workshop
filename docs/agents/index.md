@@ -25,7 +25,7 @@ A useful framework from [Ethan Mollick](https://www.oneusefulthing.org/p/a-guide
 |-------|-----------|---------|
 | **Model** | The underlying intelligence — the AI brain itself | Claude Opus, ChatGPT's reasoning models, Gemini Pro |
 | **App** | The interface you interact with | Claude.ai website, ChatGPT mobile app |
-| **Harness** | The system that lets the model take actions — use tools, read files, run code | Claude Code, OpenAI Codex, Co-work |
+| **Harness** | The system that lets the model take actions — use tools, read files, run code | Claude Code, OpenAI Codex, Cowork |
 
 This distinction matters because **the same model behaves very differently depending on its harness.** Claude Opus in a chat window can only respond to what you paste in. Claude Opus in Claude Code can read your files, search your email, write and run scripts, and execute multi-step workflows autonomously. Same intelligence, dramatically more capability.
 

@@ -21,27 +21,27 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 
 ---
 
-### OpenAI Codex (ChatGPT CLI)
+### OpenAI Codex
 
-**What it is:** OpenAI's answer to Claude Code — a command-line agent that can read files and execute tasks on your computer, powered by the same models behind ChatGPT.
+**What it is:** OpenAI's coding agent for writing, reviewing, and shipping code. It is available through several clients, including a local app, CLI, IDE extension, and Codex web.
 
-**How it works:** Similar concept to Claude Code. You interact through a terminal, give instructions in plain English, and the agent takes action on your files and system.
+**How it works:** Depending on the client, you can run Codex locally in your development environment or delegate cloud tasks through the web interface. You give instructions in plain English, connect the relevant workspace or repository, and review the agent's work.
 
 **Strengths:** If you already use ChatGPT and are comfortable in the OpenAI ecosystem, Codex provides a familiar feel. It benefits from OpenAI's large model lineup.
 
-**Considerations:** Newer to market than Claude Code, with a still-developing documentation base. The tool landscape may look different by the time you read this.
+**Considerations:** The product is evolving quickly, with plan-based usage limits and optional credit top-ups. For legal faculty, the key question is whether the Codex interface you choose fits your workflow better than Claude Code or Cowork.
 
 ---
 
-### Claude Co-work (Anthropic)
+### Claude Cowork (Anthropic)
 
-**What it is:** A desktop automation tool from Anthropic that lets Claude operate autonomously on your computer — browsing the web, working with local files, using desktop applications, and completing multi-step tasks with a visual interface rather than a terminal.
+**What it is:** A desktop task-delegation tool from Anthropic that brings Claude Code's agentic architecture into Claude Desktop for knowledge work beyond coding.
 
-**How it works:** Instead of typing instructions into a terminal, you interact through a visual sandbox where you can watch Claude work. It can open applications, navigate websites, fill out forms, and manage files — similar to what a human assistant would do sitting at your computer.
+**How it works:** Instead of typing instructions into a terminal, you assign a task in Claude Desktop. Cowork can plan subtasks, work with local files, use connected tools, run code in an isolated space, and deliver outputs back to your file system. With computer use enabled, Claude may also interact with browser and desktop apps after you grant permissions.
 
-**Strengths:** More approachable than terminal-based tools for users who find the command line intimidating. Can interact with desktop applications and websites that terminal-based agents cannot. Built-in security boundaries.
+**Strengths:** More approachable than terminal-based tools for users who find the command line intimidating. Useful for repetitive knowledge-work tasks that span local files, connected tools, and desktop applications.
 
-**Considerations:** Newer than Claude Code, with a still-developing feature set. Requires a Claude subscription. Some tasks are better suited to Claude Code's terminal-based approach (especially data analysis and file processing at scale).
+**Considerations:** Newer than Claude Code, with a still-developing feature set. Requires a paid Claude plan and the Claude Desktop app. Some tasks remain better suited to Claude Code's terminal-based approach, especially data analysis and file processing at scale.
 
 ---
 
@@ -52,9 +52,9 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 | Tool | Interface | Best For | Starting Cost | Coding Experience Required? |
 |------|-----------|----------|---------------|---------------------------|
 | **Claude Code** | Terminal (text) | Complex reasoning tasks, legal analysis, file processing, workflow automation | Included with Claude subscription ($20/mo Pro) | No — designed for natural language use |
-| **Claude Co-work** | Visual desktop | Desktop automation, web browsing, working with applications | Included with Claude subscription | No — visual, point-and-click interaction |
-| **OpenAI Codex** | Web-based | Asynchronous task execution, code generation | Included with ChatGPT plans ($20/mo Plus) | No — natural language interface |
-| **Google Jules** | Web-based | Repository-aware coding tasks | Included with Gemini AI Pro ($20/mo) | No — natural language interface |
+| **Claude Cowork** | Claude Desktop | Delegated knowledge-work tasks across files and apps | Included with paid Claude plans | No — visual task delegation |
+| **OpenAI Codex** | App, CLI, IDE, web | Local and cloud coding tasks, code review | Included across ChatGPT plans; limits vary by plan | No — natural language interface |
+| **Google Jules** | Web-based | Repository-aware coding tasks | Introductory access; higher limits with Google AI Pro/Ultra | No — natural language interface |
 
 ---
 
@@ -63,7 +63,7 @@ The coding agent space is moving fast. New tools launch monthly, existing tools 
 This deserves clarification. None of these tools require us to *write* code in the traditional sense. We give instructions in English; the tool figures out the technical details. However:
 
 - **Terminal-based tools** (Claude Code) require comfort with a text-based interface — no icons, no menus, just typing. That is a learnable skill, and we cover it in the [Setup section](../setup/index.md), but it is a real adjustment.
-- **Visual tools** (Claude Co-work, Codex, Jules) present a more familiar interface but are newer and still developing their feature sets.
+- **Visual tools** (Claude Cowork, Codex web, Jules) present a more familiar interface but are newer and still developing their feature sets.
 - **The practical reality:** For the tasks we care about in legal work — analyzing documents, drafting memos, managing data — Claude Code's conversational interface turns out to be the most natural fit, despite the terminal. We describe what we want; it does the work.
 
 ---

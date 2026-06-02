@@ -50,7 +50,7 @@ If you do want a code editor, **[VS Code](https://code.visualstudio.com/)** is w
 
 === "Windows"
 
-    **Install [Git for Windows](https://git-scm.com/downloads/win)** first (required). Then **open PowerShell** (Windows key -> "PowerShell" -> Enter) and run:
+    **Install [Git for Windows](https://git-scm.com/downloads/win)** first (recommended). Then **open PowerShell** (Windows key -> "PowerShell" -> Enter) and run:
 
     ```powershell
     irm https://claude.ai/install.ps1 | iex

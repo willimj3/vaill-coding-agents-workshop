@@ -97,9 +97,9 @@ to search for, but do not fabricate sources.
 
 ## MCP Connections for Your Document Library
 
-If you use Claude Code with MCP (Model Context Protocol) connections, you can give Claude access to your own document library -- case files, research memos, saved opinions -- without uploading anything to the cloud.
+If you use Claude Code with MCP (Model Context Protocol) connections, you can give Claude access to your own document library -- case files, research memos, saved opinions -- without copying them into a browser chatbot. Relevant text is still sent to the AI provider for processing, so use approved account types and workflows for sensitive materials.
 
-This is covered in detail in the [MCP Connections](../toolkit/mcp-setup.md) setup guide. The key idea for legal research: if you maintain a local folder of cases, statutes, and research memos, Claude Code can search and analyze that library directly.
+This is covered in detail in the [MCP Connections](../toolkit/mcp-setup.md) setup guide. The key idea for legal research: if you maintain a local folder of cases, statutes, and research memos, Claude Code can search and analyze that library while letting you control which folder or source it reads.
 
 ```text
 Search my research folder at ~/legal-research/employment-law/ for

@@ -26,7 +26,7 @@ These are the major AI platforms designed for or commonly used in legal work. We
 
 | Tool | What it does | Notes |
 |------|-------------|-------|
-| [CoCounsel (Thomson Reuters)](https://legal.thomsonreuters.com/en/products/cocounsel) | AI legal assistant integrated with Westlaw -- case research, document review, deposition preparation | Enterprise pricing; over 1 million users |
+| [CoCounsel (Thomson Reuters)](https://legal.thomsonreuters.com/en/products/cocounsel) | AI legal assistant integrated with Westlaw -- case research, document review, deposition preparation | Enterprise pricing |
 | [Lexis+ AI](https://www.lexisnexis.com/en-us/products/lexis-plus-ai.page) | AI assistant integrated with LexisNexis research platform | Includes citation verification and hallucination checks |
 | [Harvey AI](https://www.harvey.ai/) | General-purpose legal AI platform for drafting, analysis, and research | Used by major law firms; enterprise-only |
 | [Westlaw AI-Assisted Research](https://legal.thomsonreuters.com/en/products/westlaw) | AI features within the Westlaw research platform | Available to existing Westlaw subscribers |

@@ -18,7 +18,7 @@ We use and pay for both daily in our research and teaching. Here is an honest co
 
 ## When We Use Claude
 
-**Everything in Claude Code.** The terminal-based tool that reads your files, manages your email, and runs custom workflows has no real ChatGPT equivalent. If you use Claude Code, Claude is your primary AI tool by default.
+**Claude Code workflows.** Claude Code remains our default for the file-based workflows in this guide: reading project folders, using `CLAUDE.md` context, connecting to tools, and running repeatable local workflows. OpenAI Codex now covers adjacent coding-agent territory, so this is no longer a one-tool category; for this guide, Claude Code remains the more mature teaching baseline.
 
 **Long-form legal writing and editing.** Claude consistently produces better prose -- maintaining voice, following structural instructions, and providing substantive feedback. For memo drafts, brief sections, and law review article editing, the difference is noticeable. Claude is better at following instructions like "write in the voice described in my voice file" or "structure this as a three-part argument with the strongest point first."
 

@@ -4,11 +4,11 @@
 
 Lawyers spend enormous amounts of time reading documents -- discovery productions, due diligence data rooms, regulatory filings, deposition transcripts, contract portfolios. The work is essential, but much of it is mechanical: finding the relevant passages, identifying patterns across documents, flagging inconsistencies, and organizing findings into a useful structure.
 
-AI is well suited to the mechanical parts of document analysis. Claude Code, in particular, can read files directly from your computer, which means sensitive documents never need to be uploaded to a cloud service. This page covers how to use AI for large-scale document analysis, with practical examples and clear guidance on when AI analysis is appropriate and when manual review is required.
+AI is well suited to the mechanical parts of document analysis. Claude Code, in particular, can read files directly from your computer and process them without copying them into a browser chatbot. But relevant text is still sent to Anthropic for analysis, so sensitive documents require careful review of the account type, data terms, protective orders, and institutional policy. This page covers how to use AI for large-scale document analysis, with practical examples and clear guidance on when AI analysis is appropriate and when manual review is required.
 
 !!! info "Why Claude Code for document analysis"
 
-    Claude Code reads files from your local machine. When you point it at a folder of contracts, deposition transcripts, or discovery documents, it processes them locally and sends text to Claude's API for analysis. This means the documents do not need to be uploaded to a web interface, copied into a chat window, or shared with a third-party platform. For sensitive legal documents, this is a meaningful advantage.
+    Claude Code reads files from your local machine. When you point it at a folder of contracts, deposition transcripts, or discovery documents, it can process those files without requiring you to paste them into a browser chat. The relevant text is still transmitted to Anthropic for analysis. For sensitive legal documents, the advantage is workflow control and clearer scope -- not zero external transmission.
 
 ---
 
@@ -214,11 +214,11 @@ Document analysis often involves the most sensitive materials in a legal matter.
 |--------------|------------|---------------------|
 | **Public filings** (SEC, court records) | Low | Any tool; information is already public |
 | **Standard commercial contracts** | Medium | Claude Code with local files preferred; chatbot acceptable if terms are not confidential |
-| **Privileged communications** | High | Claude Code with local files only; review data handling policies |
-| **Discovery materials** | High | Claude Code with local files only; consider protective order terms |
-| **Client financial records** | High | Claude Code with local files only; never paste into consumer chatbot |
-| **Medical records** | Very high | Claude Code with local files; HIPAA considerations; consult your compliance team |
-| **Trade secrets** | Very high | Claude Code with local files only; consider whether any AI analysis is appropriate |
+| **Privileged communications** | High | Use only approved commercial/API or institutional tools; review data handling policies |
+| **Discovery materials** | High | Use only approved tools; consider protective order terms before AI processing |
+| **Client financial records** | High | Use only approved tools; never paste into a consumer chatbot |
+| **Medical records** | Very high | Use only HIPAA-appropriate, compliance-approved tools; consult your compliance team |
+| **Trade secrets** | Very high | Consider whether any external AI processing is appropriate |
 
 !!! danger "Protective Orders and Confidentiality Agreements"
 
@@ -229,8 +229,8 @@ Document analysis often involves the most sensitive materials in a legal matter.
 When Claude Code analyzes documents on your machine:
 
 1. **The documents stay on your machine.** Claude Code reads files locally.
-2. **Text is sent to Claude's API for processing.** The content of the documents is transmitted to Anthropic's servers for AI analysis.
-3. **Anthropic's data retention policies apply.** Review these policies before processing sensitive documents.
+2. **Relevant text is sent for processing.** The content Claude reads to complete the task is transmitted to Anthropic for AI analysis.
+3. **Your account terms and settings matter.** Training and retention treatment differ across individual Claude plans, Team/Enterprise, and API/commercial access. Review the current policies before processing sensitive documents.
 
 For the most sensitive materials, consider:
 

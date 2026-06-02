@@ -168,7 +168,7 @@ Analyze the patterns:
 
     1. **Remove identifying information** before pasting student work into free or public AI tools. This includes student names, student ID numbers, institutional email addresses, course section numbers (if small enough to be identifying), and any personal details the student included in their writing.
 
-    2. **Check your tools against your institution's data classification.** Free and public AI tools (ChatGPT free tier, Claude.ai free tier) are not appropriate for student records. Enterprise or institutional AI tools may be approved — check with your IT security office. Local tools (Excel, R, Claude Code running locally) do not transmit data to third-party servers.
+    2. **Check your tools against your institution's data classification.** Free and public AI tools (ChatGPT free tier, Claude.ai free tier) are not appropriate for student records. Enterprise or institutional AI tools may be approved — check with your IT security office. Purely local tools (Excel, R, Python scripts you run yourself) do not transmit data to third-party servers. Claude Code runs on your machine but still sends relevant prompts and file content to Anthropic for processing, so treat it as a cloud AI tool unless your institution has approved the specific account and workflow.
 
     3. **Do not use AI to make final grading decisions.** AI-generated feedback is a drafting aid, not a grading authority. The grade is your professional judgment.
 

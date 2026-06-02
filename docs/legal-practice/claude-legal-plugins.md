@@ -59,7 +59,7 @@ Detailed install instructions live in [the repository's QUICKSTART](https://gith
 4. Install the specific plugin you want with `/plugin install <plugin-name>`.
 5. Run the cold-start interview for that plugin and answer the questions about your practice.
 
-The plugins are MIT-licensed and free. You do still need a paid Claude subscription (Pro or Max) to run them.
+The plugins are Apache-2.0 licensed and free. You do still need a Claude account that can run Claude Code or Cowork.
 
 ---
 

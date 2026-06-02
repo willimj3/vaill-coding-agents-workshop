@@ -33,7 +33,7 @@ Rule 1.6 requires that we not reveal information relating to the representation 
 
 **Practical considerations:**
 
-- **API vs. consumer products.** Anthropic's API and Claude Code operate under different data policies than the free consumer chatbot. Under current API terms, Anthropic states that it does not train on user data submitted through the API. However, data is still transmitted to and processed on Anthropic's servers.
+- **Account type matters.** Data policies differ between individual consumer accounts (Free/Pro/Max), commercial/API accounts, Team, Enterprise, and institutional plans. Claude Code can be used under more than one of those arrangements. In every case, relevant prompts and file content are transmitted to Anthropic for processing.
 - **Anonymization is not foolproof.** We might think we can redact client names and identifying details before submitting documents. In practice, legal documents contain numerous identifying details beyond proper names — case numbers, jurisdictions, factual patterns, dates, and transaction amounts that can make re-identification straightforward.
 - **Institutional policies.** Many law firms, legal aid organizations, and law schools have their own policies regarding AI tool use and client data. We should know and follow our institution's policy in addition to the Rules of Professional Conduct.
 
@@ -83,18 +83,18 @@ Using AI in legal work does not create new duties, but it creates new ways to br
 
 ---
 
-## Data Privacy: API vs. Consumer Products
+## Data Privacy: Consumer vs. Commercial Accounts
 
 Not all AI tools handle data the same way:
 
-| Policy Area | Consumer Chatbot (Free Tier) | API / Professional Tier |
-|-------------|------------------------------|------------------------|
-| **Training on user data** | Often yes, unless opted out | Typically no |
-| **Data retention** | Varies; often retained for improvement | Typically shorter retention or no retention |
-| **Data sharing** | May be shared with third parties for improvement | Typically not shared |
-| **Compliance certifications** | Rarely | Sometimes (SOC 2, etc.) |
+| Policy Area | Individual Consumer Accounts | Commercial / API / Institutional Accounts |
+|-------------|------------------------------|-----------------------------------------|
+| **Examples** | Claude Free/Pro/Max; ChatGPT Free/Plus/Pro | Claude Team/Enterprise/API; ChatGPT Business/Enterprise/Edu/API |
+| **Training on user data** | May depend on settings, opt-outs, feedback choices, and safety-review exceptions | Typically not used for model training unless the customer opts in |
+| **Data retention** | Varies by provider, product, and settings | Governed by commercial terms; may offer shorter retention or additional controls |
+| **Compliance posture** | Usually weaker for regulated or confidential data | Often stronger, but still requires institutional review |
 
-**Key point:** Claude Code, when used through the API or a Pro/Max subscription, operates under Anthropic's commercial terms, which currently state that user data is not used for model training. However, policies change, and we should periodically verify the current terms. The [Privacy](../privacy.md) page provides additional detail on data handling for the tools covered in this guide.
+**Key point:** Claude Code runs locally, but it is still a cloud AI service. It sends prompts and needed file content to Anthropic for processing. The training and retention terms depend on the account type and settings in use. The [Privacy](../privacy.md) page provides additional detail on data handling for the tools covered in this guide.
 
 ---
 

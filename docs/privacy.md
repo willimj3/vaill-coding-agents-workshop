@@ -28,27 +28,27 @@ This section is not legal advice. It is a practical framework for thinking about
 
 Every time you paste text into an AI tool, you are sending data to a server. The question is: **what happens to that data?** The answer depends on which tool you are using and how you are using it.
 
-### Consumer products vs. API access
+### Consumer accounts vs. commercial accounts
 
-This distinction matters more than most people realize.
+This distinction matters more than most people realize. It is not enough to ask whether the tool is "paid." A paid individual subscription and a commercial, API, Team, Enterprise, Edu, or institutionally managed account can have different data terms.
 
-| | Consumer product (browser chatbot) | API / Claude Code |
+| | Individual consumer accounts | Commercial, API, or institutionally managed accounts |
 |---|---|---|
-| **Examples** | claude.ai free tier, chatgpt.com free tier | Claude Code, API access via paid plans |
-| **Training on your data** | May use conversations to improve models (varies by provider and plan) | Anthropic and OpenAI commit to **not training on API data** |
-| **Data retention** | Conversations stored on provider servers, typically 30+ days | Typically shorter retention; varies by provider |
-| **Best for** | General questions, non-sensitive work | Work involving any sensitive information |
+| **Examples** | Claude Free/Pro/Max; ChatGPT Free/Plus/Pro | Claude Team/Enterprise/API; ChatGPT Business/Enterprise/Edu/API |
+| **Training on your data** | May depend on your data controls, account settings, feedback choices, and safety-review exceptions | Providers generally commit not to use customer inputs/outputs to train models unless the customer opts in |
+| **Data retention** | Varies by provider, product, and settings | Usually governed by commercial terms; may offer shorter retention or additional controls |
+| **Best for** | General questions and non-sensitive work | Sensitive work, if approved by your institution and consistent with client/student obligations |
 
 !!! warning "Key point for legal professionals"
-    If you are working with **any** client information, student records, or unpublished research, use API-based access (like Claude Code with a paid plan) rather than a free-tier consumer chatbot. The data handling commitments are meaningfully different.
+    If you are working with **client information, student records, or unpublished research**, do not rely on the fact that a tool is paid or local-looking. Check the specific account type, data controls, institutional approvals, and governing terms. For high-sensitivity work, commercial/API/institutionally approved tools are usually safer than individual consumer subscriptions, but they are not a substitute for professional judgment.
 
 ### What stays local vs. what gets transmitted
 
 When you use Claude Code:
 
-- **Stays on your machine:** Your files, your CLAUDE.md configuration, your local project folders
-- **Sent to Anthropic's servers:** The content of your prompts, any text you paste or ask Claude to read, and Claude's responses
-- **Not sent:** Files Claude has not been asked to read; your broader filesystem
+- **Stays on your machine unless needed for the task:** Your broader filesystem, files Claude has not been asked to read, and your local project folders
+- **Sent to Anthropic's servers:** Your prompts, Claude's responses, and the text or file excerpts Claude reads to complete the task
+- **Stored locally:** Claude Code also stores local session data so you can resume conversations
 
 Claude Code does not silently upload your documents. It sends only the specific content involved in the current conversation. But that content *is* transmitted -- so you need to think about what you include.
 
@@ -106,16 +106,17 @@ Your law school or university likely has (or is developing) policies on AI use. 
 |----------|---------------|
 | Drafting a syllabus or course materials | Any AI tool is fine -- this is not sensitive information |
 | Analyzing published case law | Any AI tool is fine -- published opinions are public |
-| Working with client information (clinic or consulting) | Use API-based tools; anonymize identifying details |
+| Working with client information (clinic or consulting) | Use only institutionally approved commercial/API tools; anonymize identifying details where possible |
 | Analyzing student performance data | Anonymize completely before any AI processing |
-| Drafting unpublished scholarship | Paid subscription (API-level data protections); avoid pasting core novel arguments if concerned |
+| Drafting unpublished scholarship | Use a paid or institutional tool with appropriate data settings; avoid pasting core novel arguments if concerned |
 | Grant applications with proprietary methods | Consider risk tolerance; anonymize where possible |
 
 ---
 
 ## Further Reading
 
-- [Anthropic Privacy Policy](https://www.anthropic.com/policies/privacy) -- How Anthropic handles data from Claude and Claude Code
+- [Claude Code Data Usage](https://code.claude.com/docs/en/data-usage) -- How Anthropic describes Claude Code data flow, training, and retention
+- [Anthropic Privacy Policy](https://www.anthropic.com/policies/privacy) -- Anthropic's general privacy policy
 - [OpenAI Privacy Policy](https://openai.com/policies/privacy-policy/) -- How OpenAI handles data from ChatGPT
 - [ABA Formal Opinion 512 (2024)](https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf) -- Lawyers' obligations when using generative AI
 - [FERPA Guidance (US Department of Education)](https://studentprivacy.ed.gov/) -- Federal requirements for student data protection

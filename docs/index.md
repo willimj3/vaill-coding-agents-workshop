@@ -108,7 +108,7 @@ description: A faculty guide to AI coding agents for legal professionals — fro
 
     ---
 
-    What AI tools actually cost. Subscription tiers, usage-based pricing for Claude Code, and practical guidance on what is worth the investment for law faculty.
+    What AI tools actually cost. Subscription tiers, usage limits, and practical guidance on what is worth the investment for law faculty.
 
     [:octicons-arrow-right-24: Understand the Costs](essentials/cost.md)
 

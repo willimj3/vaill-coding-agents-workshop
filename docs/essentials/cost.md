@@ -2,7 +2,7 @@
 
 <span class="badge-gold">No Claude Code required</span>
 
-What AI tools actually cost, who it makes sense for, and who should start smaller.
+What AI tools actually cost, what's worth buying, and how to think about ROI.
 
 ---
 
@@ -14,13 +14,13 @@ What AI tools actually cost, who it makes sense for, and who should start smalle
 
 | Plan | Monthly Cost | What You Get |
 |------|-------------|-------------|
-| **Free** | $0 | Sonnet model with daily limits. Enough to try it. |
+| **Free** | $0 | Claude chat with daily limits. Enough to try the chatbot, but not Claude Code. |
 | **Pro** | $20 | Full chatbot + Claude Code access. Enough for regular daily use. |
 | **Max** | $100-200 | 5-20x more usage than Pro. For heavy Claude Code users and extended projects. |
 
 **Coding agent: [Claude Code](https://code.claude.com/docs/en/overview).** A terminal-based agent that runs on your computer — reads files, writes and runs code, connects to email and calendar. Included with Pro and Max plans (no additional cost). Also available via API for pay-per-token usage. This is the primary coding agent covered in this guide.
 
-**Also: [Co-work](https://claude.ai/).** A visual desktop automation tool — Claude operates your computer through a point-and-click interface rather than a terminal. Included with Claude subscription.
+**Also: [Claude Cowork](https://www.anthropic.com/product/claude-cowork).** A desktop task-delegation tool — Claude works across local files, connected tools, and desktop applications through Claude Desktop rather than a terminal. Included with paid Claude plans.
 
 Claude is our primary recommendation. Pro ($20) is sufficient for most faculty. Max is worth it if you find yourself hitting usage limits regularly.
 
@@ -31,10 +31,10 @@ Verify at [claude.ai/pricing](https://claude.ai/pricing).
 | Plan | Monthly Cost | What You Get |
 |------|-------------|-------------|
 | **Free** | $0 | Standard model with daily limits. Functional but constrained. |
-| **Plus** | $20 | Full access to all models, Deep Research, image generation, web browsing. |
-| **Pro** | $100-200 | Higher usage caps, access to strongest reasoning models, higher Codex limits. |
+| **Plus** | $20 | Broader model access, Deep Research, image generation, web browsing, and Codex with plan limits. |
+| **Pro** | $100-200 | Higher usage caps for advanced models, Deep Research, and Codex. |
 
-**Coding agent: [Codex](https://openai.com/codex).** OpenAI's coding agent, included with ChatGPT plans (no separate subscription). Runs tasks asynchronously — you assign work and it completes it in the background, similar to assigning a task to a research assistant. Integrated into the ChatGPT interface.
+**Coding agent: [Codex](https://help.openai.com/en/articles/11369540-getting-started-with-codex).** OpenAI's coding agent, included across ChatGPT plans with usage limits that vary by plan. It is available through multiple clients: local app, CLI, IDE extension, and Codex web.
 
 ChatGPT's other standout feature is Deep Research — a web-browsing tool that spends 5-30 minutes searching and synthesizing sources. It is the best current tool for literature landscape scans and checking the status of pending legislation. Worth having alongside Claude.
 
@@ -45,10 +45,10 @@ Verify at [chatgpt.com/pricing](https://chatgpt.com/pricing).
 | Plan | Monthly Cost | What You Get |
 |------|-------------|-------------|
 | **Free** | $0 | Basic Gemini with daily limits. |
-| **AI Pro** | $20 | Full access to Gemini Pro models, NotebookLM upgrades, Google Workspace integration. |
-| **AI Ultra** | $250 | Highest-capability models, maximum usage. |
+| **AI Pro** | $20 | Higher access to Gemini, NotebookLM upgrades, and Google Workspace integration. |
+| **AI Ultra** | $100-200 | Higher-usage tiers for advanced Gemini and agentic workflows. |
 
-**Coding agents: [Jules](https://jules.google/) and [Antigravity](https://antigravity.im/).** Jules is a repo-aware agent you assign tasks to (included with AI Pro and Ultra at higher limits). Antigravity is a full coding environment with AI agents built in. Both are newer and less mature than Claude Code or Codex.
+**Coding agents: [Jules](https://jules.google/) and [Google Antigravity](https://antigravity.google/).** Jules is a repo-aware agent you assign tasks to, with higher limits for Google AI Pro and Ultra subscribers. Antigravity is Google's agent-first development platform. Both are newer than Claude Code and Codex for the non-engineering workflows this guide emphasizes.
 
 Gemini's biggest advantage for non-coding work is Google Workspace integration — if your institution runs on Google (email, calendar, docs), Gemini works natively with all of it. [NotebookLM](https://notebooklm.google.com/) is also a genuinely unique tool for research synthesis.
 
@@ -79,24 +79,6 @@ You lose ChatGPT's Deep Research and some of Claude Code's heavy-usage capacity,
 
 ---
 
-## Who Should Pay This
-
-### Law Faculty with Research Support
-
-If you have a research budget, start-up funds, or a discretionary account, this is straightforward to justify. At a typical research assistant rate of $20-25/hour, the full stack costs the equivalent of about 5-6 RA hours per month. If it saves you more than that in research and writing time — and it will, once configured — the math works.
-
-**Check with your institution first.** Many law schools are negotiating enterprise agreements with AI providers. Some already cover Claude or ChatGPT subscriptions for faculty. Your dean's office, IT department, or faculty services coordinator can tell you what is available before you pay out of pocket.
-
-### Practitioners and Legal Professionals
-
-For lawyers billing at professional rates, the productivity gains from faster research, drafting, and document analysis justify the cost immediately. If an AI-assisted memo saves you two hours per month, the subscription pays for itself many times over.
-
-### Who Should Start Smaller
-
-**Adjunct faculty, fellows, and those without institutional support** face a real trade-off. $1,440/year is not trivial if it comes entirely out of pocket. Start with Claude Pro at $20/month and add tools as you see the value.
-
----
-
 ## ROI Framework
 
 **The research-time calculation:** Think about the tasks that consume your time but do not require your unique expertise — initial case research, first-draft memos, formatting citations, summarizing articles for a literature review, generating exam hypotheticals. If AI handles the first 70% of those tasks and you spend your time on the last 30% (the part that requires judgment), how many hours per month does that free up?
@@ -108,7 +90,7 @@ For lawyers billing at professional rates, the productivity gains from faster re
 **The honest caveat:** There is an upfront time investment to learn the tools and build the system. We estimate 8-12 hours over the first two weeks to work through the essentials and build your first project folders. The ROI is real but not instant.
 
 !!! tip "Data policies differ by product"
-    **Claude Code** uses the Anthropic API — your conversations are not used for model training under the current [API data policy](https://www.anthropic.com/policies/privacy). **Claude.ai** (the browser version) is a consumer product with a [different policy](https://www.anthropic.com/legal/consumer-terms) — check your account settings for data usage preferences. If you work with confidential client information or sensitive research data, this distinction matters. See [Privacy](../privacy.md) for more.
+    Data handling depends on both the product and the account type. **Individual Claude accounts** (Free/Pro/Max, including Claude Code when available through a paid individual plan) follow Anthropic's consumer data controls, including your model-improvement setting. **Team, Enterprise, and API/commercial use** have different terms and generally stronger default protections. If you work with confidential client information, student records, or sensitive research data, this distinction matters. See [Privacy](../privacy.md) for more.
 
 ---
 

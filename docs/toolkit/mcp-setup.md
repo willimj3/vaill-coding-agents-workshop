@@ -26,7 +26,7 @@ Without MCP, Claude Code can only work with files on your computer. With MCP:
 You do not need all of these. Start with whichever service you use most (Gmail is usually the highest-value starting point for law faculty) and add others as needed.
 
 !!! tip "Understand what you are granting"
-    Each MCP integration gives Claude Code access to your **entire** account for that service -- not just specific folders or labels. Gmail MCP can read any email. Drive MCP can access any file. Calendar MCP sees all events, including private ones. There is no way to restrict scope to a subset. This is fine for most users, but worth knowing before you connect. When Claude processes data from any integration, the content is sent to Anthropic's API as part of the conversation. Anthropic's [data policy](https://www.anthropic.com/policies/privacy) states API inputs are not used for model training -- verify the current terms yourself. If a service contains data you are not comfortable with an AI processing, skip that integration.
+    Each MCP integration gives Claude Code access to your **entire** account for that service -- not just specific folders or labels. Gmail MCP can read any email. Drive MCP can access any file. Calendar MCP sees all events, including private ones. There is no way to restrict scope to a subset. This is fine for most users, but worth knowing before you connect. When Claude processes data from any integration, the relevant content is sent to Anthropic as part of the conversation. Data handling depends on your account type and current settings, so verify the current terms yourself. If a service contains data you are not comfortable with an AI processing, skip that integration.
 
 ---
 

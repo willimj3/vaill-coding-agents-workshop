@@ -1,5 +1,5 @@
 ---
-description: About the VAILL Faculty Guide to AI Agents — a Vanderbilt AI Law Lab initiative teaching law faculty to use AI tools from chatbots to coding agents. Free and open source.
+description: About the VAILL Faculty Guide to AI Coding Agents — a Vanderbilt AI Law Lab initiative teaching law faculty to use AI tools from chatbots to coding agents. Free and open source.
 ---
 
 # About
@@ -12,7 +12,7 @@ The [Vanderbilt AI Law Lab (VAILL)](https://law.vanderbilt.edu/vanderbilt-ai-law
 
 ## About This Guide
 
-The VAILL Faculty Guide to AI Agents is a resource designed to equip law faculty with practical AI skills. We start from the assumption that most readers have little or no coding experience — and that this should not be a barrier to using powerful AI tools.
+The VAILL Faculty Guide to AI Coding Agents is a resource designed to equip law faculty with practical AI skills. We start from the assumption that most readers have little or no coding experience — and that this should not be a barrier to using powerful AI tools.
 
 The guide covers the full spectrum of AI tools relevant to legal professionals:
 

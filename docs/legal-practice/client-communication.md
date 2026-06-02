@@ -8,7 +8,7 @@ AI can help with the mechanical parts of client communication: drafting letters,
 
 !!! danger "The cardinal rule of AI and client communication"
 
-    **Never paste client-identifiable information into a consumer AI product unless you have reviewed the provider's data handling policies and determined that doing so is consistent with your confidentiality obligations.** This includes names, case details, financial information, and any other information that could identify the client or the matter. When in doubt, use Claude Code with local files or redact identifying details before using a chatbot.
+    **Never paste client-identifiable information into a consumer AI product unless you have reviewed the provider's data handling policies and determined that doing so is consistent with your confidentiality obligations.** This includes names, case details, financial information, and any other information that could identify the client or the matter. When in doubt, redact identifying details or use an institutionally approved commercial/API tool. Claude Code can help control which local files are read, but relevant text is still sent to the AI provider for processing.
 
 ---
 
@@ -155,14 +155,14 @@ The choice of AI tool matters for client communication because you are working w
 | Scenario | Recommended Tool | Why |
 |----------|-----------------|-----|
 | **Drafting a template** (no client details) | Any chatbot | No confidential information involved |
-| **Drafting with client details** | Claude Code with local files | Information stays on your machine |
+| **Drafting with client details** | Institutionally approved commercial/API tool | Client details may be transmitted to the provider; use approved terms and redact where possible |
 | **Quick tone-check on a draft** | Chatbot with details redacted | Replace names and specifics with placeholders before pasting |
-| **Bulk client correspondence** | Claude Code with local files | Process multiple letters without uploading client data to a cloud service |
-| **Email triage and response drafting** | Claude Code with MCP (Gmail) | See note below on MCP email access |
+| **Bulk client correspondence** | Claude Code or another approved agentic tool | Process multiple letters from local files while controlling what text is sent for analysis |
+| **Email triage and response drafting** | Approved tool with email access | See note below on MCP email access |
 
 ### Using Claude Code with Local Files for Sensitive Work
 
-Claude Code reads files from your local machine and sends the text content to Anthropic's API for processing. The file itself is not uploaded to a web interface or shared with a third-party platform, but the text content is transmitted to Anthropic's servers during the conversation. This is still more controlled than pasting client information into a public chatbot, and Anthropic's API terms state that inputs are not used for model training — but you should understand that the data does leave your machine during processing.
+Claude Code reads files from your local machine and sends relevant text content to Anthropic for processing. The file itself is not uploaded through a browser chat interface, but the text content leaves your machine during the conversation. Data handling depends on whether you are using an individual Claude plan, Team/Enterprise, or API/commercial access. For client information, use only tools and account types approved by your institution or organization.
 
 ```text
 Read the case summary at ~/cases/smith-matter/case-summary.md and
@@ -171,7 +171,7 @@ from the past two weeks. Use our standard client communication
 voice file.
 ```
 
-The case summary is read from your machine and processed via Claude's API. The output is saved locally. No data is uploaded to a public chatbot interface.
+The case summary is read from your machine and processed by Claude. The output is saved locally. This avoids copying the matter into a public chatbot interface, but the relevant text is still transmitted for AI processing.
 
 ### Email Triage and Response Drafting with MCP
 
@@ -228,8 +228,10 @@ client-communications/
 
 ## Confidentiality Protocol
 - Never use client names in prompts to external chatbots
-- Use Claude Code with local files for any communication involving
+- Use only approved tools and account types for any communication involving
   client details
+- When using Claude Code with local files, assume relevant text may be sent
+  to the AI provider for processing
 - When drafting templates (no client details), any tool is acceptable
 - If I paste an email thread, assume it is confidential and handle
   accordingly
@@ -261,7 +263,7 @@ client-communications/
 
 !!! danger "Model Rule 1.6: Confidentiality"
 
-    The duty of confidentiality applies to all information relating to the representation. Pasting client information into a consumer AI product may constitute a disclosure that violates Rule 1.6, depending on the AI provider's data handling policies. Use local tools for sensitive work. When in doubt, redact identifying details.
+    The duty of confidentiality applies to all information relating to the representation. Pasting client information into a consumer AI product may constitute a disclosure that violates Rule 1.6, depending on the AI provider's data handling policies. Use approved tools and account types for sensitive work. When in doubt, redact identifying details.
 
 **Informed consent.** Consider whether to inform clients that you use AI tools in your practice. Some bar associations have suggested that the use of AI tools should be disclosed to clients, particularly where the AI has access to client information. Even where disclosure is not required, transparency builds trust.
 

@@ -8,7 +8,7 @@ With several capable coding agents available, a fair question is: why does this 
 
 ### Best-in-Class Documentation and Onboarding
 
-Claude Code has the most comprehensive documentation of any coding agent available today. Anthropic has invested heavily in guides, tutorials, and explanations aimed at people who have never used a terminal before. For law faculty with little or no coding background, this matters enormously. Good documentation means you can continue learning on your own, and that is what makes the difference between a tool you try once and a tool you actually use.
+Claude Code has among the most comprehensive documentation of any coding agent available today. Anthropic has invested heavily in guides, tutorials, and explanations aimed at people who have never used a terminal before. For law faculty with little or no coding background, this matters enormously. Good documentation means you can continue learning on your own, and that is what makes the difference between a tool you try once and a tool you actually use.
 
 ### Strong Reasoning for Complex Tasks
 
@@ -28,13 +28,13 @@ For law faculty juggling teaching, research, committee work, and possibly a prac
 
 ### Accessible Pricing
 
-Claude Code offers a free tier that is sufficient for experimentation and light use. The Pro tier ($20/month) provides enough capacity for regular daily use. The Max tier ($100-200/month) is available for heavy users, but most faculty will find Pro more than adequate. Verify current pricing at [claude.ai/pricing](https://claude.ai/pricing).
+Claude Code is included with paid Claude plans and can also be used through Anthropic Console/API access. The Pro tier ($20/month, or $200/year) is enough for regular light-to-moderate use. Max is available in $100/month and $200/month tiers for heavier users, but most faculty should start with Pro and upgrade only if they regularly hit usage limits. Verify current pricing at [claude.ai/pricing](https://claude.ai/pricing).
 
 Critically, there is no separate charge for Claude Code itself — it is included with a Claude subscription. There is no additional product to buy.
 
 ### Active Development and Community
 
-Anthropic updates Claude Code frequently, often weekly. The user community is large and active, which means questions get answered, problems get solved, and best practices circulate quickly. For a tool we are recommending to colleagues, ongoing support and momentum matter.
+Anthropic updates Claude Code frequently. The user community is large and active, which means questions get answered, problems get solved, and best practices circulate quickly. For a tool we are recommending to colleagues, ongoing support and momentum matter.
 
 ---
 
@@ -48,9 +48,9 @@ Claude Code runs in a terminal — a text-based interface with no buttons, no me
 
 The good news: most users report that the terminal feels comfortable within 30-60 minutes of use. The interface is simple precisely because there is so little to learn — we type what we want, and the agent responds.
 
-### Subscription Required for Serious Use
+### Subscription Required
 
-The free tier has meaningful limits. Anyone who plans to use Claude Code regularly for substantive work will need a paid subscription. At $20/month, this is comparable to other professional tools, but it is a recurring cost that some may find hard to justify without institutional support.
+Claude Code is not included with the free Claude.ai plan. Anyone who plans to use it for substantive work will need a Pro, Max, Team, Enterprise, or Console/API account. At $20/month, Pro is comparable to other professional tools, but it is still a recurring cost that some may find hard to justify without institutional support.
 
 ### Anthropic Is a Single Vendor
 
@@ -73,4 +73,4 @@ When we use Claude Code, our instructions and file contents are sent to Anthropi
 We chose Claude Code because it offers the best combination of accessibility, reasoning quality, and extensibility for legal professionals who are new to coding agents. It is not the only good option, and it is not without drawbacks. But for the specific goal of this guide — helping law faculty understand and begin using coding agents — it is the right tool for the job.
 
 !!! tip "Your mileage may vary"
-    If you explore other tools after working through this guide and find that Codex, Co-work, or something else fits your workflow better, that is a perfectly good outcome. The goal is not Claude Code loyalty. The goal is AI fluency — and that is portable.
+    If you explore other tools after working through this guide and find that Codex, Cowork, or something else fits your workflow better, that is a perfectly good outcome. The goal is not Claude Code loyalty. The goal is AI fluency — and that is portable.

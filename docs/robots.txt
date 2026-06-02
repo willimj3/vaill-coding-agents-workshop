@@ -1,4 +1,4 @@
-# robots.txt — VAILL Faculty Guide to AI Agents
+# robots.txt — VAILL Faculty Guide to AI Coding Agents
 # Allow normal search engines; block AI training crawlers
 
 User-agent: *
@@ -47,4 +47,4 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
-Sitemap: https://willimj3.github.io/vaill-coding-agents-workshop/sitemap.xml
+Sitemap: https://vaillagentsworkshop.org/sitemap.xml
